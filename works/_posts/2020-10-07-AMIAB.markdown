@@ -17,5 +17,4 @@ The audience is invited to virtually join the room through a specifically design
 All the traces of virtual passages will be played in the cellar and will interact live with all the elements present in there and with its acoustic footprint, as well as with all the traces of the other virtual visitors.
 A camera pointed at that real yet segregated space makes everything that happens in there accessible outside.
 
-<!-- {% imagesize /assets/amiab.jpg:size?width=600 %} -->
 <img src='/assets/amiab.jpg' width='600' height='450'>
