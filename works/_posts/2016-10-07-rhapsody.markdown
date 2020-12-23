@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Rhapsody on a windy night"
+permalink: /works/rhapsody-on-a-windy-night
+date:   2016-10-07
+category: "clarinet, bass clarinet and piano"
+---
+
+
+{% if page.title %}
+<h2>{{page.title | escape}}</h2>
+{% endif %}

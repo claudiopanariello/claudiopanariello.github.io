@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Duo"
+permalink: /works/duo
+date:   2007-10-07
+category: "violin and piano"
+---
+{% if page.title %}
+<h2>{{page.title | escape}}</h2>
+{% endif %}

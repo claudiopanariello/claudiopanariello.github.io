@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Theatrum Insectorum"
+permalink: /works/theatrum-insectorum
+date:   2017-10-07
+category: "bass clarinet, piano and electronics"
+---
+
+
+{% if page.title %}
+<h2>{{page.title | escape}}</h2>
+{% endif %}

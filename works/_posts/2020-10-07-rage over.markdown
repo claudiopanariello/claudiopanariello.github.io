@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Rage over hearing loss"
+permalink: /works/rage-over-hearing-loss
+date:   2020-10-07
+category: "string trio and orchestra"
+---
+{% if page.title %}
+<h2>{{page.title | escape}}</h2>
+{% endif %}
+
+![My image Name](/assets/teaching-hans.jpg)
+
+https://www.landeszeitung.de/kultur/140721-tauber-titan-mit-hoer-implantat/

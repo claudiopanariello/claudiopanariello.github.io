@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Der Mond"
+permalink: /works/der-mond
+date:   2013-10-07
+category: "clarinet and piano"
+---
+{% if page.title %}
+<h2>{{page.title | escape}}</h2>
+{% endif %}
+
