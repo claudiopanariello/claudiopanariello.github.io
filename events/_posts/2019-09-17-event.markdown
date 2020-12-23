@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Automaton for Liquefying Blood **(wp)**"
+date:   2019-09-17
+category: "events"
+---
+Lorenzo Derinni, violin // Davide Gagliardi, electronics <br>
+@ Wien

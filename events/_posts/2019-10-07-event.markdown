@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Passaggio"
+date:   2019-10-08
+category: "events"
+---
+
+Ensemble Via Nova <br>
+@ Berlin, Germany

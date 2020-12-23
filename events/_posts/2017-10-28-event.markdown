@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Passaggio"
+date:   2017-10-28
+category: "events"
+---
+Ensemble Via Nova<br>
+@ Kunsthaus sans titre, Potsdam, Germany

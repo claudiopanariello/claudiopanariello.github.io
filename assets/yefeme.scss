@@ -2,8 +2,14 @@
 published: true
 ---
 @font-face {
-	font-family: "Major mono Display";
-	src: url("../assets/MajorMonoDisplay-Regular.ttf");
+	font-family: "LinBiolinum";
+	src: url("../assets/LinBiolinum_R.ttf");
 }
+
+@font-face {
+	font-family: "LinBiolinumB";
+	src: url("../assets/LinBiolinum_RB.ttf");
+}
+
 @import "highlight";
 @import "yefeme";

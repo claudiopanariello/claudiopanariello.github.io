@@ -1,10 +1,8 @@
 ---
 layout: post
-title:  "Rage over hearing loss"
+title:  "Rage over hearing loss **(wp)**"
 date:   2020-10-25
 category: "events"
 ---
-for String Trio and Orchestra  e alkjnasdlfkanv slkanvsld rjkvnals ekanvsldrjk vnalserkan vsldrjkvnal serk a nvsldr jkvnalserkanvsld rjkvnalserk anvsldrjkvkjnasdlfkanv slkanvsld rjkvnals ekanvsldrjk vnalserkan vsldrjkvnal serk a nvsldr jkvnalserkanvsld rjkvnalserk anvsldrjkv n alserkanvsldrj kvnalserkanv sldrjkvnals erkanvsldrjkvnalserkanvsldrjkvnalserrkanvsldrj kvnalserdrjkvna lserj n kjnkjnkjnk n alserkanvsldrj kvnalserkanv sldrjkvnals erkanvsldrjkvnalserkanvsldrjkvnalserrkanvsldrj kvnalserdrjkvna lserj n kjnkjnkjnk kjnasdlfkanv slkanvsld rjkvnals ekanvsldrjk vnalserkan vsldrjkvnal serk a nvsldr jkvnalserkanvsld rjkvnalserk anvsldrjkvn alserkanvsldrj kvnalserkanv sldrjkvnals erkanvsldrjkvnalserkanvsldrjkvnalserrkanvsldrj kvnalserdrjkvna lserj n kjnkjnkjnk  
-@[<mousehover>luneburg</mousehover>][luneburg]
-
-[luneburg]: https://jekyllrb.com/docs/configuration/options/
+Ensemble Broken Frames Syndicate, Lüneburger Symphoniker <br>
+@ Theater Lüneburg, Lüneburg (Germany)

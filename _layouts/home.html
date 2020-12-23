@@ -21,7 +21,6 @@ layout: default
         {% else %}
             <h2><mousehover>{{ post.title | escape }}</mousehover></h2>
         {% endif %}
-        <p class="excerpt">{{ post.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}</p>
       </div>
     </a>
     {% endif %}

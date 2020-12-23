@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Fewy - Few Events With Ynteractions"
+permalink: /works/few-events-with-ynteractions
+date:   2014-10-07
+category: "sound installation"
+---
+{% if page.title %}
+<h2>{{page.title | escape}}</h2>
+{% endif %}
+
+2 mics, 2 speakers, laptop.
+The aim is to communicate acoustically with the Sol LeWitt Hall of [**Museo Madre**][madre] in Naples (Italy), using the reflections on the walls of a sound material designed specifically for that space and reprocessing each time the results obtained.
+
+[madre]: https://www.madrenapoli.it/calendario/electromadre/
+
+<!--{% imagesize /assets/fewy.jpg:size?width=600 %} -->
+<img src='/assets/fewy.jpg' width='600' height='609'>

@@ -52,9 +52,8 @@ layout: default
      <a class="post">
       <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
       <div class="post-details">
-        <h2>{{ post.title | escape }}</h2>
-        {{ post.content }}
-        <p class="excerpt">{{ post.content | strip_html | normalize_whitespace | escape }}</p>
+        <h4>{{ post.title | escape }}</h4>
+        <h5>{{post.content}}</h5>
       </div>
     </a>
       {% endfor %}

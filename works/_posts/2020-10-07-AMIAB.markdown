@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "A mic in a box"
+permalink: /works/a-mic-in-a-box
+date:   2020-10-07
+category: "sound installation"
+---
+{% if page.title %}
+<h2>{{page.title | escape}}</h2>
+**
+{% endif %}
+
+A real physical space, the wine cellar of Villa Ghizzoni Nasalli in Piacenza (Italy). A specific space closed to the public and inaccessible except than virtually.
+
+The audience is invited to virtually join the room through a specifically designed websitte, pressing the record button and sending through your device's microphone 30 seconds (maximum) of audio into the cellar: you can speak, sing, play an instrument, scream or even remain silent, thus sending the background sound of the environment you are inhabiting now.
+
+All the traces of virtual passages will be played in the cellar and will interact live with all the elements present in there and with its acoustic footprint, as well as with all the traces of the other virtual visitors.
+A camera pointed at that real yet segregated space makes everything that happens in there accessible outside.
+
+<!-- {% imagesize /assets/amiab.jpg:size?width=600 %} -->
+<img src='/assets/amiab.jpg' width='600' height='450'>
