@@ -15,7 +15,7 @@ This is a site-specific interactive sound installation inspired by the architect
 
 Watch a [**video presentation**][video] of the installation or read on [**LMJ**][art] about it.
 
-<img src='/assets/3phases.jpg' width='600' height='450'>
+<img src='/assets/3phases.JPG' width='600' height='450'>
 
 [video]: https://vimeo.com/327037884
 [art]: https://www.mitpressjournals.org/doi/10.1162/lmj_a_01092
