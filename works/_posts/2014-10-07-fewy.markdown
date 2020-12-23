@@ -14,5 +14,4 @@ The aim is to communicate acoustically with the Sol LeWitt Hall of [**Museo Madr
 
 [madre]: https://www.madrenapoli.it/calendario/electromadre/
 
-<!--{% imagesize /assets/fewy.jpg:size?width=600 %} -->
 <img src='/assets/fewy.jpg' width='600' height='609'>
