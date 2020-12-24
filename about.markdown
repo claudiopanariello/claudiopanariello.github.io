@@ -8,7 +8,7 @@ order: 1
 
 Born in Naples in 1989 and currently based in Stockholm, he studied Composition, Electronic Music and Piano with a parenthesis of Physics at University of Pisa.
 
-Working with electronics, machines and renowned ensembles of contemporary music, he is intereted in exploring algorithmic and adaptive processes applied to music.
+Working with electronics, machines and renowned ensembles of contemporary music, he is interested in exploring the perception of algorithmic and adaptive processes applied to music.
 
 <!--Born in Naples in 1989, he studied Composition, Electronic Music and Piano.
 He also graduated in Physics at University of Pisa.
