@@ -3,7 +3,7 @@ layout: post
 title:  "A mic in a box"
 permalink: /works/a-mic-in-a-box
 date:   2020-10-07
-category: "sound installation"
+category: "sound installation w/ Luca Guidarini"
 ---
 {% if page.title %}
 <h2>{{page.title | escape}}</h2>
