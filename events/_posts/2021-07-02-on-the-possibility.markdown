@@ -5,7 +5,5 @@ date:   2021-07-02
 category: "events"
 ---
 Quartetto Maurice <br>
-[**Musica in Prossimità**][musicaInProssim] <br>
+Musica in Prossimità
 @ Teatro del Lavoro, Pinerolo, Italy
-
-[musicaInProssim]: https://www.metamorfosinotturne.com/2021

@@ -6,11 +6,7 @@ published: true
 order: 1
 ---
 
-<img src='/assets/deep_fried_me_square.jpg'>
-<!--
-<img src='/assets/deep_fried_me_square.jpg' width='661' height='949'>
-	-->
-
+<img src='/assets/deep_fried_me_square.jpg' width='500' height='500'>
 
 Born in Naples in 1989 and currently based in Stockholm, he studied Composition, Electronic Music and Piano with a parenthesis of Physics at University of Pisa.
 
