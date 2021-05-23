@@ -7,6 +7,7 @@ category: "String Quartet and Feedback Cones Quartet"
 ---
 {% if page.title %}
 <h2>{{page.title | escape}}</h2>
+**
 {% endif %}
 
 Commissioned by [**Quartetto Maurice**][maurice] for [**Musica in Prossimità Festival 2021**][musinpross]

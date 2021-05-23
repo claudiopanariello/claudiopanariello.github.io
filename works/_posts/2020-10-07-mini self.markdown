@@ -7,6 +7,7 @@ category: "e-guitar, theorbo and accordeon, not intended to be performed live"
 ---
 {% if page.title %}
 <h2>{{page.title | escape}}</h2>
+**
 {% endif %}
 
 40'' miniature for e-guitar, theorbo and accordeon and, not intended to be performed live.

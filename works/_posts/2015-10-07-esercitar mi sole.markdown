@@ -10,5 +10,6 @@ published: false
 
 {% if page.title %}
 <h2>{{page.title | escape}}</h2>
+**
 {% endif %}
 

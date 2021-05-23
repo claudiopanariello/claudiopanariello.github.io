@@ -7,6 +7,7 @@ category: "sound installation"
 ---
 {% if page.title %}
 <h2>{{page.title | escape}}</h2>
+**
 {% endif %}
 
 22 solenoids, 2 microcontrollers, cables, laptop.
