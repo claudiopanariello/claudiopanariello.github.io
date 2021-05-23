@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Passaggio **(wp)**"
+date:   2017-06-09
+category: "events"
+---
+Ensemble Via Nova <br>
+@ Jena, Germany
