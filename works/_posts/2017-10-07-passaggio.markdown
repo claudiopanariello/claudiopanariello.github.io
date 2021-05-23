@@ -3,7 +3,7 @@ layout: post
 title:  "Passaggio"
 permalink: /works/passaggio
 date:   2017-10-07
-category: "works"
+category: "bass clarinet and cello"
 ---
 {% if page.title %}
 <h2>{{page.title | escape}}</h2>
