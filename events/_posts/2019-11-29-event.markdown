@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Study for Dissipatio H.G."
+title:  "Study for Dissipatio H.G. **(wp)**"
 date:   2019-11-29
 category: "events"
 ---
