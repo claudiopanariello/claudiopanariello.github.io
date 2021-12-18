@@ -9,3 +9,18 @@ category: "string trio and orchestra"
 <h2>{{page.title | escape}}</h2>
 **
 {% endif %}
+
+Everyone knows about Beethoven deafness, as well as is aware of how this affected his way of composing, especially in the “late period".
+
+What I started wondering while working at this new piece was: what if Beethoven would have had the possibility to listen to his own music thanks to a cochlear implant?
+
+A cochlear implant is no more than an implant, that tries to make up for some hearing impairments, but with a lot of limitations in terms of timbre, pitch and overall sound quality. Cochlear implants’ users can quite well listen to speech, but definitely less to music.
+
+How would have Beethoven's music sounded to him if he would have had such implant? And how would have it clashed with its own mental music machinery?
+
+In attempting to answer to these questions, “Rage over hearing loss" for String Trio and Orchestra was born.\\
+The title is also a reference to Beethoven's piano rondo “Rage over a lost penny" (originally known as *Die Wut über den verlorenen Groschen, ausgetobt in einer Caprice*), shyly quoted here and there.
+
+Sounds that little by little loose their inner quality, appearance of tinnitus and disclosing of compositional processes, the piece tries to create a bridge between the composer's mind and the audience, who is listening to it and with its presence is letting the music itself to exist.
+
+The work has been commissioned by Ensemble Broken Frames Syndicate and Lüneburger Symphoniker.
