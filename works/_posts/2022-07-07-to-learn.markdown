@@ -2,7 +2,7 @@
 layout: post
 title:  "To learn the obscene art of suffering pain"
 permalink: /works/to-learn-the-obscene-art-of-suffering-pain
-date:   2021-07-07
+date:   2022-07-07
 category: "Ensemble and Feedback Cones Ensemble"
 ---
 {% if page.title %}
