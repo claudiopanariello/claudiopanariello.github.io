@@ -2,12 +2,12 @@
 layout: post
 title:  "works in progress"
 permalink: /works/in-progress
-date:   2021-10-07
+date:   2023-10-07
 published: true
 ---
 
 Works in progress:
 
-- artistic research project with [**Chiara Percivati**][chiara].
+- artistic research project with [**Chiara Percivati**][percivati].
 
-[chiara]: https://www.chiarapercivati.net/
+[percivati]: https://www.chiarapercivati.net/

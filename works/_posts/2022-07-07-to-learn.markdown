@@ -10,7 +10,7 @@ category: "Ensemble and Feedback Cones Ensemble"
 **
 {% endif %}
 
-Commissioned by [**Schallfeld Ensemble**][schallfeld] with the support of [StAiR (Styria Artist in Residence) Fellowship 2022][stair-2022] <br>
+Commissioned by [**Schallfeld Ensemble**][schallfeld] with the support of [**StAiR (Styria Artist in Residence) Fellowship 2022**][stair-2022] <br>
  <br>
 
 “A chief characteristic of the contemporary experience of pain is that it is perceived as meaningless. We no longer possess a meaningful context within which to find support and orientation when faced with pain. We have completely lost the art of suffering pain.” (Byung-Chul Han, The Palliative Society, 2021) <br>
