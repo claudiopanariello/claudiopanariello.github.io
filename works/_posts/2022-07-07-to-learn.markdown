@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "To learn the obscene art of suffering pain"
+permalink: /works/to-learn-the-obscene-art-of-suffering-pain
+date:   2021-07-07
+category: "Ensemble and Feedback Cones Ensemble"
+---
+{% if page.title %}
+<h2>{{page.title | escape}}</h2>
+**
+{% endif %}
+
+Commissioned by [**Schallfeld Ensemble**][schallfeld] with the support of [StAiR (Styria Artist in Residence) Fellowship 2022][stair-2022] <br>
+ <br>
+
+“A chief characteristic of the contemporary experience of pain is that it is perceived as meaningless. We no longer possess a meaningful context within which to find support and orientation when faced with pain. We have completely lost the art of suffering pain.” (Byung-Chul Han, The Palliative Society, 2021) <br>
+
+Deeply inspired by the thoughts of the South Korean philosopher, "To learn the obscene art of suffering pain" comes from the urge to carve out a sacred mental and sonic space where the idea of suffering pain is not cut off from the aesthetic imagination. Pain has here space and time to grow and to bring out a narrative. It is slow. It has a colour and a scent. <br>
+
+Yearning to escape from the anaesthetised contemporaneity that suppresses the aesthetics of pain, the piece wants to reflect on how it can be narrated and even sung, draping it in the semblance of beauty. <br>
+
+"To learn the obscene art of suffering pain", for an ensemble of nine instruments plus a second ensemble of eight speaker cones put in feedback with themselves, has been written for and dedicated to Schallfed Ensemble. <br>
+
+
+[comment]: <> <iframe width="560" height="315" src="https://www.youtube.com/embed/YBA4iRZiIyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+[schallfeld]: https://www.schallfeldensemble.com/
+[stair-2022]: https://www.kultur.steiermark.at/cms/beitrag/12623533/166342314/
