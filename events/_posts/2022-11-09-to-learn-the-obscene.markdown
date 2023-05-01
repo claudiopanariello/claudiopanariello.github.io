@@ -6,4 +6,4 @@ category: "events"
 ---
 Schallfeld Ensemble <br>
 The New Normal <br>
-@ Next Liberty, Graz, Austria
+@ Next Liberty, Graz, Austrias
