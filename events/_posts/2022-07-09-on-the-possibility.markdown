@@ -6,4 +6,4 @@ category: "events"
 ---
 Quartetto Maurice <br>
 Time of Music Festival (https://musiikinaika.org/en/) <br>
-@ Viitasaari Church, Viitasaari, Finland
+@ Viitasaari Church, Viitasaari (Finland)

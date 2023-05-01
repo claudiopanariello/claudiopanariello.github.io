@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "new events"
-date:   2042-10-07
+title:  "Dans mon rêve, j'étais deux chats et je jouais l'un avec l'autre"
+date:   2023-05-07
 category: "events"
 ---
-###
+Johan Frösta  <br>
+@ Stockholm (Sweden)
+

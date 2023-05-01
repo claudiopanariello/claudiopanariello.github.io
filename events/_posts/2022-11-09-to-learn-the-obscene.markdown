@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "To learn the obscene art of suffering pain"
-date:   2022-11-09s
+date:   2022-11-09
 category: "events"
 ---
 Schallfeld Ensemble <br>
 The New Normal <br>
-@ Next Liberty, Graz, Austrias
+@ Next Liberty, Graz (Austria)

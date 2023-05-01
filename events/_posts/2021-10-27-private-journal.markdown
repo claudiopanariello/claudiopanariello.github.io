@@ -6,4 +6,4 @@ category: "events"
 ---
 Ensemble Collettivo_21 <br>
 Crossroads <br>
-@ Universität Mozarteum Salzburg, (Austria)
+@ Universität Mozarteum Salzburg (Austria)
