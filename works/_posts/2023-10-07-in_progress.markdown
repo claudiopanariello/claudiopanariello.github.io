@@ -8,7 +8,7 @@ published: true
 
 Works in progress:
 
-- artistic research project with [**Chiara Percivati**][percivati]. <br>
-– new work for voices and ensemble with **Mauro Lanza**.
+- artistic research project with [**Chiara Percivati**][percivati].
+- new work for voices and ensemble with **Mauro Lanza**.
 
 [percivati]: https://www.chiarapercivati.net/
