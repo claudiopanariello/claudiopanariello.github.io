@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dans mon rêve, j'étais deux chats et je jouais l'un avec l'autre"
+title:  "Dans mon rêve, j'étais deux chats et je jouais l'un avec l'autre **(wp)**"
 date:   2023-05-07
 category: "events"
 ---

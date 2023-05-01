@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Studio per una Fontanella"
+title:  "Studio per una Fontanella **(wp)**"
 date:   2023-05-22
 category: "events"
 ---
