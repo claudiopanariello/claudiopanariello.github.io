@@ -6,4 +6,3 @@ category: "events"
 ---
 Johan Frösta  <br>
 @ Stockholm (Sweden)
-
