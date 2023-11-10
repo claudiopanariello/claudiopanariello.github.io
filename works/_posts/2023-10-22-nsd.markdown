@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Non sono dèi quelli fatti con le mani"
+permalink: /works/non-sono-dei
+date:   2023-10-22
+category: "w/Mauro Lanza"
+---
+{% if page.title %}
+<h2>{{page.title | escape}}</h2>
+<br>
+an AI re-interpretation of DuFay’s “Se la face ay pale” mass for 6 voices, ensemble of 6 musicians and electronics
+<br>
+**
+{% endif %}
+
+[comment]: Commissioned by [**Schallfeld Ensemble**][schallfeld] with the support of [**StAiR (Styria Artist in Residence) Fellowship 2022**][stair-2022] <br>
+ <br>
+
+“Non sono dèi quelli fatti con le mani” (“Those made with hands are not gods”, a quite literal quotation from the Acts 19, 26), co-written with Mauro Lanza, is a musical journey into the realm of religious relics and their connection to creativity and Artificial Intelligence (AI), in the form of a cycle of pieces for 6 voices and an ensemble of 6 musicians.
+
+ <br>
+"Non sono Dei quelli fatti con le mani" refers to a very peculiar kind of relic: the Acheiropoieta. An Acheiropoieton (literally “made without hands”) is an image that is supposed to be created not by human hand but directly from some form of divine intervention. Such an image (e.g. the unique relic of the Passion, that is the fascinating, if controversial, burial shroud of Jesus, known today as Shroud of Turin) carries the aura of holiness not by virtue of being a mortal remains of a Saint or an anonymous object which testify her/his presence, but by virtue of being literally an imprint of the Divine.  
+
+ <br>
+In recent years, there has been a surge of interest in the use of AI in the arts. With the emergence of advanced AI tools such as OpenAI's GPT-3, Dall-E and Midjourney, the entire process of artwork creation, from concept to execution, is carried out by a machine-learning algorithm, without human intervention The connection between the idea of acheiropoieta and contemporary AI art lies exactly in the fact that, like acheiropoieta, some AI-generated works of art are indeed created "without human hands."
+
+ <br>
+In "Non sono Dei quelli fatti con le mani", this idea of acheiropoieta is explored in the context of music composition, where AI-generated audio is used as contemporary relics, imbued with a sense of holiness and mystery.
+Taking inspiration from the iconic “Missa Se la face ay pale” by Guillaume Du Fay, a work that was presumably composed to celebrate the acquisition of the Shroud by the Savoy court in 1453, AI algorithms are used to create new audio materials based on recordings of the Missa, giving rise to a new era of “music acheiropoieta” that blur the line between human creativity and machine intervention.
+
+ <br>
+The project is an ode to the mystery of AI creation and the enduring power of religious relics in the modern world. Join us on this journey to explore the intersection of technology, creativity, and spirituality.
+
+<br>
+
+
+[comment]: <> <iframe width="560" height="315" src="https://www.youtube.com/embed/YBA4iRZiIyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+[schallfeld]: https://www.schallfeldensemble.com/
+[stair-2022]: https://www.kultur.steiermark.at/cms/beitrag/12623533/166342314/
