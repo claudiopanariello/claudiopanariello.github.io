@@ -7,14 +7,11 @@ category: "w/Mauro Lanza"
 ---
 {% if page.title %}
 <h2>{{page.title | escape}}</h2>
-<br>
 an AI re-interpretation of DuFay’s “Se la face ay pale” mass for 6 voices, ensemble of 6 musicians and electronics
-<br>
 **
 {% endif %}
 
 [comment]: Commissioned by [**Schallfeld Ensemble**][schallfeld] with the support of [**StAiR (Styria Artist in Residence) Fellowship 2022**][stair-2022] <br>
- <br>
 
 “Non sono dèi quelli fatti con le mani” (“Those made with hands are not gods”, a quite literal quotation from the Acts 19, 26), co-written with Mauro Lanza, is a musical journey into the realm of religious relics and their connection to creativity and Artificial Intelligence (AI), in the form of a cycle of pieces for 6 voices and an ensemble of 6 musicians.
 
