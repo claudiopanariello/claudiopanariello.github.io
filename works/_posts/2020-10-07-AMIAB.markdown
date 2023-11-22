@@ -17,8 +17,9 @@ The audience is invited to virtually join the room through a specifically design
 All the traces of virtual passages will be played in the cellar and will interact live with all the elements present in there and with its acoustic footprint, as well as with all the traces of the other virtual visitors.
 A camera pointed at that real yet segregated space makes everything that happens in there accessible outside.
 
-"A mic in a box" was created in collaboration with Luca Guidarini and part of the project *Ars Cyber != Dystopian* with Luca Guidarini and [**Alessandro Perini**][perini], presented at Incó_ntemporanea Festival 2020.
+"A mic in a box" was created in collaboration with Luca Guidarini and part of the project *Ars Cyber != Dystopian* with <ins>[**Luca Guidarini**][guidarini]</ins> and <ins>[**Alessandro Perini**][perini]</ins>, presented at Incó_ntemporanea Festival 2020.
 
 <img src='/assets/AMIAB.JPG' width='600' height='450'>
 
+[guidarini]: https://www.lucaguidarini.com/home
 [perini]: https://alessandroperini.com/

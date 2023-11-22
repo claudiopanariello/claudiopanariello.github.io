@@ -8,6 +8,6 @@ published: true
 
 Works in progress:
 
-- artistic research project with [**Chiara Percivati**][percivati].
+- artistic research project with <ins>[**Chiara Percivati**][percivati]</ins>.
 
 [percivati]: https://www.chiarapercivati.net/

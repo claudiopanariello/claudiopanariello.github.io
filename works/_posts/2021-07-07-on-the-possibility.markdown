@@ -10,7 +10,7 @@ category: "String Quartet and Feedback Cones Quartet"
 **
 {% endif %}
 
-Commissioned by [**Quartetto Maurice**][maurice] for [**Musica in Prossimità Festival 2021**][musinpross]
+Commissioned by <ins>[**Quartetto Maurice**][maurice]</ins> for <ins>[**Musica in Prossimità Festival 2021**][musinpross]</ins>
 organized by Associazione Metamorfosi Notturne with the support of Ernst von Siemens Musikstiftung.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YBA4iRZiIyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

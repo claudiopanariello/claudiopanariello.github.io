@@ -11,8 +11,8 @@ category: "ensemble and electonics"
 {% endif %}
 
 Spettacolo teatrale su testo di Ivan Teobaldelli e musica di Claudio Panariello
-Commissione [**Festival delle Nazioni**][festivalNazioni]
-[**Ensemble Suono Giallo**][ensemble]
+Commissione <ins>[**Festival delle Nazioni**][festivalNazioni]</ins>
+<ins>[**Ensemble Suono Giallo**][ensemble]</ins>
 voce recitante Maurizio Perugini
 
 Extracts from the live recording of the Premiere on the 3rd September 2018, Teatro degli Illuminati, Città di Castello.

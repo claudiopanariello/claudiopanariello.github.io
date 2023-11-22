@@ -23,4 +23,10 @@ The title is also a reference to Beethoven's piano rondo “Rage over a lost pen
 
 Sounds that little by little loose their inner quality, appearance of tinnitus and disclosing of compositional processes, the piece tries to create a bridge between the composer's mind and the audience, who is listening to it and with its presence is letting the music itself to exist.
 
-The work has been commissioned by Ensemble Broken Frames Syndicate and Lüneburger Symphoniker.
+The work has been commissioned by <ins>[**Ensemble Broken Frames Syndicate**][brokenFrames]<ins> and <ins>[**Lüneburger Symphoniker**][luneburg]</ins>.
+
+
+<ins>
+
+[brokenFrames]: https://brokenframessyndicate.com/en/
+[luneburg]:	https://www.theater-lueneburg.de/lueneburger-symphoniker/

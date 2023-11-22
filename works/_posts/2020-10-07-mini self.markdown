@@ -12,7 +12,7 @@ category: "e-guitar, theorbo and accordeon, not intended to be performed live"
 
 40'' miniature for e-guitar, theorbo and accordeon and, not intended to be performed live.
 
-Written for [**Azione Improvvisa Ensemble**][azione], as part of 40” Klangroom Project, during 2020 Lockdown, and ideally dedicated to Conlon Nancarrow.
+Written for <ins>[**Azione Improvvisa Ensemble**][azione]</ins>ins>, as part of 40” Klangroom Project, during 2020 Lockdown, and ideally dedicated to Conlon Nancarrow.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pa_EwecwjH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
