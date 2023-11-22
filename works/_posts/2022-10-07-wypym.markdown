@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Were you a part of your mother?"
+permalink: /works/were-you-a-part-of-your-mother
+date:   2021-07-07
+category: "Feedback-Augmented Bass Clarinet"
+---
+{% if page.title %}
+<h2>{{page.title | escape}}</h2>
+**
+{% endif %}
+
+
+This project is a long–term collaboration with the clarinetist <ins>[**Chiara Percivati**][percivati]</ins>. The collaboration started in 2020 as part of the project <ins>[**Different Tubes**][tubes]</ins>, aimed at investigating clarinet preparation, in its widest sense, through collaborative practice. 
+
+The project evolved into realizing a DIY (Do It Yourself) augmented bass clarinet based on feedback, and exploring its potentialities through the performance of [**“WYPYM – Were you a part of your mother?”**], a music piece developed especially for this augmented instrument.
+
+The collaboration between the performer on the augmented bass clarinet and the feedback system is integral to the creation of the final outcome. The performer’s actions and the system’s responses are inextricably linked, to the point that it becomes impossible to separate the performer from the computational system. The performer and the system co-create the final performance, with both playing equally important roles in shaping the outcome, highlighting the unique nature of this type of performance, where the traditional distinctions between performer and instrument, and between performer and composer, are blurred.
+
+[percivati]: https://www.chiarapercivati.net/
+[tubes]: https://www.chiarapercivati.net/different-tubes/
+
+
+The augmented bass clarinet consists of a miniature microphone placed inside the body of the instrument and a speaker cone placed on its bell.
+
+<img src='/assets/augBassClar.JPG' width='600' height='450'>
+
+
+The software implementation is written in SuperCollider and it is based on a network of feedback delay lines fed by the sound incoming from the microphone placed in the body of the bass clarinet. The input is processed undergoing self-regulating mechanisms using adaptive criteria and sent to the speaker cone placed on the instrument’s bell, thus re–entering into the microphone. As such, the input is shaped by the instrument itself. The augmented bass clarinet and feedback system thus become one single unity, that shapes itself over time.
+ 
+<img src='/assets/wypym.jpg' width='600' height='450'>
+
+
+After several months of iterative prototyping and fine-tuning, the final version of the feedback-augmented bass clarinet was used in several music performances. A music piece was also specifically composed for the instrument: [**”WYPYM - Were you a part of your mother?”**]. The title of the piece is a nod to the paper with the same name (see <ins>[**here**][paper]</ins>), in which the author discusses if a mammalian embryo/fetus is a part of the gestating organism, or merely contained within or surrounded by it. This topic, apart from all of its biological and physiological considerations, resonated immediately with our project: what is the relationship between the augmented bass clarinet and its performer? Where do we set the border between the sound produced by feedback and its interaction with the environment? And finally: who is actually part of this environment?
+
+”WYPYM” attempts to tackle these questions from an artistic perspective, representing a music exploration of the relationship between the performer on the augmented bass clarinet and the feedback system. The speaker cone establishes the first loop of feedback with the microphone placed within the body of the instrument. The performer manipulates and modifies this initial feedback loop while playing. Conversely, the performer is also heavily influenced by the sounds that are sent back into the instrument by the speaker cone. Both the performer and feedback system are in a state of constant adaptation, moving between di↵erent regions of precarious balance.
+
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1502846593&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chiara-percivati" title="Chiara Percivati" target="_blank" style="color: #cccccc; text-decoration: none;">Chiara Percivati</a> · <a href="https://soundcloud.com/chiara-percivati/were-you-a-part-of-your-mother" title="Claudio Panariello / Chiara Percivati - Were you a part of your mother? (2022)" target="_blank" style="color: #cccccc; text-decoration: none;">Claudio Panariello / Chiara Percivati - Were you a part of your mother? (2022)</a></div>
+
+
+
+More details regarding the hardware and software implementation can be found in the <ins>[**paper**][nime_paper]</ins>ins> we published in the the NIME Conference 2023.
+
+
+[paper]: https://academic.oup.com/mind/article-abstract/128/511/609/5530887?redirectedFrom=fulltext&login=false
+[nime_paper]: https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1757768&dswid=9438
+

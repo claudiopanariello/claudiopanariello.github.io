@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Were you a part of your mother?"
+title:  "Were you a part of your mother? **(wp)**"
 date:   2023-02-15
 category: "events"
 ---
