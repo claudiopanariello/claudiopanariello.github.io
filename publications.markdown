@@ -1,9 +1,9 @@
 ---
 layout: post
-title: about
-permalink: /about/
+title: publications
+permalink: /publications/
 published: true
-order: 1
+order: 4
 ---
 
 <img src='/assets/deep_fried_me_square.jpg' width='400' height='400'>

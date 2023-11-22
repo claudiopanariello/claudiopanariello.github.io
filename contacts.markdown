@@ -3,7 +3,7 @@ layout: post
 title:  "contacts"
 permalink: /contacts/
 published: true
-order: 5
+order: 6
 ---
 [<mousehover>email</mousehover>][email]
 
