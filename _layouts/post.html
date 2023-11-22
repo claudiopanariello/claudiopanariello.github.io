@@ -68,7 +68,7 @@ layout: default
     <a class="post" href="{{ post.url | relative_url }}">
       {% ifchanged %}
         {{post.date | date: "%Y" }}
-        {{ <span class="accent fixed-date">{{ post.date | date: "%Y" }}</span> }}
+        <span class="accent fixed-date">{{ post.date | date: "%Y" }}</span>
       {% endifchanged %}
             
       <div class="post-details">
