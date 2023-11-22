@@ -10,7 +10,7 @@ category: "ensemble and electronics"
 **
 {% endif %}
 
-Commissioned by and written for <ins>[**Ensemble Collettivo\_21**][collettivo]</ins>ins>, "Private Journal of Dreams" is a stream of five sound dreams that seamlessly follow one another.
+Commissioned by and written for <ins>[**Ensemble Collettivo\_21**][collettivo]</ins>, "Private Journal of Dreams" is a stream of five sound dreams that seamlessly follow one another.
 
 The piece is a sonic bubble that slowly gets bigger, engulfing the performers and the audience who are more and more exposed to the most inner -- and often unconscious -- part of the Composer's mind, his private dreams.
 
