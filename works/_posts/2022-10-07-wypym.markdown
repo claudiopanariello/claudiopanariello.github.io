@@ -2,7 +2,7 @@
 layout: post
 title:  "Were you a part of your mother?"
 permalink: /works/were-you-a-part-of-your-mother
-date:   2021-10-07
+date:   2022-10-07
 category: "Feedback-Augmented Bass Clarinet"
 ---
 {% if page.title %}
