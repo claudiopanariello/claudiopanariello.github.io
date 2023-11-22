@@ -22,7 +22,7 @@ He is currently a PhD student in Sound and Music Computing at KTH in Stockholm, 
 
 -->
 
-If you are not satisfied and you crave a more detailed bio, you can click [here][cv].
+If you are not satisfied and you crave a more detailed bio, you can click [here]_[cv].
 
 [cv]: /assets/Panariello_CV_ENG.pdf
 [phd-thesis]: https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1757774&dswid=8724
