@@ -68,9 +68,8 @@ layout: default
     <a class="post" href="{{ post.url | relative_url }}">
       {% ifchanged %}
         <h1><span class="accent">{{ post.date | date: "%Y"}}</span></h1>
-        <br>
       {% endifchanged %}
-            
+      <span class="accent">{{ post.date | date: "%Y"}}</span>  
       <div class="post-details">
         <h2><mousehover>{{ post.title | escape }}</mousehover></h2>
         <p class="excerpt">{{ post.category | strip_html | normalize_whitespace | escape }}</p>
