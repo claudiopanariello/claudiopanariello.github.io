@@ -6,7 +6,7 @@ Born in Naples in 1989 and currently based in Stockholm, he studied Composition,
 
 Working with electronics, machines, and renowned ensembles of contemporary music, he is interested in exploring the perception of algorithmic and adaptive processes applied to music.
 
-He holds a PhD in Sound and Music Computing from KTH Royal Institute of Technology in Stockholm. His Doctoral Thesis is titled "Converging Creativity: Intertwining Music and Code" and can be found [**here**][phd-thesis].
+He holds a PhD in Sound and Music Computing from KTH Royal Institute of Technology in Stockholm. His Doctoral Thesis is titled "Converging Creativity: Intertwining Music and Code" and can be found [here][phd-thesis].
 
 <!--Born in Naples in 1989, he studied Composition, Electronic Music and Piano.
 He also graduated in Physics at the University of Pisa.
@@ -22,7 +22,7 @@ He is currently a PhD student in Sound and Music Computing at KTH in Stockholm, 
 
 -->
 
-If you are not satisfied and you crave a more detailed bio, you can click [here]_[cv].
+If you are not satisfied and you crave a more detailed bio, you can click [here][cv].
 
 [cv]: /assets/Panariello_CV_ENG.pdf
 [phd-thesis]: https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1757774&dswid=8724
