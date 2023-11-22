@@ -28,5 +28,5 @@ The project is an ode to the mystery of AI creation and the enduring power of re
 
 <br>
 
-<img src='/assets/nsd-image1.png' width='600' height='450'>
+<img src='/assets/nsd-image1.png' width='600'>
 
