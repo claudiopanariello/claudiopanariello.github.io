@@ -20,9 +20,5 @@ The “Cimitero delle Fontanelle" (Fontanelle cemetery), in Naples, is a charnel
 The name "Fontanelle" (literally "little fountains") was given due to the presence of water sources in ancient times.
 <br>
 
+<img src='/assets/fontanelle.JPEG' width='600' height='450'>
 
-[comment]: <> <iframe width="560" height="315" src="https://www.youtube.com/embed/YBA4iRZiIyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-[schallfeld]: https://www.schallfeldensemble.com/
-[stair-2022]: https://www.kultur.steiermark.at/cms/beitrag/12623533/166342314/

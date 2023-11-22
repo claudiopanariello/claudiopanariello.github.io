@@ -22,7 +22,7 @@ Yearning to escape from the anaesthetised contemporaneity that suppresses the ae
 "To learn the obscene art of suffering pain", for an ensemble of nine instruments plus a second ensemble of eight speaker cones put in feedback with themselves, has been written for and dedicated to Schallfed Ensemble. <br>
 
 
-[comment]: <> <iframe width="560" height="315" src="https://www.youtube.com/embed/YBA4iRZiIyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1505648224&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/claudiopanariello" title="Claudio Panariello" target="_blank" style="color: #cccccc; text-decoration: none;">Claudio Panariello</a> · <a href="https://soundcloud.com/claudiopanariello/to-learn-the-obscene-art-of-suffering-pain" title="&quot;To learn the obscene art of suffering pain&quot;" target="_blank" style="color: #cccccc; text-decoration: none;">&quot;To learn the obscene art of suffering pain&quot;</a></div>
 
 
 [schallfeld]: https://www.schallfeldensemble.com/
