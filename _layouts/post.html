@@ -69,7 +69,8 @@ layout: default
       {% ifchanged %}
         <h1><span class="accent">{{ post.date | date: "%Y"}}</span></h1>
       {% endifchanged %}
-      <span class="accent">{{ post.date | date: "%Y"}}</span>  
+
+      <span class="accent"><opacity> {{ post.date | date: "%Y"}}</opacity></span>  
       <div class="post-details">
         <h2><mousehover>{{ post.title | escape }}</mousehover></h2>
         <p class="excerpt">{{ post.category | strip_html | normalize_whitespace | escape }}</p>
