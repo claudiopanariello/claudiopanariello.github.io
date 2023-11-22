@@ -66,7 +66,8 @@ layout: default
     {% if page.title == "works" %}
       {% for post in site.categories.works %}
     <a class="post" href="{{ post.url | relative_url }}">
-            <span class="accent fixed-date">{{ post.date | date: "%Y" }}</span>
+      {% ifchanged %} {{ <span class="accent fixed-date">{{ post.date | date: "%Y" }}</span> }}{% endifchanged %}
+            
       <div class="post-details">
         <h2><mousehover>{{ post.title | escape }}</mousehover></h2>
         <p class="excerpt">{{ post.category | strip_html | normalize_whitespace | escape }}</p>
