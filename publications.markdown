@@ -5,30 +5,26 @@ permalink: /publications/
 published: true
 order: 4
 ---
+- Panariello C., & Frid, E. (2023). SuperOM: a SuperCollider Class to Generate Music Scores in OpenMusic. Proceedings of the International Conference on Technologies for Music Notation and Representation (TENOR).
 
-<img src='/assets/deep_fried_me_square.jpg' width='400' height='400'>
+- Panariello, C. (2023). Converging Creativity: Intertwining Music and Code (Doctoral dissertation, KTH Royal Institute of Technology).
 
-Born in Naples in 1989 and currently based in Stockholm, he studied Composition, Electronic Music, and Piano with a parenthesis of Physics at the University of Pisa.
+- Panariello, C., & Percivati, C. (2023). “WYPYM”: A Study for Feedback-Augmented Bass Clarinet. Proceedings of the International Conference on New Interfaces for Musical Expression (NIME).
 
-Working with electronics, machines, and renowned ensembles of contemporary music, he is interested in exploring the perception of algorithmic and adaptive processes applied to music.
+- Latupeirissa A. B., Panariello C. & Bresin R. (2023) Probing Aesthetics Strategies for Robot Sound: Complexity and Materiality in Movement Sonification. Transactions on Human-Robot Interaction.
 
-He holds a PhD in Sound and Music Computing from KTH Royal Institute of Technology in Stockholm. His Doctoral Thesis is titled "Converging Creativity: Intertwining Music and Code" and can be found <ins>[**here**][phd-thesis]</ins>.
+- Frid E. & Panariello. C. (2022) Haptic Music Players for Children with Profound and Multiple Learning Disabilities (PMLD) – Exploring Different Modes of Interaction for Felt Sound. Proceedings of the International Congress on Acoustics (ICA).
 
-<!--Born in Naples in 1989, he studied Composition, Electronic Music and Piano.
-He also graduated in Physics at the University of Pisa.
+- Frid, E., Panariello, C., & Núñez-Pacheco, C. (2022). Customizing and Evaluating Accessible Multisensory Music Experiences with Pre-Verbal Children—A Case Study on the Perception of Musical Haptics Using Participatory Design with Proxies. Multimodal Technologies and Interaction, 6(7), 55.
 
-Working with electronics, machines, and renowned ensembles of contemporary music, he explores algorithmic and adaptive processes applied to music.
+- Panariello, C., & Bresin, R. (2022). Sonification of Computer Processes: The Cases of Computer Shutdown and Idle Mode. Frontiers in Neuroscience, 16.
 
-He attended master classes and courses with a.o. F. Filidei, M. Lanza, R. Cendo, C. Czernowin, Y. Maresz, S. Steen-Andersen.
-His music has been performed by Divertimento Ensemble, Ensemble SuonoGiallo, mdi ensemble, Neue Vocalsolisten Stuttgart, Ensemble Mise-En, Ensemble United Instruments of Lucilin, etc. and selected in festivals such as “Mise-En Music Festival” in New York, “Rondò” and “Sound of Wander” in Milano, “Festival delle Nazioni” in Città di Castello, “Casa del Quartetto - Fondazione I Teatri” in Reggio Emilia, “Risuonanze” in Udine, etc.
+- Bresin, R., Frid, E., Latupeirissa, A., & Panariello, C. (2021) Robust Non-Verbal Expression in Humanoid Robots: New Methods for Augmenting Expressive Movements with Sound. In Workshop on Sound in Human-Robot Interaction, Proceedings of the ACM/IEEE International Conference on Human-Robot Interaction (HRI).
 
-He has also worked in the sound installations field with “Fewy”, exposed in the Sol LeWitt Hall of the Museo Madre (NA) during the project Electromadre, “Studio in tre fasi”, a site-specific sound installation at the Goethe Institut in Rome during ArteScienza Festival 2017, and "A mic in a box" for Ars Cyber != Dystopian at Incó_ntemporanea Festival 2020.
+- Panariello C., (2020). Study in Three Phases: An Adaptive Sound Installation. Leonardo Music Journal, 30, 44-49.
 
-He is currently a PhD student in Sound and Music Computing at KTH in Stockholm, focusing his research on musical adaptive systems
+- Latupeirissa, A. B., Panariello, C., & Bresin, R. (2020) Exploring Emotion Perception in Sonic HRI. In Proceedings of the Sound and Music Computing Conference.
 
--->
+- Panariello, C., Sköld, M., Frid, E., & Bresin, R. (2019) From Vocal Sketching to Sound Models by Means of a Sound-Based Musical Transcription System. In Proceedings of the Sound and Music Computing Conference.
 
-If you are not satisfied and you crave a more detailed bio, you can click <ins>[**here**][cv]</ins>.
-
-[cv]: /assets/Panariello_CV_ENG.pdf
-[phd-thesis]: https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1757774&dswid=8724
+- Panariello, C. (2016). Le Berceuse di Aldo Clementi: I (1979) e II (1989). Civiltà Musicale n.70, LoGisma, 105-112.
