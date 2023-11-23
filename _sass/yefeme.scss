@@ -22,7 +22,7 @@ html {
 body {
   color: $text;
   font-family: 'MajorMonoDisplay-Regular', sans-serif;
-  src: url("../assets/website-fonts/MajorMonoDisplay-Regular.ttf")
+  src: url("../assets/website-fonts/MajorMonoDisplay-Regular.ttf") format('truetype');
 }
 
 li,
