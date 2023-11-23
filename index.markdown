@@ -4,7 +4,7 @@
 
 layout: home
 ---
-<img src='/assets/my-hands by james w. catrozzi.jpg' width='600'>
+<img src='/assets/my-hands-by-jwcatrozzi.jpg' width='600'>
 
 <br>
 <br>
