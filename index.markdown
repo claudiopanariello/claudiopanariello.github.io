@@ -4,8 +4,4 @@
 
 layout: home
 ---
-<img src='/assets/my-hands-by-jwcatrozzi.jpg' width='600'>
-
-<br>
-<br>
-<h5>photo © james w. catrozzi 2021</h5>
+test
