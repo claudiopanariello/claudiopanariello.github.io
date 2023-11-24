@@ -7,6 +7,6 @@ permalink: /
 published: true
 ---
 
-<img src='/assets/my-hands-by-jwcatrozzi.jpg' width='600'>
+<img src='/assets/my-hands-by-jwcatrozzi.jpg' width='400'>
 
-photo © james w. catrozzi 2021
+<h5>photo © james w. catrozzi 2021</h5>
