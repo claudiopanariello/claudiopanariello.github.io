@@ -55,8 +55,7 @@ layout: default
      <a class="post">
       {% if post.title == "mark_year" %}
         <h1><span class="accent">{{ post.date | date: "%Y" | escape}}</span></h1>
-      {% endif %}
-      {% if post.title != "mark_year" %}
+        {% else %}
         <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <div class="post-details">
           <h4>{{ post.title | escape }}</h4>
