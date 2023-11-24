@@ -6,4 +6,7 @@ layout: home
 permalink: /
 published: true
 ---
-ooooohhhh
+
+<img src='/assets/my-hands-by-jwcatrozzi.jpg' width='600'>
+
+photo © james w. catrozzi 2021
