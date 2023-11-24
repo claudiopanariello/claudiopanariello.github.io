@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "cp | contacts"
+title:  "contacts"
 permalink: /contacts/
 published: true
 order: 6

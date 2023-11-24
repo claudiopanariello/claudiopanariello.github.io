@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "cp | works"
+title:  "works"
 published: true
 permalink: /works/
 order: 3

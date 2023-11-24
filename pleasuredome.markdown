@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "cp | the pleasure dome"
+title:  "the pleasure dome"
 published: false
 permalink: /pleasure-dome
 order: 6

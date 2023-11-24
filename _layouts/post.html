@@ -18,10 +18,10 @@ layout: default
     <a class="post" href="{{ post.url | relative_url }}">
       <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
       <div class="post-details">
-        {% if post.name == page.name %}
-            <h3>{{ post.name | escape }}</h3>
+        {% if post.title == page.title %}
+            <h3>{{ post.title | escape }}</h3>
         {% else %}
-            <h2><mousehover>{{ post.name | escape }}</mousehover></h2>
+            <h2><mousehover>{{ post.title | escape }}</mousehover></h2>
         {% endif %}
         <p class="excerpt">{{ post.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}</p>
       </div>
@@ -37,7 +37,7 @@ layout: default
 <main>
     {{ content }}
 
-    {% if page.name == "wunderkammer" %}
+    {% if page.title == "wunderkammer" %}
       {% for post in site.categories.wunderkammer %}
      <a class="post" href="{{ post.url | relative_url }}">
       <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -50,7 +50,7 @@ layout: default
       {% endif %}
 
 
-    {% if page.name == "events" %}
+    {% if page.title == "events" %}
       {% for post in site.categories.events %}
      <a class="post">
       {% if post.title == "mark_year" %}
@@ -67,7 +67,7 @@ layout: default
       {% endif %}
 
 
-    {% if page.name == "works" %}
+    {% if page.title == "works" %}
       {% for post in site.categories.works %}
     <a class="post" href="{{ post.url | relative_url }}">
       {% ifchanged %}
