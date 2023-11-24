@@ -1,6 +1,6 @@
 ---
 layout: post
-title: about
+title: "cp | about"
 permalink: /about/
 published: true
 order: 1

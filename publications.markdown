@@ -1,6 +1,6 @@
 ---
 layout: post
-title: publications
+title: "cp | publications"
 permalink: /publications/
 published: true
 order: 4

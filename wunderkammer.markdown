@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "gabinetto segreto"
+title:  "cp | gabinetto segreto"
 permalink: /gabinetto-segreto/
 published: true
 order: 5
