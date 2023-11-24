@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "mark_year"
+title:  ""
 date:   2024-12-31
 category: "events"
 ---
