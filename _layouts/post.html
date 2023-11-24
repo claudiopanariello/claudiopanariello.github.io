@@ -55,6 +55,7 @@ layout: default
      <a class="post">
       {% ifchanged %}
         <h1><span class="accent">{{ post.date | date: "%Y"}}</span></h1>
+        <h4>{{ post.title | escape }}</h4>
       {% endifchanged %}
       <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
       <div class="post-details">
