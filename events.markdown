@@ -5,4 +5,4 @@ permalink: /events/
 published: true
 order: 2
 ---
-concerts, installations and random news
+concerts, installations, presentations and random news
