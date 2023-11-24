@@ -21,7 +21,7 @@ html {
 
 body {
   color: $text;
-  font-family: 'LinBiolinum', sans-serif;
+  font-family: 'Libre Baskerville', sans-serif;
 }
 
 li,
@@ -71,6 +71,12 @@ h4 {
 
 h5 {
   font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h6 {
+  font-size: 12px;
   font-weight: 400;
   margin: 0;
 }
