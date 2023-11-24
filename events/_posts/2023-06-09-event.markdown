@@ -4,7 +4,7 @@ title:  "PhD Thesis defense"
 date:   2023-06-09
 category: "events"
 ---
-Public defence for the Degree of Doctor of Philosophy on Friday the 9th of June 2023.<br>
-@ Kollegiesalen, Brinellvägen 6, Stockholm.<br>
-Opponent: John Bowers.<br>
-Defense committee: Oliver Bown, Pierre Alexandre Tremblay, Hanna Järveläinen.<br>
+Public defence for the Degree of Doctor of Philosophy<br>
+@ Kollegiesalen, Brinellvägen 6, Stockholm (Sweden)<br>
+Opponent: John Bowers<br>
+Defense committee: Oliver Bown, Pierre Alexandre Tremblay, Hanna Järveläinen<br>
