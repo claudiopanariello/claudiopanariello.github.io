@@ -54,8 +54,9 @@ layout: default
       {% for post in site.categories.events %}
      <a class="post">
       {% ifchanged %}
-        <div>
-          <h1><span class="accent">{{ post.date | date: "%Y"}}</span></h1>
+        <h1><span class="accent">{{ post.date | date: "%Y"}}</span></h1>
+        <div class="post-details">
+          <h5><invisible>{{post.content}}</invisible></h5>
         </div>
       {% endifchanged %}
       <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
