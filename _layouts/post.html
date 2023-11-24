@@ -18,7 +18,7 @@ layout: default
     <a class="post" href="{{ post.url | relative_url }}">
       <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
       <div class="post-details">
-        {% if post.title == page.title %}
+        {% if post.name == page.name %}
             <h3>{{ post.name | escape }}</h3>
         {% else %}
             <h2><mousehover>{{ post.name | escape }}</mousehover></h2>
@@ -37,7 +37,7 @@ layout: default
 <main>
     {{ content }}
 
-    {% if page.title == "wunderkammer" %}
+    {% if page.name == "wunderkammer" %}
       {% for post in site.categories.wunderkammer %}
      <a class="post" href="{{ post.url | relative_url }}">
       <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -50,7 +50,7 @@ layout: default
       {% endif %}
 
 
-    {% if page.title == "events" %}
+    {% if page.name == "events" %}
       {% for post in site.categories.events %}
      <a class="post">
       {% if post.title == "mark_year" %}
@@ -67,7 +67,7 @@ layout: default
       {% endif %}
 
 
-    {% if page.title == "works" %}
+    {% if page.name == "works" %}
       {% for post in site.categories.works %}
     <a class="post" href="{{ post.url | relative_url }}">
       {% ifchanged %}
