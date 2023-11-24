@@ -7,6 +7,6 @@ title: "cp | home"
 published: true
 ---
 
-<img src='/assets/my-hands-by-jwcatrozzi.jpg' width='500'>
+<img src='/assets/my-hands-by-jwcatrozzi.jpg' width='450'>
 
 <h6>photo © james w. catrozzi 2021</h6>
