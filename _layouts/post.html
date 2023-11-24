@@ -53,14 +53,16 @@ layout: default
     {% if page.title == "events" %}
       {% for post in site.categories.events %}
      <a class="post">
-      {% ifchanged %}
+      {% if post.title == "mark_year" %}
         <h1><span class="accent">{{ post.date | date: "%Y" | escape}}</span></h1>
-      {% endifchanged %}
-      <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <div class="post-details">
-        <h4>{{ post.title | escape }}</h4>
-        <h5>{{post.content}}</h5>
-      </div>
+      {% endif %}
+      {% if post.title != "mark_year" %}
+        <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div class="post-details">
+          <h4>{{ post.title | escape }}</h4>
+          <h5>{{post.content}}</h5>
+        </div>
+      {% endif %}
     </a>
       {% endfor %}
       {% endif %}
