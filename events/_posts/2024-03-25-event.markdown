@@ -4,7 +4,7 @@ title:  "Private journal of dreams"
 date:   2024-03-25
 category: "events"
 ---
-<>ins[Ensemble Collettivo_21]</ins>[link]  <br>
+<ins>[Ensemble Collettivo_21][link]</ins>  <br>
 @ SMC Lausanne
 
 [link]: https://www.smclausanne.ch/archives/programme-361.html
