@@ -6,7 +6,7 @@ date:   2023-10-22
 category: "Voices, Ensemble and Electronics w/Mauro Lanza"
 ---
 {% if page.title %}
-<h2>{{page.title | escape}}</h2>
+<h1>{{page.title | escape}}</h1>
 <h2>an AI re-interpretation of DuFay’s “Se la face ay pale” mass for 6 voices, ensemble of 6 musicians and electronics</h2>
 **
 {% endif %}
