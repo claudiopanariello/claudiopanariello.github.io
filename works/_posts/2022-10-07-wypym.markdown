@@ -6,10 +6,9 @@ date:   2022-10-07
 category: "Feedback-Augmented Bass Clarinet"
 ---
 {% if page.title %}
-<h2>{{page.title | escape}}</h2>
+<h1>{{page.title | escape}}</h1>
 **
 {% endif %}
-
 
 This project is a long–term collaboration with the clarinetist <ins>[**Chiara Percivati**][percivati]</ins>. The collaboration started in 2020 as part of the project <ins>[**Different Tubes**][tubes]</ins>, aimed at investigating clarinet preparation, in its widest sense, through collaborative practice. 
 
@@ -24,6 +23,7 @@ The collaboration between the performer on the augmented bass clarinet and the f
 The augmented bass clarinet consists of a miniature microphone placed inside the body of the instrument and a speaker cone placed on its bell.
 
 <img src='/assets/augBassClar.JPG' width='600'>
+<h6>photo © Chiara Percivati 2022</h6>
 
 
 The software implementation is written in SuperCollider and it is based on a network of feedback delay lines fed by the sound incoming from the microphone placed in the body of the bass clarinet. The input is processed undergoing self-regulating mechanisms using adaptive criteria and sent to the speaker cone placed on the instrument’s bell, thus re–entering into the microphone. As such, the input is shaped by the instrument itself. The augmented bass clarinet and feedback system thus become one single unity, that shapes itself over time.
