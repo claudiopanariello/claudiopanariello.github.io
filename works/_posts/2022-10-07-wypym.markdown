@@ -44,5 +44,5 @@ More details regarding the hardware and software implementation can be found in 
 
 
 [paper]: https://academic.oup.com/mind/article-abstract/128/511/609/5530887?redirectedFrom=fulltext&login=false
-[nime_paper]: https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1757768&dswid=9438
+[nime_paper]: https://www.nime.org/proceedings/2023/nime2023_24.pdf
 
