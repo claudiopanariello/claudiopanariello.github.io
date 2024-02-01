@@ -4,4 +4,5 @@ title:  "Maschinelle Pareidolia Invited Lecture"
 date:   2023-05-23
 category: "events"
 ---
-Invited lecture for students and faculty @ Die Staatliche Hochschule für Musik Trossingen.<br>
+Invited lecture for students and faculty<br>
+@ Die Staatliche Hochschule für Musik Trossingen (Germany)
