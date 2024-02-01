@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Dans mon rêve, j'étais deux chats et je jouais l'un avec l'autre"
-date:   2024-02-03
+date:   2024-02-10
 category: "events"
 ---
 Johan Fröst, piano <br>
-@ Stockholm (Sweden)
+@ Konstakademien, Stockholm (Sweden)
