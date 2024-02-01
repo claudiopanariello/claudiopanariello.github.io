@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Invited Lecture at Silpakorn University (Thailand)"
+title:  "Invited Lecture at Silpakorn University"
 date:   2024-01-23
 category: "events"
 ---
