@@ -10,8 +10,7 @@ category: "Vocal Ensemble and Electronics"
 **
 {% endif %}
 
-Written for <ins>[**Schallfeld Ensemble**][schallfeld]</ins> with the support of <ins>[**StAiR (Styria Artist in Residence) Fellowship 2022**][stair-2022]</ins>.<br>
-Instrumentation:  B.Fl., B.Cl., Sax., Perc., Piano, Vno, Vla, Vc, Db, 8 feedback cones.<br>
+Instrumentation:  2 sopranos, alto, countertenor, tenor, 2 basses.<br>
 Prémiere: 22 May 2023 Maschinelle Pareidolia – Neue Werke zum Thema KI und Stimme. Kesselhaus Trossingen, Trossingen (Germany). <ins>[**AuditivVokal Dresden**][auditivvokal]</ins>.<br>
 Duration: 11 min. <br>
  <br>
