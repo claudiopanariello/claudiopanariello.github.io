@@ -335,6 +335,11 @@ mousehover:hover {
   text-transform: underline;
 }
 
+highlink {
+  text-decoration-line: underline;
+    font-weight: bold;
+}
+
 highlink:hover {
   background-color: black;
   color: white;

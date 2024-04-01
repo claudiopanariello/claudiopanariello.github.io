@@ -5,21 +5,21 @@ permalink: /contacts/
 published: true
 order: 6
 ---
-[<mousehover>email</mousehover>][email]
+[<highlink>email</highlink>][email]
 
-[<mousehover>facebook</mousehover>][facebook]
+[<highlink>facebook</highlink>][facebook]
 
-[<mousehover>GitHub</mousehover>][github]
+[<highlink>GitHub</highlink>][github]
 
-[<mousehover>SoundCloud</mousehover>][soundcloud]
+[<highlink>SoundCloud</highlink>][soundcloud]
 
-[<mousehover>instagram</mousehover>][instagram]
+[<highlink>instagram</highlink>][instagram]
 
-[<mousehover>twitter</mousehover>][twitter]
+[<highlink>twitter</highlink>][twitter]
 
-[<mousehover>KTH profile</mousehover>][kth]
+[<highlink>KTH profile</highlink>][kth]
 
-[<mousehover>ORCID ID</mousehover>][orcid]
+[<highlink>ORCID ID</highlink>][orcid]
 
 
 
