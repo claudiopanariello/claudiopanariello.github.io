@@ -11,7 +11,7 @@ category: "Vocal Ensemble and Electronics"
 {% endif %}
 
 Instrumentation:  2 sopranos, alto, countertenor, tenor, 2 basses, electronics (fixed media)<br>
-Prémiere: 22 May 2023 Maschinelle Pareidolia – Neue Werke zum Thema KI und Stimme. Kesselhaus Trossingen, Trossingen (Germany). <ins>[**AuditivVokal Dresden**][auditivvokal]</ins>.<br>
+Prémiere: 22 May 2023 Maschinelle Pareidolia – Neue Werke zum Thema KI und Stimme. Kesselhaus Trossingen, Trossingen (Germany). <highlink><ins>[**AuditivVokal Dresden**][auditivvokal]</ins></highlink>.<br>
 Duration: 11 min. <br>
  <br>
 
