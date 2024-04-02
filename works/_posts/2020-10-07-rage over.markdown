@@ -10,7 +10,7 @@ category: "string trio and orchestra"
 **
 {% endif %}
 
-Written for [<highlink>Ensemble Broken Frames Syndicate</highlink>][brokenFrames] and [<highlink>Lüneburger Symphoniker</highlink>][luneburg].<br>
+Commissioned by [<highlink>Ensemble Broken Frames Syndicate</highlink>][brokenFrames] and [<highlink>Lüneburger Symphoniker</highlink>][luneburg].<br>
 Instrumentation:  2 Fl., 2 Ob., 2 Cl., 2 Bn., 2 Hn, 2 Tpt., Timp., String Trio Solo, Strings.<br>
 Prémiere: 25 October 2020 Theater Lüneburg, Lüneburger, Germany. Ensemble Broken Frames Syndicate and Lüneburger Symphoniker.<br>
 Duration: 10 min. <br>
@@ -27,8 +27,6 @@ How would have Beethoven's music sounded to him if he would have had such implan
 In attempting to answer to these questions, “Rage over hearing loss" for String Trio and Orchestra was born. The title is also a reference to Beethoven's piano rondo “Rage over a lost penny" (originally known as *Die Wut über den verlorenen Groschen, ausgetobt in einer Caprice*), shyly quoted here and there.
 
 Sounds that little by little loose their inner quality, appearance of tinnitus and disclosing of compositional processes, the piece tries to create a bridge between the composer's mind and the audience, who is listening to it and with its presence is letting the music itself to exist.
-
-The work has been commissioned by [<highlink>Ensemble Broken Frames Syndicate</highlink>][brokenFrames] and [<highlink>Lüneburger Symphoniker</highlink>][luneburg].
 
 [brokenFrames]: https://brokenframessyndicate.com/en/
 [luneburg]:	https://www.theater-lueneburg.de/lueneburger-symphoniker/
