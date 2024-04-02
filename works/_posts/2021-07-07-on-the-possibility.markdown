@@ -17,7 +17,6 @@ Prémiere: 2 July 2021 Teatro del Lavoro, Pinerolo, Italy. Quartetto Maurice.<br
 Duration: 20 min. <br>
 
 *"It is imperative that we carve out some spaces beyond the hyper-bright instant. This instant is insomniac, amnesiac; it locks us into a reactive time, which is always full (of outrage and pseudo-novelty). There is no continuous time in which shadows can grow, only a time that is simultaneously seamless (without gaps: there is always “new” content streaming in) and discontinuous (each new compulsion makes us forget what preceded it). The result is a mechanical and unacknowledged repetition. Is it still possible for us to cultivate shadows?" (“A time for shadows”, in Fisher, 2018)*<br>
-<br>
 
 The above quote from Fisher becomes the starting point of a reflection that involves the role of the composer, of the performer, and of the listener in the composition and listening activity, and the rumination of if is it still possible – today – to carve out a private space for cultural and musical reflection, a protected area in which to let our shadows grow, as opposed to the imperative of instantaneity and of massive and ephemeral production.<br>
 
