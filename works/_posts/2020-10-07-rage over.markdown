@@ -6,9 +6,15 @@ date:   2020-10-07
 category: "string trio and orchestra"
 ---
 {% if page.title %}
-<h2>{{page.title | escape}}</h2>
+<h1>{{page.title | escape}}</h1>
 **
 {% endif %}
+
+Written for [<highlink>Ensemble Broken Frames Syndicate</highlink>][brokenFrames] and [<highlink>Lüneburger Symphoniker</highlink>][luneburg].<br>
+Instrumentation:  2 Fl., 2 Ob., 2 Cl., 2 Bn., 2 Hn, 2 Tpt., Timp., Strings, String Trio Solo.<br>
+Prémiere: 25 October 2020 Theater Lüneburg, Lüneburger, Germany. Ensemble Broken Frames Syndicate and Lüneburger Symphoniker.<br>
+Duration: 10 min. <br>
+ <br>
 
 Everyone knows about Beethoven deafness, as well as is aware of how this affected his way of composing, especially in the “late period".
 
@@ -23,7 +29,7 @@ The title is also a reference to Beethoven's piano rondo “Rage over a lost pen
 
 Sounds that little by little loose their inner quality, appearance of tinnitus and disclosing of compositional processes, the piece tries to create a bridge between the composer's mind and the audience, who is listening to it and with its presence is letting the music itself to exist.
 
-The work has been commissioned by <ins>[**Ensemble Broken Frames Syndicate**][brokenFrames]<ins> and <ins>[**Lüneburger Symphoniker**][luneburg]</ins>.
+The work has been commissioned by [<highlink>Ensemble Broken Frames Syndicate</highlink>][brokenFrames] and [<highlink>Lüneburger Symphoniker</highlink>][luneburg].
 
 
 <ins>
