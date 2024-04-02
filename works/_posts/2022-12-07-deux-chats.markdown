@@ -6,7 +6,7 @@ date:   2022-12-07
 category: "Piano and video"
 ---
 {% if page.title %}
-<h2>{{page.title | escape}}</h2>
+<h1>{{page.title | escape}}</h1>
 **
 {% endif %}
 
