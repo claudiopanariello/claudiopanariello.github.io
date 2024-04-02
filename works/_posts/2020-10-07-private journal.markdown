@@ -6,11 +6,19 @@ date:   2020-10-07
 category: "ensemble and electronics"
 ---
 {% if page.title %}
-<h2>{{page.title | escape}}</h2>
+<h1>{{page.title | escape}}</h1>
 **
 {% endif %}
 
-Commissioned by and written for <ins>[**Ensemble Collettivo\_21**][collettivo]</ins>, "Private Journal of Dreams" is a stream of five sound dreams that seamlessly follow one another.
+Written for [<highlink>Ensemble Collettivo\_21</highlink>][collettivo].<br>
+Instrumentation: Fl., Sax., Perc., Piano, E. guitar, Vc, Electronics (fixed media).<br>
+Prémiere: 9 October 2020 Volumnia, Ex Chiesa di S. Agostino, Piacenza, Italy. Ensemble Collettivo\_21.<br>
+Duration: 10 min. <br>
+ <br>
+
+
+
+Commissioned by and written for [<highlink>Ensemble Collettivo\_21</highlink>][collettivo], "Private Journal of Dreams" is a stream of five sound dreams that seamlessly follow one another.
 
 The piece is a sonic bubble that slowly gets bigger, engulfing the performers and the audience who are more and more exposed to the most inner -- and often unconscious -- part of the Composer's mind, his private dreams.
 
