@@ -7,10 +7,11 @@ category: "four male voices (Ct, T, Br, B)"
 ---
 {% if page.title %}
 <h1>{{page.title | escape}}</h1>
+on texts by Gianfranco Marziano <br>
+
 **
 {% endif %}
 
-on texts by Gianfranco Marziano <br>
 
 Written for [<highlink>Neue Vocalsolisten Stuttgart</highlink>][nvs].<br>
 Instrumentation:  four male voices (Ct, T, Br, B)<br>
@@ -46,19 +47,12 @@ the deer lies on the ground.<br>
 
 <table>
 <tr>
-<th> Tre Haiku </th>
-<th> Three Haiku </th>
+<th> Lucciole </th>
+<th> Fireflies </th>
 </tr>
 <tr>
 <td>
 
-**I. Cervo nella pioggia**<br>
-Cervo nella pioggia,<br>
-tre grida,<br>
-o’cervo a panza all’aria.<br>
-
-
-**II. Lucciole**<br>
 Lucciole, dalla gabbia<br>
 una ad una<br>
 le stuto.<br>
@@ -71,10 +65,6 @@ e si arravoglia.<br>
 
 </td>
 <td>
-	
-Deer in the rain,<br>
-three cries,<br>
-the deer lies on the ground.<br>
 
 Fireflies, from the cage,
 one by one,<br>
@@ -87,6 +77,28 @@ and fold on itself.<br>
 </tr>
 </table>
 
+<table>
+<tr>
+<th> Di rara bellezza </th>
+<th> Of rare beauty </th>
+</tr>
+<tr>
+<td>
+s
+Di rara bellezza un aquilone<br>
+si leva verso il cielo,<br>
+e si arravoglia.<br>
+
+</td>
+<td>
+
+A kite of rare beauty<br>
+rises to the sky,<br>
+and fold on itself.<br>
+
+</td>
+</tr>
+</table>
 
 Gianfranco Marziano, *Haiku*<br>
 (Attempt of english translation by Claudio Panariello)
