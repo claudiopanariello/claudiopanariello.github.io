@@ -11,7 +11,7 @@ category: "ensemble"
 {% endif %}
 
 Instrumentation: Fl., Piano, Vno, Vc.<br>
-Prémiere: 7 april 2006 Sala Scarlatti, COonservatorio San Pietro a Majella, Napoli, Italy. Ensemble Dissonanzen.<br>
+Prémiere: 7 april 2006 Sala Scarlatti, Conservatorio San Pietro a Majella, Napoli, Italy. Ensemble Dissonanzen.<br>
 Duration: 7 min. <br>
 <br>
 

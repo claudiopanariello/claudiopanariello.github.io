@@ -22,37 +22,39 @@ Duration: ca. 8 min. <br>
 
 <table>
 <tr>
-<th> Good </th>
-<th> Bad </th>
+<th> Tre Haiku </th>
+<th> Three Haiku </th>
 </tr>
 <tr>
 <td>
-I. Cervo nella pioggia
-Cervo nella pioggia,
-tre grida,
-o’cervo a panza all’aria.
+I. Cervo nella pioggia<br>
+Cervo nella pioggia,<br>
+tre grida,<br>
+o’cervo a panza all’aria.<br>
 
-II. Lucciole
-Lucciole, dalla gabbia
-una ad una
-le stuto.
+II. Lucciole<br>
+Lucciole, dalla gabbia<br>
+una ad una<br>
+le stuto.<br>
 
-III. Di rara bellezza
-Di rara bellezza un aquilone
-si leva verso il cielo,
-e si arravoglia.
+III. Di rara bellezza<br>
+Di rara bellezza un aquilone<br>
+si leva verso il cielo,<br>
+e si arravoglia.<br>
 
 </td>
 <td>
-Deer in the rain,
-three cries,
-the deer lies on the ground.
+Deer in the rain,<br>
+three cries,<br>
+the deer lies on the ground.<br>
 
-Fireflies, from the cage, one by one,
-I turn them off.
+Fireflies, from the cage,
+one by one,<br>
+I turn them off.<br>
 
-A kite of rare beauty rises to the sky,
-and fold on itself.
+A kite of rare beauty<br>
+rises to the sky,<br>
+and fold on itself.<br>
 </td>
 </tr>
 </table>
