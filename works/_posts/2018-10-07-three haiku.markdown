@@ -26,7 +26,7 @@ The text:<br>
 <table>
 <tr>
 <th> Cervo nella pioggia </th>
-<th><invisible>dummy text</invisible></th>
+<th><invisible>festa tra amici</invisible></th>
 <th> Deer in the rain </th>
 </tr>
 <tr>
@@ -48,12 +48,11 @@ the deer lies on the ground.<br>
 </td>
 </tr>
 </table>
-
 <br>
-
 <table>
 <tr>
 <th> Lucciole </th>
+<th><invisible>festa tra amici</invisible></th>
 <th> Fireflies </th>
 </tr>
 <tr>
@@ -65,6 +64,8 @@ le stuto.<br>
 
 </td>
 <td>
+</td>
+<td>
 
 Fireflies, from the cage,<br>
 one by one,<br>
@@ -73,12 +74,11 @@ I turn them off.<br>
 </td>
 </tr>
 </table>
-
 <br>
-
 <table>
 <tr>
 <th> Di rara bellezza </th>
+<th><invisible>festa tra amici</invisible></th>
 <th> Of rare beauty </th>
 </tr>
 <tr>
@@ -90,6 +90,8 @@ e si arravoglia.<br>
 
 </td>
 <td>
+</td>
+<td>
 
 A kite of rare beauty<br>
 rises to the sky,<br>
@@ -98,8 +100,6 @@ and fold on itself.<br>
 </td>
 </tr>
 </table>
-
-<br>
 <br>
 
 Gianfranco Marziano, *Haiku*<br>
