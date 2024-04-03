@@ -27,23 +27,27 @@ Duration: ca. 8 min. <br>
 </tr>
 <tr>
 <td>
-I. Cervo nella pioggia<br>
+
+**I. Cervo nella pioggia**<br>
 Cervo nella pioggia,<br>
 tre grida,<br>
 o’cervo a panza all’aria.<br>
 
-II. Lucciole<br>
+
+**II. Lucciole**<br>
 Lucciole, dalla gabbia<br>
 una ad una<br>
 le stuto.<br>
 
-III. Di rara bellezza<br>
+
+**III. Di rara bellezza**<br>
 Di rara bellezza un aquilone<br>
 si leva verso il cielo,<br>
 e si arravoglia.<br>
 
 </td>
 <td>
+	
 Deer in the rain,<br>
 three cries,<br>
 the deer lies on the ground.<br>
@@ -59,5 +63,5 @@ and fold on itself.<br>
 </tr>
 </table>
 
-Gianfranco Marziano, *Haiku*
+Gianfranco Marziano, *Haiku*<br>
 (Attempt of english translation by Claudio Panariello)
