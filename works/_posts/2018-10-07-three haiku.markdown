@@ -21,6 +21,9 @@ Duration: ca. 8 min. <br>
 
 [nvs]: https://www.neuevocalsolisten.de/s
 
+The text:<br>
+<br>
+
 <table>
 <tr>
 <th> Cervo nella pioggia </th>
@@ -44,6 +47,8 @@ the deer lies on the ground.<br>
 </tr>
 </table>
 
+<br>
+<br>
 
 <table>
 <tr>
@@ -57,12 +62,6 @@ Lucciole, dalla gabbia<br>
 una ad una<br>
 le stuto.<br>
 
-
-**III. Di rara bellezza**<br>
-Di rara bellezza un aquilone<br>
-si leva verso il cielo,<br>
-e si arravoglia.<br>
-
 </td>
 <td>
 
@@ -70,12 +69,12 @@ Fireflies, from the cage,
 one by one,<br>
 I turn them off.<br>
 
-A kite of rare beauty<br>
-rises to the sky,<br>
-and fold on itself.<br>
 </td>
 </tr>
 </table>
+
+<br>
+<br>
 
 <table>
 <tr>
@@ -90,7 +89,7 @@ si leva verso il cielo,<br>
 e si arravoglia.<br>
 
 </td>
-<td>
+<td>s
 
 A kite of rare beauty<br>
 rises to the sky,<br>
