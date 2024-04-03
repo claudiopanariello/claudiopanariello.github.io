@@ -19,7 +19,7 @@ Prémiere: 29 july 2018 Ticino Musica, LAC, Lugano, Switzerland. Neue Vocalsolis
 Duration: ca. 8 min. <br>
 <br>
 
-[nvs]: https://www.neuevocalsolisten.de/s
+[nvs]: https://www.neuevocalsolisten.de/
 
 The text:<br>
 

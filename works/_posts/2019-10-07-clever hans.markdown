@@ -6,7 +6,7 @@ date:   2019-10-07
 category: "4 string quartets"
 ---
 {% if page.title %}
-<h2>{{page.title | escape}}</h2>
+<h1>{{page.title | escape}}</h1>
 **
 {% endif %}
 
