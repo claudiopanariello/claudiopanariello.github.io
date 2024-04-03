@@ -22,6 +22,30 @@ Duration: ca. 8 min. <br>
 
 <table>
 <tr>
+<th> Cervo nella pioggia </th>
+<th> Deer in the rain </th>
+</tr>
+<tr>
+<td>
+
+Cervo nella pioggia,<br>
+tre grida,<br>
+o’cervo a panza all’aria.<br>
+
+</td>
+<td>
+
+Deer in the rain,<br>
+three cries,<br>
+the deer lies on the ground.<br>
+
+</td>
+</tr>
+</table>
+
+
+<table>
+<tr>
 <th> Tre Haiku </th>
 <th> Three Haiku </th>
 </tr>
@@ -62,6 +86,7 @@ and fold on itself.<br>
 </td>
 </tr>
 </table>
+
 
 Gianfranco Marziano, *Haiku*<br>
 (Attempt of english translation by Claudio Panariello)
