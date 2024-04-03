@@ -11,7 +11,7 @@ category: "ensemble"
 {% endif %}
 
 Instrumentation: Fl., Cl., Perc., Piano, Vno, Vc.<br>
-Prémiere: 16 july 2016 Auditorium Santa chiara, Bobbio, Italy. Divertimento Ensemble.<br>
+Prémiere: 16 july 2016 Auditorium Santa Chiara, Bobbio, Italy. Divertimento Ensemble.<br>
 Duration: 7 min. <br>
 <br>
 
