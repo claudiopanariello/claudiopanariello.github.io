@@ -26,7 +26,7 @@ The text:<br>
 <table>
 <tr>
 <th> Cervo nella pioggia </th>
-<th></th>
+<th><invisible>dummy text</invisible></th>
 <th> Deer in the rain </th>
 </tr>
 <tr>
