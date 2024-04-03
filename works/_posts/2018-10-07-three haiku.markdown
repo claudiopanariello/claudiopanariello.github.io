@@ -37,6 +37,8 @@ o’cervo a panza all’aria.<br>
 
 </td>
 <td>
+</td>
+<td>
 
 Deer in the rain,<br>
 three cries,<br>
@@ -80,7 +82,7 @@ I turn them off.<br>
 </tr>
 <tr>
 <td>
-s
+
 Di rara bellezza un aquilone<br>
 si leva verso il cielo,<br>
 e si arravoglia.<br>
