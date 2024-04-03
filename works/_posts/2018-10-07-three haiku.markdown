@@ -22,7 +22,6 @@ Duration: ca. 8 min. <br>
 [nvs]: https://www.neuevocalsolisten.de/s
 
 The text:<br>
-<br>
 
 <table>
 <tr>
@@ -48,7 +47,6 @@ the deer lies on the ground.<br>
 </table>
 
 <br>
-<br>
 
 <table>
 <tr>
@@ -65,7 +63,7 @@ le stuto.<br>
 </td>
 <td>
 
-Fireflies, from the cage,
+Fireflies, from the cage,<br>
 one by one,<br>
 I turn them off.<br>
 
@@ -73,7 +71,6 @@ I turn them off.<br>
 </tr>
 </table>
 
-<br>
 <br>
 
 <table>
@@ -89,7 +86,7 @@ si leva verso il cielo,<br>
 e si arravoglia.<br>
 
 </td>
-<td>s
+<td>
 
 A kite of rare beauty<br>
 rises to the sky,<br>
@@ -98,6 +95,9 @@ and fold on itself.<br>
 </td>
 </tr>
 </table>
+
+<br>
+<br>
 
 Gianfranco Marziano, *Haiku*<br>
 (Attempt of english translation by Claudio Panariello)
