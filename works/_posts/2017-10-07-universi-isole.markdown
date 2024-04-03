@@ -7,6 +7,6 @@ category: "wind quintet"
 ---
 
 {% if page.title %}
-<h2>{{page.title | escape}}</h2>
+<h1>{{page.title | escape}}</h1>
 **
 {% endif %}

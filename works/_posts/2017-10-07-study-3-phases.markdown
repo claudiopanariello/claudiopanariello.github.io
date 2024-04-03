@@ -6,7 +6,7 @@ date:   2017-10-07
 category: "sound installation"
 ---
 {% if page.title %}
-<h2>{{page.title | escape}}</h2>
+<h1>{{page.title | escape}}</h1>
 **
 {% endif %}
 

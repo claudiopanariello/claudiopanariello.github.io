@@ -6,8 +6,15 @@ date:   2016-10-07
 category: "piano"
 ---
 {% if page.title %}
-<h2>{{page.title | escape}}</h2>
+<h1>{{page.title | escape}}</h1>
 **
 {% endif %}
+
+Instrumentation: Piano<br>
+Prémiere: 30 may 2016 Risuonanze 2016, Tarcento, Udine, Italy. Adele D’Aronzo, piano.<br>
+Duration: 3 min. <br>
+<br>
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FCeOEZZ_8n0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

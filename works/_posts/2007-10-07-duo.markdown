@@ -6,6 +6,11 @@ date:   2007-10-07
 category: "violin and piano"
 ---
 {% if page.title %}
-<h2>{{page.title | escape}}</h2>
+<h1>{{page.title | escape}}</h1>
 **
 {% endif %}
+
+Instrumentation: Vno and Piano.<br>
+Prémiere: 11 may 2007 Conservatory of Naples “San Pietro a Majella”, Napoli, Italy. Francesco Solombrino, vno., Ciro Longobardi, piano (members of Ensemble Dissonanzen).<br>
+Duration: 7 min. <br>
+<br>

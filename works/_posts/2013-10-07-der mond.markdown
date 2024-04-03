@@ -6,7 +6,12 @@ date:   2013-10-07
 category: "clarinet and piano"
 ---
 {% if page.title %}
-<h2>{{page.title | escape}}</h2>
+<h1>{{page.title | escape}}</h1>
 **
 {% endif %}
+
+Instrumentation: Cl. and Piano<br>
+Prémiere: 21 september 2013 II Clarinet Trend Day, Avellino, Italy. Guido Arbonelli cl., Antonella Giovannelli, piano.<br>
+Duration: 8 min. <br>
+<br>
 
