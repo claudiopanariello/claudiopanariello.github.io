@@ -21,6 +21,7 @@ Last update: {{ site.time | date: '%B %d, %Y' }}
 <h3>Readings</h3>
 - [<highlink>NERO Notzine</highlink>](https://not.neroeditions.com/)
 - [<highlink>Giap</highlink>](https://www.wumingfoundation.com/giap/)
+- [<highlink>Snaporaz</highlink>](https://www.snaporaz.online/)
 - [<highlink>Anarcho-Transhumanism</highlink>](https://blueshifted.net/)
 
 
@@ -29,7 +30,6 @@ Last update: {{ site.time | date: '%B %d, %Y' }}
 - [<highlink>Cimitero delle Fontanelle</highlink>](https://www.cimiterofontanelle.com/it/)
 - [<highlink>Memoriale Brion</highlink>](https://fondoambiente.it/luoghi/memoriale-brion/)
 - [<highlink>Cimetière du Montparnasse </highlink>](https://www.paris.fr/lieux/cimetiere-du-montparnasse-4082)
-- [<highlink></highlink>]()
 - [<highlink>The Anthropodermic Book Project</highlink>](https://anthropodermicbooks.org)
 
 
