@@ -17,7 +17,7 @@ In an attempt to escape the current drift or Internet, I will start with the old
 - [<highlink>Giuseppe Pisano</highlink>](https://www.giuseppepisano.com/)
 - [<highlink>Zeno Baldi</highlink>](http://www.zenobaldi.com/)
 - [<highlink>Lorenzo Troiani</highlink>](https://www.lorenzotroiani.com/)
-
+- [<highlink>Bára Gísladóttir</highlink>](http://www.baragisladottir.com/)
 
 
 <h3>Things</h3>
