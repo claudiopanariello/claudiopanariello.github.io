@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "gabinetto segreto"
-published: true
+published: false
 permalink: /gabinetto-segreto
 order: 5
 ---
