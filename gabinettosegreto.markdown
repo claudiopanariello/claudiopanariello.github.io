@@ -11,9 +11,7 @@ I am not fully sure what this page is or will be about. For the moment, let's se
 
 I will start with the old good practice of sharing links to stuff that I find interesting. I hope you will find them interesting as well. The list is constantly being updated.
 
-Last update: 1h ago.
-
-{{ site.time | date: '%y%m%d' }}
+Last update: {{ site.time | date: '%B %d, %Y' }}
 
 
 <h3>Readings</h3>
