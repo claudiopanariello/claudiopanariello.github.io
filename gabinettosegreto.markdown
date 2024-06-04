@@ -7,7 +7,7 @@ order: 5
 ---
 <img src='/assets/gabinetto_segreto_mann.jpg' width='600'>
 
-I am not fully sure what this page is or will be about. For the moment, let's see it as a secret place to escape the drift that social media dand internet has taken in general, in a sort of self-healing attempt against the impact they have had on our mental health.
+I am not fully sure what this page is or will be about. For the moment, let's see it as a secret place to escape the drift that social media and internet has taken in general, in a sort of self-healing attempt against the impact they have had on our mental health.
 
 I will start with the old good practice of sharing links to stuff that I find interesting. I hope you will find them interesting as well. The list is constantly being updated.
 
