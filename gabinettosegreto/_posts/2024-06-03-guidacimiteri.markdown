@@ -1,9 +1,15 @@
 ---
 layout: post
-title:  "First post"
-date:   2020-12-21
-category: "wunderkammer"
+title:  "Guida ai Cimiteri"
+permalink: /gabinetto-segreto/guida-cimiteri
+date:   2024-06-03
+category: "gabinetto-segreto"
 ---
-###
+{% if page.title %}
+<h1>{{page.title | escape}}</h1>
+**
+{% endif %}
 
-This is my first post
+To be written.
+
+ <br>

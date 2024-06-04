@@ -31,9 +31,10 @@ Last update: {{ site.time | date: '%B %d, %Y' }}
 - [<highlink>Memoriale Brion</highlink>](https://fondoambiente.it/luoghi/memoriale-brion/)
 - [<highlink>Cimetière du Montparnasse </highlink>](https://www.paris.fr/lieux/cimetiere-du-montparnasse-4082)
 - [<highlink>The Anthropodermic Book Project</highlink>](https://anthropodermicbooks.org)
+<!--
 - [<highlink>Cagliari Liminale</highlink>](https://claudiopanariello.com/gabinetto-segreto/cagliari-liminale)
 
-
+-->
 
 
 <h3>Miscellanea</h3>
@@ -41,6 +42,8 @@ Last update: {{ site.time | date: '%B %d, %Y' }}
 - [<highlink>Internet Archive - Wayback Machine</highlink>](https://archive.org/)
 - [<highlink>LSD - Dream Emulator</highlink>](https://www.retrogames.cc/psx-games/lsd-dream-emulator.html)
 - [<highlink>Dale Pendell</highlink>](https://dalependell.com/)
-
+<!--
+- [<highlink></highlink>]()
+-->
 
 
