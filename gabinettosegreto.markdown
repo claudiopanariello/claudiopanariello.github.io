@@ -27,5 +27,5 @@ Last update: {{ site.time | date: '%B %d, %Y' }}
 
 
 <h3>Nostalghia</h3>
-- [<highlink>The old internet</highlink>](https://www.cameronsworld.net/)
+- [<highlink>Some old internet</highlink>](https://www.cameronsworld.net/)
 - [<highlink>Internet Archive - Wayback Machine</highlink>](https://archive.org/)
