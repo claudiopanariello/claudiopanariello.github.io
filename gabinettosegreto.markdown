@@ -5,7 +5,7 @@ published: true
 permalink: /gabinetto-segreto
 order: 5
 ---
-<img src='/assets/gabinetto_segreto_mann.jpg' width='400'>
+<img src='/assets/gabinetto_segreto_mann.jpg' width='600'>
 
 I am not fully sure what this page is or will be about.
 
