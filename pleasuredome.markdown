@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "the pleasure dome"
+title:  "gabinetto segreto"
 published: false
-permalink: /pleasure-dome
+permalink: /gabinetto-segreto
 order: 6
 ---
 *The Pleasure Dome is under constructions and it will be inaugurated soon.*
@@ -10,3 +10,5 @@ order: 6
 <img src='/assets/vaporwave.gif'>
 
 <embed src="/assets/sound.mp3" autostart="true" loop="true" hidden="true">
+
+<img src='/assets/hero copia.jpg' width='661' height='949'>
