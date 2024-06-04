@@ -31,6 +31,8 @@ Last update: {{ site.time | date: '%B %d, %Y' }}
 - [<highlink>Memoriale Brion</highlink>](https://fondoambiente.it/luoghi/memoriale-brion/)
 - [<highlink>Cimetière du Montparnasse </highlink>](https://www.paris.fr/lieux/cimetiere-du-montparnasse-4082)
 - [<highlink>The Anthropodermic Book Project</highlink>](https://anthropodermicbooks.org)
+- [<highlink>Cagliari Liminale</highlink>](https://claudiopanariello.com/gabinetto-segreto/cagliari-liminale)
+
 
 
 
