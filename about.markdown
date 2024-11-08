@@ -14,7 +14,7 @@ Working with electronics, machines, and renowned ensembles of contemporary music
 
 He holds a PhD in Sound and Music Computing from KTH Royal Institute of Technology in Stockholm. His Doctoral Thesis is titled "Converging Creativity: Intertwining Music and Code" and can be found [<highlink>here</highlink>][phd-thesis].
 
-He is currently teaching Electroacoustic Music at the bachelor and master level in Italy at the Conservatory of Cagliari.
+He is currently teaching Electroacoustic Music at the bachelor and master level at the School of Electronic Music ([<highlink>SMET</highlink>][SMET-cp]) at the Conservatory "G. Verdi" of Turin (Italy). 
 
 <!--Born in Naples in 1989, he studied Composition, Electronic Music and Piano.
 He also graduated in Physics at the University of Pisa.
@@ -34,3 +34,4 @@ If you are not satisfied and you crave a more detailed bio click [<highlink>here
 
 [cv]: /assets/Panariello_CV_ENG.pdf
 [phd-thesis]: https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1757774&dswid=8724
+[SMET-cp]: https://www.smet.torino.it/it/claudio-panariello/
