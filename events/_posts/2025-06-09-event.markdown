@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Non son dèi quelli fatti con le mani"
-date:   2024-09-06
+date:   2025-09-06
 category: "events"
 ---
 Divertimento Ensemble <br>
