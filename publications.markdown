@@ -3,7 +3,7 @@ layout: post
 title: "publications"
 permalink: /publications/
 published: true
-order: 4
+order: 5
 ---
 - Panariello C. (2023). On the possibility of cultivating shadows. in SYNCHRONICITIES, a cura di Virginia Guidi e Carlo Caloro, Maretti Editore, ISBN 978-88-9397-068-6.
 

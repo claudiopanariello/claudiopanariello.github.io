@@ -3,7 +3,7 @@ layout: post
 title:  "contacts"
 permalink: /contacts/
 published: true
-order: 6
+order: 7
 ---
 [<highlink>personal email</highlink>][email] (easiest way to contact me)
 

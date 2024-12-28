@@ -3,7 +3,7 @@ layout: post
 title:  "gabinetto segreto"
 published: true
 permalink: /gabinetto-segreto
-order: 5
+order: 6
 ---
 <img src='/assets/gabinetto_segreto_mann.jpg' width='600'>
 
