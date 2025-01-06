@@ -10,7 +10,7 @@ Works in progress:
 
 - new work for guitar and electronics.
 
-- new work for doubless and electronics.
+- new work for double bass and electronics.
 
 - artistic research project with [<highlink>Chiara Percivati</highlink>][percivati] on our feedback-augmented bass clarinet. For more information see [<highlink>here</highlink>][fabc].
 
