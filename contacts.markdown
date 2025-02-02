@@ -11,7 +11,7 @@ order: 7
 
 [<highlink>SoundCloud</highlink>][soundcloud]
 
-[<highlink>mastodon</highlink>][mastodon]
+[<highlink> <a rel="me" href="https://mastodon.uno/@pana">Mastodon</a> </highlink>][mastodon]
 
 [<highlink>KTH profile</highlink>][kth]
 
