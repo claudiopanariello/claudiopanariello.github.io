@@ -11,9 +11,11 @@ order: 7
 
 [<highlink>SoundCloud</highlink>][soundcloud]
 
-[<highlink> <a rel="me" href="https://mastodon.uno/@pana">Mastodon</a> </highlink>][mastodon]
+[<highlink> mastodon </highlink>][mastodon]
 
+<!-- 
 [<highlink>KTH profile</highlink>][kth]
+-->
 
 [<highlink>ORCID ID</highlink>][orcid]
 
