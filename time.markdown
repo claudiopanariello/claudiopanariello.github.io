@@ -1,7 +1,7 @@
 ---
 layout: degrade
 title:  "tempo"
-published: true
+published: false
 permalink: /tempo
 order: 7
 ---
