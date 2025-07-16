@@ -1,0 +1,591 @@
+    <div class="controls">
+        <button onclick="pauseResume()" id="pauseBtn">▐▐</button>
+        <button onclick="reset()">꩜</button>
+        <button onclick="speedUp()">ϟ</button>
+        <button onclick="slowDown()">๑ï</button>  <!--🐌 -->
+        <div class="audio-controls">
+            <button onclick="toggleAudio()">🔊 Audio</button>
+            <button onclick="toggleDarkMode()" id="darkModeBtn">❨</button>
+        </div>
+    </div>
+    
+    <div class="collatz-animation">
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        let width, height;
+        let nodes = new Map();
+        let edges = [];
+        let currentNumber = 1;
+        let animationSpeed = 1200;
+        let isPaused = false;
+        
+        // Audio context and settings
+        let audioContext;
+        let masterGain;
+        let audioEnabled = false;
+        let audioVolume = 0.3;
+        let isDarkMode = false;
+        
+        // Animation behavior settings
+        const animationSettings = {
+            // Speed settings
+            baseSpeed: 200,
+            minSpeed: 200,
+            maxSpeed: 5000, 
+
+            // Visual settings
+            pulseSpeed: 0.1, // How fast nodes pulse (higher = faster)
+            flowSpeed: 0.04, // How fast particles flow along edges 0.04
+            fadeSpeed: 0.03, // How fast edges fade in/out 0.03
+
+            // Tree settings
+            maxNumbers: 45, // Maximum numbers in the tree
+            maxValue: 80, // Maximum starting value
+            maxLevels: 20, // Maximum tree depth
+
+            // Behavior settings
+            pauseAtCycle: 2000, // Pause time when reaching 1 (ms)
+            randomRange: 25, // Range for random starting numbers (1-n)
+
+            // Visual effects
+            glowIntensity: 30, // Node glow effect intensity
+            particleCount: 2, // Number of flow particles per edge
+            nodeMinSize: 8, // Minimum node size
+            nodeMaxSize: 20, // Maximum node size
+            glowDuration: 60 // frames to glow before fading
+        };
+        
+        // Color palette - default: white background with black nodes
+        const colors = {
+            light: {
+                background: '#ffffff',
+                nodeDefault: '#000000',
+                nodeGlow: '#000000',
+                edgeDefault: '#333333',
+                edgeGlow: '#000000',
+                convergence: '#000000',
+                textDefault: '#ffffff',
+                textGlow: '#ffffff'
+            },
+            dark: {
+                background: '#000000',
+                nodeDefault: '#ffffff',
+                nodeGlow: '#ffffff',
+                edgeDefault: '#cccccc',
+                edgeGlow: '#ffffff',
+                convergence: '#ffffff',
+                textDefault: '#000000',
+                textGlow: '#000000'
+            }
+        };
+        
+        function getCurrentColors() {
+            return isDarkMode ? colors.dark : colors.light;
+        }
+        
+        // Audio initialization
+        function initAudio() {
+            try {
+                audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                masterGain = audioContext.createGain();
+                masterGain.gain.value = audioVolume;
+                masterGain.connect(audioContext.destination);
+                audioEnabled = true;
+            } catch (e) {
+                console.warn('Web Audio API not supported:', e);
+                audioEnabled = false;
+            }
+        }
+        
+        function playTone(frequency, duration) {
+            if (!audioEnabled || !audioContext) return;
+            
+            try {
+                // Create oscillator
+                const oscillator = audioContext.createOscillator();
+                const gainNode = audioContext.createGain();
+                
+                // Set frequency (100 * n Hz)
+                oscillator.frequency.value = frequency;
+                oscillator.type = 'sine';
+                
+                // Create envelope with decay linked to glowDuration
+                const now = audioContext.currentTime;
+                const decayDuration = duration / 60; // Convert frames to seconds (assuming 60fps)
+                
+                // Envelope: quick attack, exponential decay
+                gainNode.gain.setValueAtTime(0, now);
+                gainNode.gain.linearRampToValueAtTime(0.5, now + 0.01); // Quick attack
+                gainNode.gain.exponentialRampToValueAtTime(0.01, now + decayDuration);
+                
+                // Connect nodes
+                oscillator.connect(gainNode);
+                gainNode.connect(masterGain);
+                
+                // Start and stop
+                oscillator.start(now);
+                oscillator.stop(now + decayDuration);
+                
+                // Clean up
+                oscillator.onended = () => {
+                    oscillator.disconnect();
+                    gainNode.disconnect();
+                };
+            } catch (e) {
+                console.warn('Error playing tone:', e);
+            }
+        }
+        
+        function toggleAudio() {
+            if (!audioContext) {
+                initAudio();
+            }
+            
+            if (audioContext && audioContext.state === 'suspended') {
+                audioContext.resume();
+            }
+            
+            audioEnabled = !audioEnabled;
+            const button = document.querySelector('button[onclick="toggleAudio()"]');
+            button.textContent = audioEnabled ? '🔊 Audio' : '🔇 Audio';
+        }
+        
+        function setVolume(value) {
+            audioVolume = parseFloat(value);
+            if (masterGain) {
+                masterGain.gain.value = audioVolume;
+            }
+        }
+        
+        function toggleDarkMode() {
+            isDarkMode = !isDarkMode;
+            const body = document.body;
+            const controls = document.querySelector('.controls');
+            const animationDiv = document.querySelector('.collatz-animation');
+            const wrapperOpacity = document.querySelector('.wrapper');
+            const darkModeBtn = document.getElementById('darkModeBtn');
+            
+            if (isDarkMode) {
+                body.classList.add('dark-mode');
+                controls.classList.add('dark-mode');
+                animationDiv.style.opacity = '1';
+                wrapperOpacity.style.opacity = '0';
+                darkModeBtn.textContent = '☉'; // Solar circle to go into light mode
+            } else {
+                body.classList.remove('dark-mode');
+                controls.classList.remove('dark-mode');
+                animationDiv.style.opacity = '0.1';
+                wrapperOpacity.style.opacity = '1';
+                darkModeBtn.textContent = '❨'; // Moon to go into dark mdoe
+            }
+        }
+        
+        class Node {
+            constructor(value, x, y) {
+                this.value = value;
+                this.x = x;
+                this.y = y;
+                this.radius = Math.min(animationSettings.nodeMaxSize, Math.max(animationSettings.nodeMinSize, 25 - Math.log10(value) * 3));
+                this.visited = false;
+                this.isActive = false;
+                this.glowCounter = 0;
+                this.maxGlowCounter = animationSettings.glowDuration;
+                this.pulsePhase = 0;
+                this.isConvergence = false;
+            }
+            
+            draw() {
+                ctx.save();
+                
+                const currentColors = getCurrentColors();
+                
+                // Handle glow effect
+                let glowIntensity = 0;
+                let nodeColor = currentColors.nodeDefault;
+                
+                if (this.isConvergence) {
+                    // Convergence nodes have constant subtle glow
+                    glowIntensity = 15;
+                    nodeColor = currentColors.nodeDefault;
+                } else if (this.glowCounter > 0) {
+                    // Temporary glow after being visited
+                    const glowRatio = this.glowCounter / this.maxGlowCounter;
+                    glowIntensity = animationSettings.glowIntensity * glowRatio;
+                    nodeColor = currentColors.nodeDefault;
+                    this.glowCounter--;
+                } else if (this.isActive) {
+                    // Active node pulses
+                    this.pulsePhase += animationSettings.pulseSpeed;
+                    const pulseIntensity = (Math.sin(this.pulsePhase) + 1) * 0.5;
+                    glowIntensity = animationSettings.glowIntensity * pulseIntensity;
+                    nodeColor = currentColors.nodeDefault;
+                }
+                
+                // Draw glow effect
+                if (glowIntensity > 0) {
+                    ctx.shadowBlur = glowIntensity;
+                    ctx.shadowColor = currentColors.nodeGlow;
+                    
+                    // Multiple glow layers for intensity
+                    for (let i = 0; i < 3; i++) {
+                        ctx.beginPath();
+                        ctx.arc(this.x, this.y, this.radius + i * 2, 0, Math.PI * 2);
+                        ctx.fillStyle = nodeColor;
+                        ctx.fill();
+                    }
+                } else {
+                    ctx.shadowBlur = 0;
+                }
+                
+                // Draw main node
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                ctx.fillStyle = nodeColor;
+                ctx.fill();
+                
+                // Draw number text
+                ctx.shadowBlur = 0;
+                ctx.fillStyle = currentColors.textDefault;
+                ctx.font = `${Math.min(12, this.radius * 0.6)}px Courier New`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(this.value.toString(), this.x, this.y);
+                
+                ctx.restore();
+            }
+            
+            triggerGlow() {
+                this.glowCounter = this.maxGlowCounter;
+                this.visited = true;
+                
+                // Play tone when node is triggered
+                if (audioEnabled) {
+                    const frequency = 42 * this.value;
+                    // Clamp frequency to audible range
+                    const clampedFreq = Math.min(Math.max(frequency, 80), 8000);
+                    playTone(clampedFreq, animationSettings.glowDuration);
+                }
+            }
+        }
+        
+        class Edge {
+            constructor(from, to) {
+                this.from = from;
+                this.to = to;
+                this.opacity = 0.3;
+                this.isActive = false;
+                this.flowOffset = 0;
+                this.glowCounter = 0;
+                this.maxGlowCounter = animationSettings.glowDuration;
+            }
+            
+            draw() {
+                ctx.save();
+                
+                const currentColors = getCurrentColors();
+                let edgeColor = currentColors.edgeDefault;
+                let glowIntensity = 0;
+                let lineWidth = 1;
+                
+                if (this.glowCounter > 0) {
+                    // Temporary glow after being used
+                    const glowRatio = this.glowCounter / this.maxGlowCounter;
+                    glowIntensity = 15 * glowRatio;
+                    lineWidth = 2;
+                    this.glowCounter--;
+                } else if (this.isActive) {
+                    this.flowOffset += animationSettings.flowSpeed;
+                    glowIntensity = 15;
+                    lineWidth = 3;
+                }
+                
+                // Draw glow effect
+                if (glowIntensity > 0) {
+                    ctx.shadowBlur = glowIntensity;
+                    ctx.shadowColor = currentColors.edgeGlow;
+                    ctx.strokeStyle = edgeColor;
+                    ctx.lineWidth = lineWidth;
+                    
+                    // Multiple glow layers
+                    for (let i = 0; i < 2; i++) {
+                        ctx.beginPath();
+                        ctx.moveTo(this.from.x, this.from.y);
+                        ctx.lineTo(this.to.x, this.to.y);
+                        ctx.stroke();
+                    }
+                } else {
+                    ctx.shadowBlur = 0;
+                }
+                
+                // Draw main edge
+                ctx.strokeStyle = edgeColor;
+                ctx.lineWidth = lineWidth;
+                ctx.beginPath();
+                ctx.moveTo(this.from.x, this.from.y);
+                ctx.lineTo(this.to.x, this.to.y);
+                ctx.stroke();
+                
+                // Draw flow particles
+                if (this.isActive) {
+                    const dx = this.to.x - this.from.x;
+                    const dy = this.to.y - this.from.y;
+                    
+                    for (let i = 0; i < animationSettings.particleCount; i++) {
+                        const t = ((this.flowOffset + i * 0.5) % 1);
+                        const x = this.from.x + dx * t;
+                        const y = this.from.y + dy * t;
+                        
+                        ctx.shadowBlur = 10;
+                        ctx.shadowColor = currentColors.edgeGlow;
+                        ctx.beginPath();
+                        ctx.arc(x, y, 2, 0, Math.PI * 2);
+                        ctx.fillStyle = currentColors.edgeGlow;
+                        ctx.fill();
+                    }
+                }
+                
+                ctx.restore();
+            }
+            
+            triggerGlow() {
+                this.glowCounter = this.maxGlowCounter;
+            }
+        }
+        
+        function resize() {
+            // Get device pixel ratio for crisp rendering on high-DPI displays
+            const dpr = window.devicePixelRatio || 1;
+            
+            // Set the actual canvas size in memory (scaled up for high-DPI)
+            canvas.width = window.innerWidth * dpr;
+            canvas.height = window.innerHeight * dpr;
+            
+            // Scale the canvas back down using CSS
+            canvas.style.width = window.innerWidth + 'px';
+            canvas.style.height = window.innerHeight + 'px';
+            
+            // Scale the drawing context so everything draws at the correct size
+            ctx.scale(dpr, dpr);
+            
+            // Store the logical dimensions for positioning calculations
+            width = window.innerWidth;
+            height = window.innerHeight;
+            
+            if (nodes.size > 0) {
+                repositionNodes();
+            }
+        }
+        
+        function collatzNext(n) {
+            if (n === 1) return 4;
+            if (n % 2 === 0) return n / 2;
+            return 3 * n + 1;
+        }
+        
+        function collatzPrevious(n) {
+            const candidates = [];
+            candidates.push(2 * n);
+            if ((n - 1) % 3 === 0 && (n - 1) / 3 % 2 === 1 && (n - 1) / 3 > 1) {
+                candidates.push((n - 1) / 3);
+            }
+            return candidates;
+        }
+        
+        function getNodePosition(value, level) {
+            // Special positioning for convergence cycle nodes
+            if (value === 1) {
+                return { x: width / 2, y: height * 0.15 };
+            }
+            if (value === 2) {
+                return { x: width / 2 - 100, y: height * 0.3 };
+            }
+            if (value === 4) {
+                return { x: width / 2 + 100, y: height * 0.3 };
+            }
+            
+            // Use value as seed for consistent random positioning
+            const hash = value * 2654435761;
+            const hash2 = value * 1103515245 + 12345;
+            
+            // Random distribution across the screen with margins
+            const margin = 50;
+            const x = margin + (hash % (width - 2 * margin));
+            const y = margin + (hash2 % (height - 2 * margin));
+            
+            return { x, y };
+        }
+        
+        function createNode(value, level = 0) {
+            if (nodes.has(value)) return nodes.get(value);
+            
+            const pos = getNodePosition(value, level);
+            const node = new Node(value, pos.x, pos.y);
+            nodes.set(value, node);
+            return node;
+        }
+        
+        function buildTree() {
+            nodes.clear();
+            edges.length = 0;
+            
+            // Create convergence nodes with special positioning
+            const convergenceNodes = [1, 2, 4];
+            convergenceNodes.forEach(val => {
+                const node = createNode(val, 0);
+                node.isConvergence = true;
+            });
+            
+            // Create the convergence cycle edges
+            edges.push(new Edge(nodes.get(1), nodes.get(4)));
+            edges.push(new Edge(nodes.get(4), nodes.get(2)));
+            edges.push(new Edge(nodes.get(2), nodes.get(1)));
+            
+            const queue = [{ value: 1, level: 1 }, { value: 2, level: 1 }, { value: 4, level: 1 }];
+            const processed = new Set([1, 2, 4]);
+            
+            while (queue.length > 0 && processed.size < animationSettings.maxNumbers) {
+                const { value, level } = queue.shift();
+                
+                if (level > animationSettings.maxLevels) continue;
+                
+                const predecessors = collatzPrevious(value);
+                
+                for (const pred of predecessors) {
+                    if (!processed.has(pred) && pred <= animationSettings.maxValue) {
+                        processed.add(pred);
+                        const fromNode = createNode(pred, level);
+                        const toNode = nodes.get(value);
+                        
+                        edges.push(new Edge(fromNode, toNode));
+                        queue.push({ value: pred, level: level + 1 });
+                    }
+                }
+            }
+        }
+        
+        function repositionNodes() {
+            nodes.forEach((node, value) => {
+                const pos = getNodePosition(value, Math.floor(Math.log10(value) * 2));
+                node.x = pos.x;
+                node.y = pos.y;
+            });
+        }
+        
+        function animateSequence() {
+            if (isPaused) return;
+            
+            // Reset all active states
+            nodes.forEach(node => {
+                node.isActive = false;
+            });
+            edges.forEach(edge => {
+                edge.isActive = false;
+            });
+            
+            // Find current node and activate it
+            const currentNode = nodes.get(currentNumber);
+            if (currentNode) {
+                currentNode.isActive = true;
+                currentNode.triggerGlow();
+                
+                // Find and activate outgoing edge
+                const nextNumber = collatzNext(currentNumber);
+                const nextNode = nodes.get(nextNumber);
+                
+                if (nextNode) {
+                    const edge = edges.find(e => e.from === currentNode && e.to === nextNode);
+                    if (edge) {
+                        edge.isActive = true;
+                        edge.triggerGlow();
+                    }
+                }
+            }
+            
+            // Move to next number
+            currentNumber = collatzNext(currentNumber);
+            
+            // Reset after completing cycle or reaching high numbers
+            if (currentNumber === 1 || currentNumber > animationSettings.maxValue) {
+                setTimeout(() => {
+                    currentNumber = Math.floor(Math.random() * animationSettings.randomRange) + 1;
+                }, animationSettings.pauseAtCycle);
+            }
+            
+            setTimeout(animateSequence, animationSpeed);
+        }
+        
+        function draw() {
+            const currentColors = getCurrentColors();
+            ctx.fillStyle = currentColors.background;
+            ctx.fillRect(0, 0, width, height);
+            
+            edges.forEach(edge => edge.draw());
+            nodes.forEach(node => node.draw());
+            
+            requestAnimationFrame(draw);
+        }
+        
+        function pauseResume() {
+            isPaused = !isPaused;
+            const pauseBtn = document.getElementById('pauseBtn');
+            
+            if (isPaused) {
+                pauseBtn.textContent = '▶'; // Play button when paused
+            } else {
+                pauseBtn.textContent = '▐▐'; // Pause button when playing
+                animateSequence();
+            }
+        }
+        
+        function reset() {
+            currentNumber = 1;
+            nodes.forEach(node => {
+                node.visited = false;
+                node.isActive = false;
+                node.glowCounter = 0;
+            });
+            edges.forEach(edge => {
+                edge.glowCounter = 0;
+            });
+        }
+        
+        function speedUp() {
+            animationSpeed = Math.max(animationSettings.minSpeed, animationSpeed * 0.1);
+        }
+        
+        function slowDown() {
+            animationSpeed = Math.min(animationSettings.maxSpeed, animationSpeed * 5.1);
+        }
+        
+        function updateAnimationSettings(newSettings) {
+            Object.assign(animationSettings, newSettings);
+            if (newSettings.maxNumbers || newSettings.maxValue || newSettings.maxLevels) {
+                buildTree();
+            }
+        }
+        
+        // Initialize
+        window.addEventListener('resize', resize);
+        resize();
+        buildTree();
+        
+        // Initialize audio (will be enabled when user clicks the audio button)
+        initAudio();
+        
+        draw();
+        animateSequence();
+        
+        // Handle page visibility for audio context
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden && audioContext) {
+                audioContext.suspend();
+            } else if (!document.hidden && audioContext && audioEnabled) {
+                audioContext.resume();
+            }
+        });
+    </script>

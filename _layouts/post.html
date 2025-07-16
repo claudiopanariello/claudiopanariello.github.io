@@ -14,7 +14,7 @@ layout: default
 
         {% assign sorted_pages = site.pages | sort:"order" %}
 {% for post in sorted_pages %}
-{% if post.layout == "post" %}
+{% if post.layout == "post" or post.layout == "postDegrade" %}
     <a class="post" href="{{ post.url | relative_url }}">
       <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
       <div class="post-details">

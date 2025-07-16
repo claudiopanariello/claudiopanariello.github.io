@@ -1,0 +1,299 @@
+---
+layout: default
+--- 
+<header>
+    <div class="under under-large">
+      {% if site.title %}
+        <a href="../">
+        <h1>{{ site.title | escape }}</h1>
+      {% endif %}
+    <div class="under under-small">
+
+      <!--<p class="date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+-->
+
+        {% assign sorted_pages = site.pages | sort:"order" %}
+{% for post in sorted_pages %}
+{% if post.layout == "post" or post.layout == "postDegrade" %}
+    <a class="post" href="{{ post.url | relative_url }}">
+      <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <div class="post-details">
+        {% if post.title == page.title %}
+            <h3>{{ post.title | escape }}</h3>
+        {% else %}
+            <h2><mousehover>{{ post.title | escape }}</mousehover></h2>
+        {% endif %}
+        <p class="excerpt">{{ post.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}</p>
+      </div>
+    </a>
+    {% endif %}
+  {% endfor %}
+</div>
+  </div>
+  <hr />
+</header>
+
+
+    <div class="static-overlay" id="staticOverlay"></div>
+    <div class="scan-lines" id="scanLines"></div>
+    
+    <div class="timer" id="timer">Time: 0s</div>
+    <div class="glitch-indicator" id="glitchIndicator">GLITCH: 0%</div>
+    
+    <div class="container">
+        <!--
+        <div class="warning">
+            ⚠️ CRITICAL ERROR: SYSTEM CORRUPTION DETECTED - IMMEDIATE EVACUATION RECOMMENDED ⚠️
+        </div>
+    -->
+<main>
+    {{ content }}
+</main>
+
+        <div class="footer">
+            <p data-text="SYSTEM FAILURE | GOOD LUCK">SYSTEM FAILURE | GOOD LUCK</p>
+        </div>
+
+
+    <script>
+        let startTime = Date.now();
+        let glitchInterval;
+        let corruptionInterval;
+        let chaosInterval;
+        let fragmentInterval;
+        
+        const glitchChars = '█▓▒░!@#$%^&*()_+-=[]{}|;:,.<>?`~¡¿¦§¤¥¢£™®©°±²³¼½¾µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ';
+        const originalTexts = new Map();
+
+        function updateTimer() {
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            document.getElementById('timer').textContent = `Time: ${elapsed}s`;
+            return elapsed;
+        }
+
+        function calculateGlitchIntensity(timeInSeconds) {
+            // Immediate glitching that escalates quickly
+            return Math.min(1, timeInSeconds / 60); // 0 to 1 over 60 seconds
+        }
+
+        function getRandomGlitchChar() {
+            return glitchChars[Math.floor(Math.random() * glitchChars.length)];
+        }
+
+        function corruptText(element, intensity) {
+            const originalText = originalTexts.get(element) || element.textContent;
+            if (!originalTexts.has(element)) {
+                originalTexts.set(element, originalText);
+            }
+            
+            let corruptedText = '';
+            for (let i = 0; i < originalText.length; i++) {
+                if (Math.random() < intensity * 0.5 && originalText[i] !== ' ') {
+                    corruptedText += getRandomGlitchChar();
+                } else {
+                    corruptedText += originalText[i];
+                }
+            }
+            element.textContent = corruptedText;
+        }
+
+        function fragmentText(element, intensity) {
+            const originalText = originalTexts.get(element) || element.textContent;
+            if (!originalTexts.has(element)) {
+                originalTexts.set(element, originalText);
+            }
+            
+            let fragmentedHTML = '';
+            for (let i = 0; i < originalText.length; i++) {
+                const char = originalText[i];
+                if (char === ' ') {
+                    fragmentedHTML += ' ';
+                } else {
+                    const x = (Math.random() - 0.5) * intensity * 50;
+                    const y = (Math.random() - 0.5) * intensity * 30;
+                    const rot = (Math.random() - 0.5) * intensity * 180;
+                    const scale = 0.5 + Math.random() * intensity * 1.5;
+                    
+                    fragmentedHTML += `<span class="char" style="--char-x: ${x}px; --char-y: ${y}px; --char-rot: ${rot}deg; --char-scale: ${scale};">${char}</span>`;
+                }
+            }
+            element.innerHTML = fragmentedHTML;
+            element.classList.add('fragmented');
+        }
+
+        function applyRandomGlitchEffects(intensity) {
+            const elements = document.querySelectorAll('h1, h2, h3, highlink, p, .quote');
+            elements.forEach(element => {
+                // Remove all existing glitch classes
+                element.classList.remove('micro-glitch', 'rgb-split', 'corrupted-text', 'violent-shake', 'chromatic', 'distorted', 'chaos-mode');
+                
+                // Apply multiple effects based on intensity
+                if (intensity > 0) {
+                    element.classList.add('micro-glitch');
+                }
+                
+                if (intensity > 0.1) {
+                    if (Math.random() < 0.6) {
+                        element.classList.add('rgb-split');
+                    }
+                }
+                
+                if (intensity > 0.2) {
+                    if (Math.random() < 0.4) {
+                        element.classList.add('corrupted-text');
+                    }
+                }
+                
+                if (intensity > 0.3) {
+                    if (Math.random() < 0.3) {
+                        element.classList.add('violent-shake');
+                    }
+                }
+                
+                if (intensity > 0.4) {
+                    if (Math.random() < 0.5) {
+                        element.classList.add('chromatic');
+                    }
+                }
+                
+                if (intensity > 0.5) {
+                    if (Math.random() < 0.4) {
+                        element.classList.add('distorted');
+                    }
+                }
+                
+                if (intensity > 0.8) {
+                    if (Math.random() < 0.7) {
+                        element.classList.add('chaos-mode');
+                    }
+                }
+            });
+        }
+
+        function applyGlobalEffects(intensity) {
+            // Update CSS variables
+            document.documentElement.style.setProperty('--glitch-intensity', intensity);
+            document.documentElement.style.setProperty('--chaos-level', intensity);
+            document.documentElement.style.setProperty('--corruption-rate', intensity);
+            document.documentElement.style.setProperty('--fragment-drift', intensity);
+            document.documentElement.style.setProperty('--static-opacity', Math.min(intensity * 0.3, 0.2));
+            document.documentElement.style.setProperty('--chromatic-offset', intensity * 5);
+            document.documentElement.style.setProperty('--distortion-scale', intensity);
+            
+            // Update glitch indicator
+            document.getElementById('glitchIndicator').textContent = `GLITCH: ${Math.round(intensity * 100)}%`;
+        }
+
+        function runMainGlitch() {
+            const elapsed = updateTimer();
+            const intensity = calculateGlitchIntensity(elapsed);
+            
+            applyGlobalEffects(intensity);
+            applyRandomGlitchEffects(intensity);
+        }
+
+        function runTextCorruption() {
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            const intensity = calculateGlitchIntensity(elapsed);
+            
+            if (intensity > 0.2) {
+                const textElements = document.querySelectorAll('h1, h2, h3, highlink, p:not(.footer p), .quote');
+                textElements.forEach(element => {
+                    if (Math.random() < intensity * 0.4) {
+                        corruptText(element, intensity);
+                    }
+                });
+            }
+        }
+
+        function runFragmentation() {
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            const intensity = calculateGlitchIntensity(elapsed);
+            
+            if (intensity > 0.4) {
+                const textElements = document.querySelectorAll('h1, h2, h3, highlink, p:not(.footer p)');
+                textElements.forEach(element => {
+                    if (Math.random() < intensity * 0.3) {
+                        fragmentText(element, intensity);
+                    }
+                });
+            }
+        }
+
+        function initiateChaos() {
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            const intensity = calculateGlitchIntensity(elapsed);
+            
+            if (intensity > 0.7) {
+                // Extreme chaos mode
+                const allElements = document.querySelectorAll('h1, h2, h3, highlink, p, .quote, .container');
+                allElements.forEach(element => {
+                    if (Math.random() < 0.8) {
+                        element.style.transform = `
+                            translate(${(Math.random() - 0.5) * 20}px, ${(Math.random() - 0.5) * 10}px)
+                            rotate(${(Math.random() - 0.5) * 10}deg)
+                            scale(${0.8 + Math.random() * 0.4})
+                        `;
+                    }
+                });
+            }
+        }
+
+        // Start all glitch processes immediately
+        glitchInterval = setInterval(runMainGlitch, 200);
+        corruptionInterval = setInterval(runTextCorruption, 1000);
+        fragmentInterval = setInterval(runFragmentation, 1500);
+        chaosInterval = setInterval(initiateChaos, 300);
+        
+        // Initial calls to start glitching immediately
+        runMainGlitch();
+        runTextCorruption();
+
+        // Ultimate chaos mode after 2 minutes
+        setTimeout(() => {
+            const finalChaos = document.createElement('div');
+            finalChaos.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: repeating-linear-gradient(
+                    45deg,
+                    rgba(255, 0, 0, 0.1),
+                    rgba(255, 0, 0, 0.1) 10px,
+                    rgba(0, 255, 0, 0.1) 10px,
+                    rgba(0, 255, 0, 0.1) 20px,
+                    rgba(0, 0, 255, 0.1) 20px,
+                    rgba(0, 0, 255, 0.1) 30px
+                );
+                animation: final-chaos 0.05s infinite;
+                z-index: 9999;
+                pointer-events: none;
+            `;
+            
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes final-chaos {
+                    0% { transform: translate(0, 0) rotate(0deg) scale(1); filter: hue-rotate(0deg); }
+                    25% { transform: translate(-10px, 10px) rotate(5deg) scale(1.1); filter: hue-rotate(90deg); }
+                    50% { transform: translate(10px, -10px) rotate(-5deg) scale(0.9); filter: hue-rotate(180deg); }
+                    75% { transform: translate(-5px, -5px) rotate(3deg) scale(1.05); filter: hue-rotate(270deg); }
+                    100% { transform: translate(0, 0) rotate(0deg) scale(1); filter: hue-rotate(360deg); }
+                }
+            `;
+            
+            document.head.appendChild(style);
+            document.body.appendChild(finalChaos);
+            
+            // Make everything completely chaotic
+            setInterval(() => {
+                const allText = document.querySelectorAll('h1, h2, h3, highlink, p, .quote');
+                allText.forEach(el => {
+                    corruptText(el, 0.9);
+                    fragmentText(el, 0.9);
+                });
+            }, 100);
+            
+        }, 120000);
+    </script>
