@@ -8,7 +8,7 @@ order: 1
 
 <img src='/assets/deep_fried_me_square.jpg' width='400' height='400'>
 
-Born in Naples in 1989 and currently based in Stockholm, he studied Composition, Electronic Music, and Piano with a parenthesis of Physics at the University of Pisa.
+Born in Naples in 1989 and currently based in Paris, he studied Composition, Electronic Music, and Piano with a parenthesis of Physics at the University of Pisa.
 
 Working with electronics, machines, and renowned ensembles of contemporary music, he is interested in exploring the perception of algorithmic and adaptive processes applied to music.
 
