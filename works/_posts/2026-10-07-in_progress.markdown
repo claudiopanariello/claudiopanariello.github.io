@@ -2,7 +2,7 @@
 layout: post
 title:  "works in progress"
 permalink: /works/in-progress
-date:   2025-10-07
+date:   2026-10-07
 published: true
 ---
 
