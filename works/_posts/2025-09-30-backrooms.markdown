@@ -20,17 +20,13 @@ Foyer of the Turin Conservatory, Festival [<highlink>ToListenTo</highlink>][toli
 [tolistento]:https://www.to-listen-to.it/
 [smet]: https://www.smet.torino.it/
 
-*“If you’re not careful and you noclip out of reality in the wrong areas, you’ll end up in the Backrooms”* (post by anonymous on 4chan, 2019)<br>
-
-The term "backrooms" refer to an internet phenomenon that spread in 2020: empty, timeless spaces, disturbing liminal environments, but also strangely familiar, which cannot be accessed voluntarily, but only as a result of an error. 
-
+*“If you’re not careful and you noclip out of reality in the wrong areas, you’ll end up in the Backrooms”* (post by anonymous on 4chan, 2019)
 <br>
-
+The term "backrooms" refer to an internet phenomenon that spread in 2020: empty, timeless spaces, disturbing liminal environments, but also strangely familiar, which cannot be accessed voluntarily, but only as a result of an error. 
+<br>
 The **Backrooms** installation is inspired by this internet aesthetic, recreating its atmosphere and reworking its characteristic elements (such as the hum of neon lights, disturbing melodies echoing in the distance, the aesthetics of abandoned offices), engaging visitors both sonically and visually. 
-
 <br>
 Set in the foyer, which in turn constitutes a transitional space between the outdorr and indoor of the Turin Conservatory, the installation is also an invitation to slow down and inhabit the thresholds without haste.
-
 <br>
 
 <img src='/assets/backrooms2.jpg' width='600'>
