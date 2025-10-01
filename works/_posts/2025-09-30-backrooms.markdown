@@ -3,7 +3,7 @@ layout: post
 title:  "Backrooms"
 permalink: /works/backrooms
 date:   2025-09-30
-category: "sound installation"
+category: "sound installation w/ SMET"
 ---
 {% if page.title %}
 <h1>{{page.title | escape}}</h1>
@@ -11,7 +11,7 @@ category: "sound installation"
 **
 {% endif %}
 
-Sound Installationrealized by the students of the School of Electronic Music of the Conservatory of Turin ([<highlink>SMET</highlink>][smet]), supervised by Claudio Panariello<br>
+Sound installation realized by the students of the School of Electronic Music of the Conservatory of Turin ([<highlink>SMET</highlink>][smet]), supervised by Claudio Panariello<br>
 
 12 lasers, 12 minispeaker, 4 BELA, sensors, 2ch generative audio<br>
 Prémiere: from the 30th September to the 5th October 2025<br>
@@ -33,6 +33,6 @@ Set in the foyer, which in turn constitutes a transitional space between the out
 
 <br>
 
-<img src='/assets/backrooms1.jpg' width='600'>
 <img src='/assets/backrooms2.jpg' width='600'>
+<img src='/assets/backrooms1.jpg' width='600'>
 
