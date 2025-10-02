@@ -27,7 +27,7 @@ The term "backrooms" refer to an internet phenomenon that spread in 2020: empty,
 <br>
 The **Backrooms** installation is inspired by this internet aesthetic, recreating its atmosphere and reworking its characteristic elements (such as the hum of neon lights, disturbing melodies echoing in the distance, the aesthetics of abandoned offices), engaging visitors both sonically and visually. 
 <br>
-Set in the foyer, which in turn constitutes a transitional space between the outdorr and indoor of the Turin Conservatory, the installation is also an invitation to slow down and inhabit the thresholds without haste.
+Set in the foyer, which in turn constitutes a transitional space between the outdor and indoor of the Turin Conservatory, the installation is also an invitation to slow down and inhabit the thresholds without haste.
 <br>
 
 <img src='/assets/backrooms2.jpg' width='600'>
