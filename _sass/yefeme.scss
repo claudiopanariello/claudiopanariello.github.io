@@ -339,7 +339,6 @@ mousehover:hover {
 }
 
 highlink {
-  display: inline;
   text-decoration-line: underline;
   font-weight: bold;
 }
@@ -351,32 +350,4 @@ highlink:hover {
 
 invisible {
     opacity: 0;
-}
-
-.event-description {
-  display: inline;
-  font-size: 14px;
-  font-weight: 400;
-  margin: 0;
-  line-height: inherit;
-}
-
-.event-description p {
-  display: inline;
-  margin: 0;
-}
-
-.event-description a {
-  display: inline;
-  word-wrap: break-word;
-}
-
-.event-description br {
-  display: inline;
-  content: " ";
-}
-
-.event-description br::after {
-  content: " ";
-  white-space: pre;
 }
