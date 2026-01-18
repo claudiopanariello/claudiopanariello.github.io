@@ -4,9 +4,6 @@ title:  "Backrooms"
 date:   2025-09-30
 category: "events"
 ---
-sound installation realized by the students of the School of Electronic Music of the Conservatory of Turin (SMET), supervised by Claudio Panariello<br>
-SMET Lab <br>
-@ [<highlink>ToListenTo</highlink>][tolistento] 2025<br>
-Foyer del Conservatorio di Torino, Turin (Italy)<br>
-
-[tolistento]:https://www.to-listen-to.it/
+sound installation realized by the students of the School of Electronic Music of the Conservatory of Turin (SMET), supervised by Claudio Panariello
+SMET Lab @ [ToListenTo](https://www.to-listen-to.it/) 2025
+Foyer del Conservatorio di Torino, Turin (Italy)
