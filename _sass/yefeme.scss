@@ -379,3 +379,21 @@ invisible {
   width: 100%;
   margin: 0.5em 0;
 }
+
+
+.post-content > p {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: flex-start;
+  margin-bottom: 1em;
+}
+
+.post-content > p > *:first-child {
+  flex-shrink: 0;
+  min-width: max-content;
+}
+
+.post-content > p > *:not(:first-child) {
+  flex-grow: 1;
+}
