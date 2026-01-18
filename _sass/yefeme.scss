@@ -352,3 +352,30 @@ invisible {
     opacity: 0;
 }
 
+.post-content a {
+  display: inline;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.post-content h4 a,
+.post-content h5 a {
+  display: inline;
+}
+
+.post-content p a {
+  display: inline;
+  vertical-align: baseline;
+}
+
+.post-content > p {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.post-content h4,
+.post-content h5 {
+  display: inline-block;
+  width: 100%;
+  margin: 0.5em 0;
+}
