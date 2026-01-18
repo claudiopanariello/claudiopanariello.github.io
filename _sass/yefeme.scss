@@ -339,7 +339,6 @@ mousehover:hover {
 }
 
 highlink {
-  display: inline;
   text-decoration-line: underline;
   font-weight: bold;
 }
@@ -351,28 +350,4 @@ highlink:hover {
 
 invisible {
     opacity: 0;
-}
-
-
-
-
-
-.post-content a,
-.post-content highlink {
-  display: inline !important;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-
-.post-content p {
-  display: inline;
-  margin: 0;
-}
-
-.post-content br {
-  display: inline;
-}
-
-.post-content p + p {
-  margin-top: 0.5em;
 }
