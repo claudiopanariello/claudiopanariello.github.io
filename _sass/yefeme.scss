@@ -339,8 +339,9 @@ mousehover:hover {
 }
 
 highlink {
+  display: inline;
   text-decoration-line: underline;
-    font-weight: bold;
+  font-weight: bold;
 }
 
 highlink:hover {
@@ -352,48 +353,26 @@ invisible {
     opacity: 0;
 }
 
-.post-content a {
-  display: inline;
+
+
+
+
+.post-content a,
+.post-content highlink {
+  display: inline !important;
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
-.post-content h4 a,
-.post-content h5 a {
+.post-content p {
+  display: inline;
+  margin: 0;
+}
+
+.post-content br {
   display: inline;
 }
 
-.post-content p a {
-  display: inline;
-  vertical-align: baseline;
-}
-
-.post-content > p {
-  display: block;
-  margin-bottom: 1em;
-}
-
-.post-content h4,
-.post-content h5 {
-  display: inline-block;
-  width: 100%;
-  margin: 0.5em 0;
-}
-
-
-.post-content > p {
-  display: flex;
-  flex-direction: row;
-  gap: 1em;
-  align-items: flex-start;
-  margin-bottom: 1em;
-}
-
-.post-content > p > *:first-child {
-  flex-shrink: 0;
-  min-width: max-content;
-}
-
-.post-content > p > *:not(:first-child) {
-  flex-grow: 1;
+.post-content p + p {
+  margin-top: 0.5em;
 }
