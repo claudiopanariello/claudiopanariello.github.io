@@ -59,7 +59,7 @@ layout: default
         <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <div class="post-details">
           <h4>{{ post.title | escape }}</h4>
-          <h5>{{post.content}}</h5>
+          <div class="event-description">{{post.content}}</div>
         </div>
       {% endif %}
     </a>
