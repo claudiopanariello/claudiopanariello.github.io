@@ -1,5 +1,5 @@
 ---
-layout: postDegrade
+layout: post
 title:  "gabinetto segreto"
 published: true
 permalink: /gabinetto-segreto
