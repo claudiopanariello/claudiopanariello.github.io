@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "OTIAC - O totaro int'a chitarra"
+permalink: /works/otiac
+date:   2023-10-22
+category: "Classical Guitar, feedback, and co-improvisation agent"
+---
+{% if page.title %}
+<h1>{{page.title | escape}}</h1>
+<h2>an AI re-interpretation of DuFay’s “Se la face ay pale” mass for 6 voices, ensemble of 6 musicians and electronics</h2>
+**
+{% endif %}
+
+In 2010 an octopus named Paul gained quite a bit of attention. The animal, of Italian origins but living in an aquarium in Oberhausen, could predict the results of the 2010 FIFA World Cup football matches by picking one of the boxes, representing football teams, presented to him. Funnily enough, Paul the Octopus correctly predicted the results of 12 out of 14 matches, thus making him probably one of the most famous animal oracles in modern times.<br>
+
+OTIAC - which stands for "O totaro int'a chitarra", that is "the squid" (or in other versions, the octopus) "in the guitar", a popular image taken from the Neapolitan folklore  - is a work expressly conceived for H[t] Duo.
+More than a Duo, this is in fact a Trio: the guitarist, the electronics performer, and the octopus in the guitar, that is a computational autonomous system. This "octopus" is an implementation of a Factor Oracle automaton, a structure that learns from the live performance thus building a model of the musical material, plus an additional higher level of machine learning algorithms which will enable the system to make autonomous choices about when and how to intervene.<br>
+
+The overall work is all based on feedback material live-produced by the guitarist and the electronics performer; these are picked and sorted by the system which, in turn, just like the oracle Paul the Octopus, will decide which sonic material should be reinjected into the guitar, based on what it listens and what it predicts. The collaboration of the three elements will shape the overall performance over time.<br>
+
+Therefore, all the parts involved in OTIAC contribute equally to the creation of the final piece. Hence, OTIAC is an exploration of the interplay of these agents that navigate the feedback-based sound material produced within the interactions framework that I have built for them.
+
+
