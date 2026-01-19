@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Invited lecture at Università di Verona"
-date:   2025-05-12
+date:   2026-05-12
 category: "events"
 ---
 Invited lecture on Voice and AI <br>
