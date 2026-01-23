@@ -5,7 +5,7 @@ permalink: /contacts/
 published: true
 order: 8
 ---
-[<highlink>personal email</highlink>][email] (easiest way to contact me)
+[<highlink>email</highlink>][email] (easiest way to contact me)
 
 [<highlink>GitHub</highlink>][github]
 
@@ -25,7 +25,7 @@ order: 8
 
 
 
-[email]: mailto:cla.panariello@gmail.com
+[email]: mailto:claudio@claudiopanariello.com
 [facebook]: https://www.facebook.com/cla.panariello/
 [github]: https://github.com/claudiopanariello
 [soundcloud]: https://soundcloud.com/claudiopanariello
