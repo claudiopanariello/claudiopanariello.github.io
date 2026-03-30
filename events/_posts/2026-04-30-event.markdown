@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Artist's talk at IMV (UiO)"
+date:   2026-04-30
+category: "events"
+---
+Artist's talk<br>
+@ Institutt for musikkvitenskap (Department of Musicology)<br>
+University of Oslo, Oslo (Norway)
