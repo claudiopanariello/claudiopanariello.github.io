@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Invited presentation at Sorbonne Universite"
+date:   2026-06-02
+category: "events"
+---
+Invited presentation for the Journee d'Etudes de L'Equipe «Recherche Performance Creation» <br>@ Centre Universitaire Clignancourt <br>
+Sorbonne Universite, Paris (France) 
