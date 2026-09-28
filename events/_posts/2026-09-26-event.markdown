@@ -6,4 +6,6 @@ category: "events"
 ---
 [H]t Duo <br>
 @ MUSA - Museo degli Strumenti Musicali dell'Accademia Nazionale di Santa Cecilia, Roma (Italy)<br>
-https://www.crm-music.it/festival/programma/a-signal-in-fracture.html
+[<highlink>☞ LINK</highlink>][LINK]
+
+[LINK]:https://www.crm-music.it/festival/programma/a-signal-in-fracture.html
