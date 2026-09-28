@@ -6,5 +6,6 @@ category: "events"
 ---
 Quartetto Maurice <br>
 @ Wiener Konzerthaus, Berio-Saal, Wien (Austria)<br>
-https://konzerthaus.at/de/programm-und-karten/quartetto-maurice/63837
+[<highlink>☞ LINK</highlink>][LINK]
 
+[LINK]:https://konzerthaus.at/de/programm-und-karten/quartetto-maurice/63837
