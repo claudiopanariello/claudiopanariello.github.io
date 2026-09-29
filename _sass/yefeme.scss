@@ -369,6 +369,20 @@ highlink:hover {
   color: white;
 }
 
+moreinfo {
+  text-decoration-line: underline;
+  font-weight: bold;
+
+  &::before {
+    content: "☞ more info";
+  }
+}
+
+moreinfo:hover {
+  background-color: $accent;
+  color: white;
+}
+
 invisible {
     opacity: 0;
 }
