@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Piccolo inventario degli insetti"
 permalink: /works/piccolo-inventario-degli-insetti
 date:   2017-10-07

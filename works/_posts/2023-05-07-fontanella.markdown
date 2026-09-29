@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Studio per una Fontanella"
 permalink: /works/studio-per-una-fontanella
 date:   2023-05-07

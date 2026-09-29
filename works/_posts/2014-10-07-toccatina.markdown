@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Toccatina"
 permalink: /works/toccatina
 date:   2014-10-07

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Private journal of dreams"
 permalink: /works/private-journal-of-dreams
 date:   2020-10-07

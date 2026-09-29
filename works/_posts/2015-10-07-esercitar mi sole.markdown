@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Esercitar mi sole"
 permalink: /works/esercitar-mi-sole
 date:   2015-10-07

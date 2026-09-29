@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Passaggio"
 permalink: /works/passaggio
 date:   2017-10-07

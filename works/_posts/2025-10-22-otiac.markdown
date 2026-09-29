@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "OTIAC - O totaro int'a chitarra"
 permalink: /works/otiac
 date:   2025-10-22

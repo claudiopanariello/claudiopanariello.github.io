@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Were you a part of your mother?"
 permalink: /works/were-you-a-part-of-your-mother
 date:   2022-10-07

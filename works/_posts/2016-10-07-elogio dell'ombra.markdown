@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Elogio dell'ombra"
 permalink: /works/elogio-dell-ombra
 date:   2016-10-07

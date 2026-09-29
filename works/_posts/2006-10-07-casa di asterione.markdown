@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "La Casa di Asterione"
 permalink: /works/la-casa-di-asterione
 date:   2006-10-07

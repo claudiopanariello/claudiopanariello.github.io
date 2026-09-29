@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "To learn the obscene art of suffering pain"
 permalink: /works/to-learn-the-obscene-art-of-suffering-pain
 date:   2022-07-07

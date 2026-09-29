@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Mini self-portrait with Nancarrow and Mažulis (with Ligeti in the title)"
 permalink: /works/mini-self-portrait-with-Nancarrow-and-mazulis
 date:   2020-10-07

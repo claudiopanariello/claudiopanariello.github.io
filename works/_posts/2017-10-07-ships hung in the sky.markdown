@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "The ships hung in the sky in much the same way that bricks don’t"
 permalink: /works/the-ships-hung-in-the-sky-in-much-the-same-way-that-bricks-don’t
 date:   2017-10-07

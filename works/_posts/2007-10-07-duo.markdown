@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Duo"
 permalink: /works/duo
 date:   2007-10-07

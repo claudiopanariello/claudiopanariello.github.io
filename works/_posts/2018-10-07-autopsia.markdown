@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Autopsia su una marionetta"
 permalink: /works/autopsia-su-una-marionetta
 date:   2018-10-07

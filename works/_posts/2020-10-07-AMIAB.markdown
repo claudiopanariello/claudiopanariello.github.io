@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "A mic in a box"
 permalink: /works/a-mic-in-a-box
 date:   2020-10-07

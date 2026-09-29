@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Backrooms"
 permalink: /works/backrooms
 date:   2025-09-30

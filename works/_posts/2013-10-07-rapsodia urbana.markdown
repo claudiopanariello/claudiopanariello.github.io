@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Rapsodia Urbana"
 permalink: /works/rapsodia-urbana
 date:   2013-10-07

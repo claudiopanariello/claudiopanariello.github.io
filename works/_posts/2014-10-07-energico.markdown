@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Energico"
 permalink: /works/energico
 date:   2014-10-07

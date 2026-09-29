@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Bottiglie di Klein"
 permalink: /works/bottiglie-di-klein
 date:   2017-10-07

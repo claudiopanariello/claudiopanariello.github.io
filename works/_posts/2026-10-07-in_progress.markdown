@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "works in progress"
 permalink: /works/in-progress
 date:   2026-10-07

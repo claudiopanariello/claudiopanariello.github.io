@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Studio in Tre Fasi"
 permalink: /works/studio-in-tre-fasi
 date:   2017-10-07

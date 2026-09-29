@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "universi-isole"
 permalink: /works/universi-isole
 date:   2017-10-07

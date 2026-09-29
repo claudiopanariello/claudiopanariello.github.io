@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Automaton for Liquefying Blood"
 permalink: /works/automaton-for-liquefying-blood
 date:   2019-10-07

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Dans mon rêve, j'étais deux chats et je jouais l'un avec l'autre"
 permalink: /works/dans-mon-reve
 date:   2022-12-07

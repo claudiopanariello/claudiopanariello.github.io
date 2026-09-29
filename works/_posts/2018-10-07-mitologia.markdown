@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Mitologia del Principe"
 permalink: /works/mitologia-del-principe
 date:   2018-10-07

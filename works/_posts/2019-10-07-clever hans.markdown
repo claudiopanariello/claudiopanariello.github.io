@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Clever Hans is introduced to Dr. Oskar Pfungst"
 permalink: /works/clever-hans-is-introduced-to-dr-oskar-pfungst
 date:   2019-10-07

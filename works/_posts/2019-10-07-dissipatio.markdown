@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Study for Dissipatio H.G."
 permalink: /works/study-for-dissipatio-HG
 date:   2019-10-07

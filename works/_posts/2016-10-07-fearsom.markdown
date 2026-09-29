@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Fearsom critters no.1: Filla-Ma-Loo-Bird"
 permalink: /works/filla-ma-loo-bird
 date:   2016-10-07

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Non sono dèi quelli fatti con le mani"
 permalink: /works/non-sono-dei
 date:   2023-10-22

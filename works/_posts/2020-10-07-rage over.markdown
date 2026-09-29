@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Rage over hearing loss"
 permalink: /works/rage-over-hearing-loss
 date:   2020-10-07

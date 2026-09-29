@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Macchina Anatomica"
 permalink: /works/macchina-anatomica
 date:   2016-10-07

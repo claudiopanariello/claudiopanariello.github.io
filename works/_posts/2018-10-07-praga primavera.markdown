@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "1968 Praga Primavera"
 permalink: /works/1968-praga-primavera
 date:   2018-10-07

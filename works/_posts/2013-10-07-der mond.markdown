@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Der Mond"
 permalink: /works/der-mond
 date:   2013-10-07

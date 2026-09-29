@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Three Haiku"
 permalink: /works/three-haiku
 date:   2018-10-07

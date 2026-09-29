@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Flebili stelle nere"
 permalink: /works/flebili-stelle-nere
 date:   2016-10-07
