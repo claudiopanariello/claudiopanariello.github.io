@@ -6,7 +6,7 @@ category: "events"
 ---
 Divertimento Ensemble <br>
 @ Rondò 2025 <br>
-Fabbrica del Vapore, Milano (Italy)
+Fabbrica del Vapore, Milano (Italy)<br>
 [<workinfo></workinfo>][WORK], [<eventinfo></eventinfo>][EVENT]
 
 [EVENT]:https://www.divertimentoensemble.it/eventi/mostra-su-luciano-berio-concerto-non-son-dei-quelli-fatti-con-le-mani

@@ -7,6 +7,6 @@ category: "events"
 Artist's talk<br>
 @ Institutt for musikkvitenskap (Department of Musicology)<br>
 University of Oslo, Oslo (Norway)<br>
-[<workinfo></workinfo>][WORK], [<eventinfo></eventinfo>][EVENT]
+[<eventinfo></eventinfo>][EVENT]
 
 [EVENT]:https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/feedback-and-flying-squids

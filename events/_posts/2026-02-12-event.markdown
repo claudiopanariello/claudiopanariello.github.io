@@ -5,7 +5,7 @@ date:   2026-02-12
 category: "events"
 ---
 Presentation of OTIAC <br>
-@ Le Grand Mix, Lille
+@ Le Grand Mix, Lille <br>
 [<workinfo></workinfo>][WORK]
 
 [WORK]:https://claudiopanariello.com/works/otiac
