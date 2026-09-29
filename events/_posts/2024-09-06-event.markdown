@@ -7,3 +7,7 @@ category: "events"
 Chiara Percivati, feedback-augmented bass clarinet<br>
 @ NIME 2024 <br>
 TivoliVredenburg - Hertz, Utrecht, NL<br>
+[<workinfo></workinfo>][WORK], [<eventinfo></eventinfo>][EVENT]
+
+[EVENT]:https://nime.org/proceedings/2024/nime2024_music_43.pdf
+[WORK]:https://claudiopanariello.com/works/were-you-a-part-of-your-mother

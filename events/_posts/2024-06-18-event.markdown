@@ -7,3 +7,7 @@ category: "events"
 Chiara Percivati, feedback-augmented bass clarinet; cp electronics <br>
 @ PERPLEXITY 2024 <br>
 De Krook, Ghent <br>
+[<workinfo></workinfo>][WORK], [<eventinfo></eventinfo>][EVENT]
+
+[EVENT]:https://xrhil.ugent.be/projects/perplexity2024/
+[WORK]:https://claudiopanariello.com/works/were-you-a-part-of-your-mother

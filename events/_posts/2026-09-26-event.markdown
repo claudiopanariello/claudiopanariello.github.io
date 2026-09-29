@@ -6,6 +6,7 @@ category: "events"
 ---
 [H]t Duo <br>
 @ MUSA - Museo degli Strumenti Musicali dell'Accademia Nazionale di Santa Cecilia, Roma (Italy)<br>
-[<highlink>☞ LINK</highlink>][LINK]
+[<workinfo></workinfo>][WORK], [<eventinfo></eventinfo>][EVENT]
 
-[LINK]:https://www.crm-music.it/festival/programma/a-signal-in-fracture.html
+[EVENT]:https://www.crm-music.it/festival/programma/a-signal-in-fracture.html
+[WORK]:https://claudiopanariello.com/works/otiac

@@ -6,4 +6,8 @@ category: "events"
 ---
 United Instruments of Lucilin <br>
 Sonic Lights <br>
-@ Salle de Musique de Chambre, Philarmonie Luxembourg, Luxembourg (Luxembourg)
+@ Salle de Musique de Chambre, Philarmonie Luxembourg, Luxembourg (Luxembourg)<br>
+[<workinfo></workinfo>][WORK], [<eventinfo></eventinfo>][EVENT]
+
+[EVENT]:https://www.philharmonie.lu/en/programme/2024-25/sonic-lights-000000e90018f3b0
+[WORK]:https://claudiopanariello.com/works/piccolo-inventario-degli-insetti

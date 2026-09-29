@@ -6,3 +6,6 @@ category: "events"
 ---
 [H]t Duo  <br>
 @ Conservatorio di Musica "G. Verdi", Milano (Italy)<br>
+[<workinfo></workinfo>][WORK]
+
+[WORK]:https://claudiopanariello.com/works/otiac

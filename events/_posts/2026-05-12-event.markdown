@@ -6,6 +6,6 @@ category: "events"
 ---
 Invited lecture on Voice and AI <br>
 @ Università di Verona, Verona (Italy)<br>
-[<highlink>☞ LINK</highlink>][LINK]
+[<eventinfo></eventinfo>][EVENT]
 
-[LINK]:https://www.univr.it/it/iniziative/-/evento/14822?p_auth=UaT7gwMv
+[EVENT]:https://www.univr.it/it/iniziative/-/evento/14822?p_auth=UaT7gwMv

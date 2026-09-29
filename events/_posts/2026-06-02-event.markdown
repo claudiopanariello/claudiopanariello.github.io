@@ -7,6 +7,6 @@ category: "events"
 Invited presentation for the Journee d'Etudes de L'Equipe «Recherche Performance Creation» <br>
 @ Centre Universitaire Clignancourt <br>
 Sorbonne Universite, Paris (France) <br>
-[<highlink>☞ LINK</highlink>][LINK]
+[<eventinfo></eventinfo>][EVENT]
 
-[LINK]:https://www.iremus.cnrs.fr/sites/default/files/2026-05/eqrpc-je-programme20260602.pdf
+[EVENT]:https://www.iremus.cnrs.fr/sites/default/files/2026-05/eqrpc-je-programme20260602.pdf

@@ -7,3 +7,8 @@ category: "events"
 Klangforum Wien <br>
 Agrigento, Italian Capital of Culture 2025<br>
 @ Teatro Pirandello, Agrigento (Italy)<br>
+
+[<workinfo></workinfo>][WORK], [<eventinfo></eventinfo>][EVENT]
+
+[EVENT]:https://en.klangforum.at/event/agrigento-2025---concerto
+[WORK]:https://claudiopanariello.com/works/autopsia-su-una-marionetta

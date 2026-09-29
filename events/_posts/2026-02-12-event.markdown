@@ -6,3 +6,6 @@ category: "events"
 ---
 Presentation of OTIAC <br>
 @ Le Grand Mix, Lille
+[<workinfo></workinfo>][WORK]
+
+[WORK]:https://claudiopanariello.com/works/otiac

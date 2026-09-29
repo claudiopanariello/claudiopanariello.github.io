@@ -8,3 +8,7 @@ Schallfeld Ensemble. KORPUS I<br>
 @ impuls 2025 <br>
 MUMUTH. György-Ligeti-Saal<br>
 Graz (Austria)<br>
+[<workinfo></workinfo>][WORK], [<eventinfo></eventinfo>][EVENT]
+
+[EVENT]:https://www.schallfeldensemble.com/de/event/impuls-festival-korpus-i/
+[WORK]:https://claudiopanariello.com/works/to-learn-the-obscene-art-of-suffering-pain

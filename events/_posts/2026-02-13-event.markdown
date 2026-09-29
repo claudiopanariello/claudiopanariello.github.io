@@ -7,6 +7,8 @@ category: "events"
 premiere of OTIAC <br>
 [H]t Duo  <br>
 @ CIRMMT, Montreal (Canada)<br>
-[<highlink>☞ LINK</highlink>][LINK]
+[<workinfo></workinfo>][WORK], [<eventinfo></eventinfo>][EVENT]
 
-[LINK]:https://www.cirmmt.org/en/events/live-cirmmt/13-feb-2026
+
+[WORK]:https://claudiopanariello.com/works/otiac
+[EVENT]:https://www.cirmmt.org/en/events/live-cirmmt/13-feb-2026

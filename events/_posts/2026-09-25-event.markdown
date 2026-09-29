@@ -6,6 +6,6 @@ category: "events"
 ---
 Realization of hardware devices (smoke puff mute, lighthing unit) for "Tuba Mirum" by Trevor Wishart<br>
 @ Sala Concerti, Conservatorio di Musica "G. Verdi", Torino (Italy)<br>
-[<highlink>☞ LINK</highlink>][LINK]
+[<eventinfo></eventinfo>][EVENT]
 
-[LINK]:https://www.to-listen-to.it/en/evento-festival/trevor-wishart-tuba-mirum-encounters-in-the-republic-of-heaven-2/
+[EVENT]:https://www.to-listen-to.it/en/evento-festival/trevor-wishart-tuba-mirum-encounters-in-the-republic-of-heaven-2/
