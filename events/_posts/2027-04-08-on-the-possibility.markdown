@@ -6,6 +6,7 @@ category: "events"
 ---
 Quartetto Maurice <br>
 @ Wiener Konzerthaus, Berio-Saal, Wien (Austria)<br>
-[<moreinfo></moreinfo>][INFO]
+[<workinfo></workinfo>][INFO], [<eventinfo></eventinfo>][WORK]
 
 [INFO]:https://konzerthaus.at/de/programm-und-karten/quartetto-maurice/63837
+[WORK]:https://claudiopanariello.com/works/on-the-possibility-of-cultivating-shadows
