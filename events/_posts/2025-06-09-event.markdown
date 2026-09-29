@@ -5,8 +5,8 @@ date:   2025-06-09
 category: "events"
 pieces: ["/works/non-sono-dei"]
 performers: "Divertimento Ensemble"
-presenter: ""
-venue: "Rondò 2025, Fabbrica del Vapore, Milano (Italy)"
+presenter: "Rondò 2025"
+venue: "Fabbrica del Vapore, Milano (Italy)"
 event_link: "https://www.divertimentoensemble.it/eventi/mostra-su-luciano-berio-concerto-non-son-dei-quelli-fatti-con-le-mani"
 ---
 
