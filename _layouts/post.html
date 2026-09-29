@@ -50,21 +50,25 @@ layout: default
       {% endif %}
 
 
-    {% if page.title == "events" %}
-    {% for post in site.categories.events %}
-      <div class="post">
-        {% if post.title == "mark_year" %}
-          <h1><span class="accent">{{ post.date | date: "%Y" | escape}}</span></h1>
-          {% else %}
-            <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <div class="post-details">
-            <h4>{{ post.title | escape }}</h4>
-            <div class="event-content"><h5>{{ post.content }}</h5></div>
-          </div>
-        {% endif %}
-      </div>
-      {% endfor %}
-    {% endif %}
+{% if page.title == "events" %}
+{% for post in site.categories.events %}
+<div class="post">
+{% if post.title == "mark_year" %}
+<h1><span class="accent">{{ post.date | date: "%Y" | escape}}</span></h1>
+{% else %}
+<span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class="post-details">
+<h4>{{ post.title | escape }}</h4>
+<h5>
+  {{ post.performers }}{% if post.presenter %}, {{ post.presenter }}{% endif %}<br>
+  @ {{ post.venue }}<br>
+  {% for piece_url in post.pieces %}<a href="{{ piece_url | relative_url }}"><workinfo></workinfo></a>{% unless forloop.last %}, {% endunless %}{% endfor %}{% if post.event_link %}, <a href="{{ post.event_link }}"><eventinfo></eventinfo></a>{% endif %}
+</h5>
+</div>
+{% endif %}
+</div>
+{% endfor %}
+{% endif %}
 
 
     {% if page.title == "works" %}

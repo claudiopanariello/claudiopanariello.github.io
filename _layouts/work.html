@@ -1,0 +1,41 @@
+---
+layout: post
+---
+{{ content }}
+
+{% assign performances = site.categories.events | where_exp: "event", "event.pieces contains page.url" %}
+{% assign today = site.time %}
+{% assign upcoming = performances | where_exp: "event", "event.date >= today" | sort: "date" %}
+{% assign past = performances | where_exp: "event", "event.date < today" | sort: "date" | reverse %}
+
+{% if performances.size > 0 %}
+<section class="performances">
+
+  {% if upcoming.size > 0 %}
+  <h3>Upcoming performances</h3>
+  {% for event in upcoming %}
+  <div class="post">
+    <span class="accent fixed-date">{{ event.date | date: "%b %-d, %Y" }}</span>
+    <div class="post-details">
+      <h4>{{ event.performers }}{% if event.presenter %}, {{ event.presenter }}{% endif %}</h4>
+      <h5>@ {{ event.venue }}{% if event.event_link %} — <a href="{{ event.event_link }}"><eventinfo></eventinfo></a>{% endif %}</h5>
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  {% if past.size > 0 %}
+  <h3>Past performances</h3>
+  {% for event in past %}
+  <div class="post">
+    <span class="accent fixed-date">{{ event.date | date: "%b %-d, %Y" }}</span>
+    <div class="post-details">
+      <h4>{{ event.performers }}{% if event.presenter %}, {{ event.presenter }}{% endif %}</h4>
+      <h5>@ {{ event.venue }}{% if event.event_link %} — <a href="{{ event.event_link }}"><eventinfo></eventinfo></a>{% endif %}</h5>
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}
+
+</section>
+{% endif %}

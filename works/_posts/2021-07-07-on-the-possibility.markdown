@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "On the possibility of cultivating shadows"
 permalink: /works/on-the-possibility-of-cultivating-shadows
 date:   2021-07-07

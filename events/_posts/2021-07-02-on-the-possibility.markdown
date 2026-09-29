@@ -1,5 +1,20 @@
 ---
 layout: post
+title:  "On the possibility of cultivating shadows (wp)"
+date:   2021-07-02
+category: "events"
+pieces: /works/on-the-possibility-of-cultivating-shadows
+performers: "Quartetto Maurice"
+presenter:  "Musica in Prossimità"
+venue:      "Teatro del Lavoro, Pinerolo (Italy)"
+event_link: "https://www.metamorfosinotturne.com/copia-di-2021-full-program"
+---
+
+
+
+<!--
+---
+layout: post
 title:  "On the possibility of cultivating shadows **(wp)**"
 date:   2021-07-02
 category: "events"
@@ -11,3 +26,4 @@ Musica in Prossimità <br>
 
 [EVENT]:https://www.metamorfosinotturne.com/copia-di-2021-full-program
 [WORK]:https://claudiopanariello.com/works/on-the-possibility-of-cultivating-shadows
+-->
