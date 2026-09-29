@@ -1,0 +1,10 @@
+---
+category: "publications"
+render: false
+date: 2023-01-02
+type: conference-paper
+authors: "Panariello, C., & Percivati, C."
+year: 2023
+title: "“WYPYM”: A Study for Feedback-Augmented Bass Clarinet"
+venue: "Proceedings of the International Conference on New Interfaces for Musical Expression (NIME)"
+---

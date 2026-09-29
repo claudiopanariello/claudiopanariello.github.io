@@ -1,0 +1,10 @@
+---
+category: "publications"
+render: false
+date: 2023-01-04
+type: conference-paper
+authors: "Panariello C., & Frid, E."
+year: 2023
+title: "SuperOM: a SuperCollider Class to Generate Music Scores in OpenMusic"
+venue: "Proceedings of the International Conference on Technologies for Music Notation and Representation (TENOR)"
+---
