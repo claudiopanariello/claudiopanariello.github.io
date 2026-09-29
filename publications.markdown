@@ -19,19 +19,20 @@ order: 5
 
 {% assign thesis_pubs = pubs | where: "type", "dissertation" %}
 
-{% if journal_pubs.size > 0 %}
-### Journal articles
-
-{% for pub in journal_pubs -%}
-- {{ pub.authors }} ({{ pub.year }}). &#8220;{{ pub.title }}.&#8221; *{{ pub.journal }}*{% if pub.venue %}, {{ pub.venue }}{% endif %}.
-{% endfor %}
-{% endif %}
 
 {% if conf_pubs.size > 0 %}
 ### Conference and workshop papers
 
 {% for pub in conf_pubs -%}
 - {{ pub.authors }} ({{ pub.year }}). {{ pub.title }}. *{{ pub.venue }}*.
+{% endfor %}
+{% endif %}
+
+{% if journal_pubs.size > 0 %}
+### Journal articles
+
+{% for pub in journal_pubs -%}
+- {{ pub.authors }} ({{ pub.year }}). &#8220;{{ pub.title }}.&#8221; *{{ pub.journal }}*{% if pub.venue %}, {{ pub.venue }}{% endif %}.
 {% endfor %}
 {% endif %}
 
