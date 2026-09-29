@@ -8,8 +8,15 @@ order: 5
 
 {% assign pubs = site.categories.publications | sort: "date" | reverse %}
 {% assign journal_pubs = pubs | where: "type", "journal-article" %}
-{% assign conf_pubs = pubs | where_exp: "p", "p.type == 'conference-paper' or p.type == 'workshop-paper'" %}
-{% assign chapter_pubs = pubs | where_exp: "p", "p.type == 'book-chapter' or p.type == 'preface'" %}
+
+{% assign conf_a = pubs | where: "type", "conference-paper" %}
+{% assign conf_b = pubs | where: "type", "workshop-paper" %}
+{% assign conf_pubs = conf_a | concat: conf_b | sort: "date" | reverse %}
+
+{% assign chap_a = pubs | where: "type", "book-chapter" %}
+{% assign chap_b = pubs | where: "type", "preface" %}
+{% assign chapter_pubs = chap_a | concat: chap_b | sort: "date" | reverse %}
+
 {% assign thesis_pubs = pubs | where: "type", "dissertation" %}
 
 {% if journal_pubs.size > 0 %}
