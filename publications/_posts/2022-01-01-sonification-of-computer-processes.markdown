@@ -6,5 +6,6 @@ type: journal-article
 authors: "Panariello, C., & Bresin, R."
 year: 2022
 title: "Sonification of Computer Processes: The Cases of Computer Shutdown and Idle Mode"
-venue: "Frontiers in Neuroscience, 16"
+journal: "Frontiers in Neuroscience"
+venue: "16"
 ---

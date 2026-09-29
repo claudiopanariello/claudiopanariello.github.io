@@ -6,5 +6,5 @@ type: journal-article
 authors: "Latupeirissa A. B., Panariello C. & Bresin R."
 year: 2023
 title: "Probing Aesthetics Strategies for Robot Sound: Complexity and Materiality in Movement Sonification"
-venue: "Transactions on Human-Robot Interaction"
+journal: "Transactions on Human-Robot Interaction"
 ---

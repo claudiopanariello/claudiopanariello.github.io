@@ -6,5 +6,6 @@ type: journal-article
 authors: "Panariello C."
 year: 2020
 title: "Study in Three Phases: An Adaptive Sound Installation"
-venue: "Leonardo Music Journal, 30, 44-49"
+journal: "Leonardo Music Journal"
+venue: "30, 44-49"
 ---
