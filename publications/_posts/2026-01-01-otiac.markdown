@@ -3,7 +3,7 @@ category: "publications"
 render: false
 date: 2026-01-01
 type: conference-paper
-authors: "Panariello, C, and Dèguernel, K."
+authors: "Panariello, C, and Déguernel, K."
 year: 2026
 title: "OTIAC - Co-Improvising With a Musical Agent in a Feedback-Based Guitar Performance"
 venue: "Proceedings of the International Conference on New Interfaces for Musical Expression"
