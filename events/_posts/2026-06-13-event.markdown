@@ -3,9 +3,23 @@ layout: post
 title:  "OTIAC"
 date:   2026-06-13
 category: "events"
+pieces: ["/works/otiac"]
+performers: "[H]t Duo"
+presenter: ""
+venue: "Conservatorio di Musica \"G. Verdi\", Milano (Italy)"
+---
+
+
+<!--
+---
+layout: post
+title:  "OTIAC"
+date:   2026-06-13
+category: "events"
 ---
 [H]t Duo  <br>
 @ Conservatorio di Musica "G. Verdi", Milano (Italy)<br>
 [<workinfo></workinfo>][WORK]
 
 [WORK]:https://claudiopanariello.com/works/otiac
+-->

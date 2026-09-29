@@ -3,6 +3,20 @@ layout: post
 title:  "Study for Dissipatio H.G."
 date:   2019-12-01
 category: "events"
+pieces: ["/works/study-for-dissipatio-HG"]
+performers: "ContempoartEnsemble"
+presenter: ""
+venue: "Prato (Italy)"
+---
+
+
+<!--
+---
+layout: post
+title:  "Study for Dissipatio H.G."
+date:   2019-12-01
+category: "events"
 ---
 ContempoartEnsemble <br>
 @ Prato (Italy)
+-->

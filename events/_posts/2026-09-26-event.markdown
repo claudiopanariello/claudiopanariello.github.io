@@ -3,6 +3,20 @@ layout: post
 title:  "OTIAC"
 date:   2026-09-26
 category: "events"
+pieces: ["/works/otiac"]
+performers: "[H]t Duo"
+presenter: ""
+venue: "MUSA - Museo degli Strumenti Musicali dell'Accademia Nazionale di Santa Cecilia, Roma (Italy)"
+event_link: "https://www.crm-music.it/festival/programma/a-signal-in-fracture.html"
+---
+
+
+<!--
+---
+layout: post
+title:  "OTIAC"
+date:   2026-09-26
+category: "events"
 ---
 [H]t Duo <br>
 @ MUSA - Museo degli Strumenti Musicali dell'Accademia Nazionale di Santa Cecilia, Roma (Italy)<br>
@@ -10,3 +24,4 @@ category: "events"
 
 [EVENT]:https://www.crm-music.it/festival/programma/a-signal-in-fracture.html
 [WORK]:https://claudiopanariello.com/works/otiac
+-->

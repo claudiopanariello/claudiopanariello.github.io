@@ -3,8 +3,21 @@ layout: post
 title:  "Three Haiku **(wp)**"
 date:   2018-07-29
 category: "events"
+pieces: ["/works/three-haiku"]
+performers: "Neue Vocalsolisten Stuttgart"
+presenter: "Ticino Musica"
+venue: "LAC, Lugano, Switzerland"
 ---
 
+
+<!--
+---
+layout: post
+title:  "Three Haiku **(wp)**"
+date:   2018-07-29
+category: "events"
+---
 Neue Vocalsolisten Stuttgart<br>
 Ticino Musica<br>
 @ LAC, Lugano, Switzerland
+-->

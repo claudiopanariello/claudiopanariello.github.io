@@ -3,6 +3,20 @@ layout: post
 title:  "Rhapsody on a Windy Night"
 date:   2019-11-30
 category: "events"
+pieces: ["/works/rhapsody-on-a-windy-night"]
+performers: "Trio Najma"
+presenter: ""
+venue: "Cerveteri, Italy"
+---
+
+
+<!--
+---
+layout: post
+title:  "Rhapsody on a Windy Night"
+date:   2019-11-30
+category: "events"
 ---
 Trio Najma <br>
 @ Cerveteri, Italy
+-->

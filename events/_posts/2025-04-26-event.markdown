@@ -3,6 +3,20 @@ layout: post
 title:  "Autopsia su una marionetta"
 date:   2025-04-26
 category: "events"
+pieces: ["/works/autopsia-su-una-marionetta"]
+performers: "Klangforum Wien"
+presenter: "Agrigento, Italian Capital of Culture 2025"
+venue: "Teatro Pirandello, Agrigento (Italy)"
+event_link: "https://en.klangforum.at/event/agrigento-2025---concerto"
+---
+
+
+<!--
+---
+layout: post
+title:  "Autopsia su una marionetta"
+date:   2025-04-26
+category: "events"
 ---
 Klangforum Wien <br>
 Agrigento, Italian Capital of Culture 2025<br>
@@ -12,3 +26,4 @@ Agrigento, Italian Capital of Culture 2025<br>
 
 [EVENT]:https://en.klangforum.at/event/agrigento-2025---concerto
 [WORK]:https://claudiopanariello.com/works/autopsia-su-una-marionetta
+-->

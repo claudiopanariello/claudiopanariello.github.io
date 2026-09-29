@@ -3,6 +3,20 @@ layout: post
 title:  "Passaggio"
 date:   2018-12-14
 category: "events"
+pieces: ["/works/passaggio"]
+performers: "Kaorou Nishimura and Kei Yamazawa"
+presenter: ""
+venue: "Salon Tessera, Tokyo, Japan"
+---
+
+
+<!--
+---
+layout: post
+title:  "Passaggio"
+date:   2018-12-14
+category: "events"
 ---
 Kaorou Nishimura and Kei Yamazawa <br>
 @ Salon Tessera, Tokyo, Japan
+-->

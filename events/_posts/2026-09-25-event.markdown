@@ -3,9 +3,23 @@ layout: post
 title:  "Realization of devices for Wishart's Tuba Mirum"
 date:   2026-09-25
 category: "events"
+performers: "Realization of hardware devices (smoke puff mute, lighthing unit) for \"Tuba Mirum\" by Trevor Wishart"
+presenter: ""
+venue: "Sala Concerti, Conservatorio di Musica \"G. Verdi\", Torino (Italy)"
+event_link: "https://www.to-listen-to.it/en/evento-festival/trevor-wishart-tuba-mirum-encounters-in-the-republic-of-heaven-2/"
+---
+
+
+<!--
+---
+layout: post
+title:  "Realization of devices for Wishart's Tuba Mirum"
+date:   2026-09-25
+category: "events"
 ---
 Realization of hardware devices (smoke puff mute, lighthing unit) for "Tuba Mirum" by Trevor Wishart<br>
 @ Sala Concerti, Conservatorio di Musica "G. Verdi", Torino (Italy)<br>
 [<eventinfo></eventinfo>][EVENT]
 
 [EVENT]:https://www.to-listen-to.it/en/evento-festival/trevor-wishart-tuba-mirum-encounters-in-the-republic-of-heaven-2/
+-->

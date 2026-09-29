@@ -3,7 +3,20 @@ layout: post
 title:  "Rhapsody on a Windy Night **(wp)**"
 date:   2016-03-06
 category: "events"
+pieces: ["/works/rhapsody-on-a-windy-night"]
+performers: "Trio Najma"
+presenter: ""
+venue: "Salotto Culturale Aggazzotti, Modena, Italy"
 ---
 
+
+<!--
+---
+layout: post
+title:  "Rhapsody on a Windy Night **(wp)**"
+date:   2016-03-06
+category: "events"
+---
 Trio Najma <br>
 @ Salotto Culturale Aggazzotti, Modena, Italy<br>
+-->

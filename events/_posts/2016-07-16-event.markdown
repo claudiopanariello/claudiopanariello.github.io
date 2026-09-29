@@ -3,8 +3,21 @@ layout: post
 title:  "Macchina Anatomica **(wp)**"
 date:   2016-07-16
 category: "events"
+pieces: ["/works/macchina-anatomica"]
+performers: "Divertimento Ensemble, Sandro Gorli cond."
+presenter: "IWFYC 2016"
+venue: "Bobbio (PC), Italy"
 ---
 
+
+<!--
+---
+layout: post
+title:  "Macchina Anatomica **(wp)**"
+date:   2016-07-16
+category: "events"
+---
 Divertimento Ensemble, Sandro Gorli cond.<br>
 IWFYC 2016<br>
 @ Bobbio (PC), Italy<br>
+-->

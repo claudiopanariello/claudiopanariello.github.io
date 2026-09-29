@@ -3,7 +3,21 @@ layout: post
 title:  "Clever Hans is introduced to Dr. Oskar Pfungst **(wp)**"
 date:   2019-06-16
 category: "events"
+pieces: ["/works/clever-hans-is-introduced-to-dr-oskar-pfungst"]
+performers: "Casa del Quartetto, Fondazione I Teatri"
+presenter: "Quartetto &C, Quartetto Al Pari, Quartetto Cesar Franck, Quartetto Reflex"
+venue: "Chiostri di S.Pietro, Reggio Emilia, Italy"
+---
+
+
+<!--
+---
+layout: post
+title:  "Clever Hans is introduced to Dr. Oskar Pfungst **(wp)**"
+date:   2019-06-16
+category: "events"
 ---
 Casa del Quartetto, Fondazione I Teatri<br>
 Quartetto &C, Quartetto Al Pari, Quartetto Cesar Franck, Quartetto Reflex<br>
 @ Chiostri di S.Pietro, Reggio Emilia, Italy
+-->

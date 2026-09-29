@@ -3,8 +3,21 @@ layout: post
 title:  "Flebili Stelle Nere"
 date:   2017-06-24
 category: "events"
+pieces: ["/works/flebili-stelle-nere"]
+performers: "Ensemble Mise-en, Moon Young HA cond."
+presenter: "Mise-En Music Festival 2017"
+venue: "Taipei Cultural Center, New York, USA"
 ---
 
+
+<!--
+---
+layout: post
+title:  "Flebili Stelle Nere"
+date:   2017-06-24
+category: "events"
+---
 Ensemble Mise-en, Moon Young HA cond.<br>
 Mise-En Music Festival 2017<br>
 @ Taipei Cultural Center, New York, USA<br>
+-->

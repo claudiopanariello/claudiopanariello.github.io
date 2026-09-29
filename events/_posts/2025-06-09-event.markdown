@@ -3,6 +3,20 @@ layout: post
 title:  "Non son dèi quelli fatti con le mani"
 date:   2025-06-09
 category: "events"
+pieces: ["/works/non-sono-dei"]
+performers: "Divertimento Ensemble"
+presenter: ""
+venue: "Rondò 2025, Fabbrica del Vapore, Milano (Italy)"
+event_link: "https://www.divertimentoensemble.it/eventi/mostra-su-luciano-berio-concerto-non-son-dei-quelli-fatti-con-le-mani"
+---
+
+
+<!--
+---
+layout: post
+title:  "Non son dèi quelli fatti con le mani"
+date:   2025-06-09
+category: "events"
 ---
 Divertimento Ensemble <br>
 @ Rondò 2025 <br>
@@ -11,3 +25,4 @@ Fabbrica del Vapore, Milano (Italy)<br>
 
 [EVENT]:https://www.divertimentoensemble.it/eventi/mostra-su-luciano-berio-concerto-non-son-dei-quelli-fatti-con-le-mani
 [WORK]:https://claudiopanariello.com/works/non-sono-dei
+-->

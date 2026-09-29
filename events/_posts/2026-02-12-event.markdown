@@ -3,9 +3,23 @@ layout: post
 title:  "Presentation"
 date:   2026-02-12
 category: "events"
+pieces: ["/works/otiac"]
+performers: "Presentation of OTIAC"
+presenter: ""
+venue: "Le Grand Mix, Lille"
+---
+
+
+<!--
+---
+layout: post
+title:  "Presentation"
+date:   2026-02-12
+category: "events"
 ---
 Presentation of OTIAC <br>
 @ Le Grand Mix, Lille <br>
 [<workinfo></workinfo>][WORK]
 
 [WORK]:https://claudiopanariello.com/works/otiac
+-->

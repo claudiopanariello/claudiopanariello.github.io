@@ -3,6 +3,20 @@ layout: post
 title:  "Elogio dell’ombra **(wp)**"
 date:   2016-03-18
 category: "events"
+pieces: ["/works/elogio-dell-ombra"]
+performers: "Vittorio Fusco, violin"
+presenter: ""
+venue: "Chiesa del Carmine, Avellino, Italy"
+---
+
+
+<!--
+---
+layout: post
+title:  "Elogio dell’ombra **(wp)**"
+date:   2016-03-18
+category: "events"
 ---
 Vittorio Fusco, violin <br>
 @ Chiesa del Carmine, Avellino, Italy<br>
+-->

@@ -3,7 +3,21 @@ layout: post
 title:  "Flebili Stelle Nere **(wp)**"
 date:   2016-09-07
 category: "events"
+pieces: ["/works/flebili-stelle-nere"]
+performers: "Livorno Music Festival 2016"
+presenter: "Ensemble in residence"
+venue: "Museo Civico Giovanni Fattori, Livorno, Italy"
+---
+
+
+<!--
+---
+layout: post
+title:  "Flebili Stelle Nere **(wp)**"
+date:   2016-09-07
+category: "events"
 ---
 Livorno Music Festival 2016 <br>
 Ensemble in residence <br>
 @ Museo Civico Giovanni Fattori, Livorno, Italy<br>
+-->

@@ -3,6 +3,20 @@ layout: post
 title:  "Study for Dissipatio H.G. **(wp)**"
 date:   2019-11-29
 category: "events"
+pieces: ["/works/study-for-dissipatio-HG"]
+performers: "ContempoartEnsemble"
+presenter: ""
+venue: "Palazzo Medici Riccardi, Firenze, Italy"
+---
+
+
+<!--
+---
+layout: post
+title:  "Study for Dissipatio H.G. **(wp)**"
+date:   2019-11-29
+category: "events"
 ---
 ContempoartEnsemble <br>
 @ Palazzo Medici Riccardi, Firenze, Italy
+-->

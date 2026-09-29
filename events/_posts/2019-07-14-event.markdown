@@ -3,6 +3,20 @@ layout: post
 title:  "Piccolo Inventario degli Insetti"
 date:   2019-07-14
 category: "events"
+pieces: ["/works/piccolo-inventario-degli-insetti"]
+performers: "Ensemble Suono Giallo"
+presenter: ""
+venue: "Teatro Comunale, Città di Castello, Italy"
+---
+
+
+<!--
+---
+layout: post
+title:  "Piccolo Inventario degli Insetti"
+date:   2019-07-14
+category: "events"
 ---
 Ensemble Suono Giallo <br>
 @ Teatro Comunale, Città di Castello, Italy
+-->

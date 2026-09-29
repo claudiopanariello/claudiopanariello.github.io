@@ -3,6 +3,20 @@ layout: post
 title:  "Were you a part of your mother?"
 date:   2024-09-06
 category: "events"
+pieces: ["/works/were-you-a-part-of-your-mother"]
+performers: "Chiara Percivati, feedback-augmented bass clarinet"
+presenter: ""
+venue: "NIME 2024, TivoliVredenburg - Hertz, Utrecht, NL"
+event_link: "https://nime.org/proceedings/2024/nime2024_music_43.pdf"
+---
+
+
+<!--
+---
+layout: post
+title:  "Were you a part of your mother?"
+date:   2024-09-06
+category: "events"
 ---
 Chiara Percivati, feedback-augmented bass clarinet<br>
 @ NIME 2024 <br>
@@ -11,3 +25,4 @@ TivoliVredenburg - Hertz, Utrecht, NL<br>
 
 [EVENT]:https://nime.org/proceedings/2024/nime2024_music_43.pdf
 [WORK]:https://claudiopanariello.com/works/were-you-a-part-of-your-mother
+-->

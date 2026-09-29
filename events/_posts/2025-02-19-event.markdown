@@ -3,6 +3,20 @@ layout: post
 title:  "To learn the obscene art of suffering pain"
 date:   2025-02-19
 category: "events"
+pieces: ["/works/to-learn-the-obscene-art-of-suffering-pain"]
+performers: "Schallfeld Ensemble. KORPUS I"
+presenter: ""
+venue: "impuls 2025, MUMUTH. György-Ligeti-Saal, Graz (Austria)"
+event_link: "https://www.schallfeldensemble.com/de/event/impuls-festival-korpus-i/"
+---
+
+
+<!--
+---
+layout: post
+title:  "To learn the obscene art of suffering pain"
+date:   2025-02-19
+category: "events"
 ---
 Schallfeld Ensemble. KORPUS I<br>
 @ impuls 2025 <br>
@@ -12,3 +26,4 @@ Graz (Austria)<br>
 
 [EVENT]:https://www.schallfeldensemble.com/de/event/impuls-festival-korpus-i/
 [WORK]:https://claudiopanariello.com/works/to-learn-the-obscene-art-of-suffering-pain
+-->

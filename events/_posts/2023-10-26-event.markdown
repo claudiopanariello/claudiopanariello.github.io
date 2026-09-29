@@ -3,6 +3,20 @@ layout: post
 title:  "Non sono dèi quelli fatti con le mani"
 date:   2023-10-26
 category: "events"
+pieces: ["/works/non-sono-dei"]
+performers: "SPECTRA Ensemble, HYOID Voices"
+presenter: ""
+venue: "Muziekcentrum De Bijloke (Belgium)"
+event_link: "https://www.bijloke.be/nl/spectra-en-hyoid-slaan-de-handen-in-elkaar-zpp2"
+---
+
+
+<!--
+---
+layout: post
+title:  "Non sono dèi quelli fatti con le mani"
+date:   2023-10-26
+category: "events"
 ---
 SPECTRA Ensemble, HYOID Voices <br>
 @ Muziekcentrum De Bijloke (Belgium)<br>
@@ -10,3 +24,4 @@ SPECTRA Ensemble, HYOID Voices <br>
 
 [EVENT]:https://www.bijloke.be/nl/spectra-en-hyoid-slaan-de-handen-in-elkaar-zpp2
 [WORK]:https://claudiopanariello.com/works/non-sono-dei
+-->

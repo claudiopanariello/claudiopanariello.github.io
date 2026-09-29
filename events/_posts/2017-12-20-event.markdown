@@ -3,8 +3,21 @@ layout: post
 title:  "Macchina Anatomica"
 date:   2017-12-20
 category: "events"
+pieces: ["/works/macchina-anatomica"]
+performers: "mdi ensemble, Armando Merino cond."
+presenter: "SOW#4"
+venue: "Auditorium Lattuada, Milano, Italy"
 ---
 
+
+<!--
+---
+layout: post
+title:  "Macchina Anatomica"
+date:   2017-12-20
+category: "events"
+---
 mdi ensemble, Armando Merino cond.<br>
 SOW#4<br>
 @ Auditorium Lattuada, Milano, Italy
+-->

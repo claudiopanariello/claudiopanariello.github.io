@@ -3,6 +3,20 @@ layout: post
 title:  "Were you a part of your mother?"
 date:   2024-06-18
 category: "events"
+pieces: ["/works/were-you-a-part-of-your-mother"]
+performers: "Chiara Percivati, feedback-augmented bass clarinet; cp electronics"
+presenter: ""
+venue: "PERPLEXITY 2024, De Krook, Ghent"
+event_link: "https://xrhil.ugent.be/projects/perplexity2024/"
+---
+
+
+<!--
+---
+layout: post
+title:  "Were you a part of your mother?"
+date:   2024-06-18
+category: "events"
 ---
 Chiara Percivati, feedback-augmented bass clarinet; cp electronics <br>
 @ PERPLEXITY 2024 <br>
@@ -11,3 +25,4 @@ De Krook, Ghent <br>
 
 [EVENT]:https://xrhil.ugent.be/projects/perplexity2024/
 [WORK]:https://claudiopanariello.com/works/were-you-a-part-of-your-mother
+-->

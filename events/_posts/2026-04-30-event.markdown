@@ -3,6 +3,19 @@ layout: post
 title:  "Artist's talk at IMV (UiO)"
 date:   2026-04-30
 category: "events"
+performers: "Artist's talk"
+presenter: ""
+venue: "Institutt for musikkvitenskap (Department of Musicology), University of Oslo, Oslo (Norway)"
+event_link: "https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/feedback-and-flying-squids"
+---
+
+
+<!--
+---
+layout: post
+title:  "Artist's talk at IMV (UiO)"
+date:   2026-04-30
+category: "events"
 ---
 Artist's talk<br>
 @ Institutt for musikkvitenskap (Department of Musicology)<br>
@@ -10,3 +23,4 @@ University of Oslo, Oslo (Norway)<br>
 [<eventinfo></eventinfo>][EVENT]
 
 [EVENT]:https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/feedback-and-flying-squids
+-->

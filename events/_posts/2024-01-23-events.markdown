@@ -3,6 +3,19 @@ layout: post
 title:  "Invited Lecture at Silpakorn University"
 date:   2024-01-23
 category: "events"
+performers: "Invited lecture for PhD students in Advanced Intermedia Composition"
+presenter: ""
+venue: "Silpakorn University (Thailand)"
+---
+
+
+<!--
+---
+layout: post
+title:  "Invited Lecture at Silpakorn University"
+date:   2024-01-23
+category: "events"
 ---
 Invited lecture for PhD students in Advanced Intermedia Composition<br>
 @ Silpakorn University (Thailand)
+-->

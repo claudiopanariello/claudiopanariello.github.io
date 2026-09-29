@@ -3,7 +3,20 @@ layout: post
 title:  "Passaggio"
 date:   2018-10-26
 category: "events"
+pieces: ["/works/passaggio"]
+performers: "Ensemble Via Nova"
+presenter: ""
+venue: "Erfurt, Germany"
 ---
 
+
+<!--
+---
+layout: post
+title:  "Passaggio"
+date:   2018-10-26
+category: "events"
+---
 Ensemble Via Nova <br>
 @ Erfurt, Germany
+-->

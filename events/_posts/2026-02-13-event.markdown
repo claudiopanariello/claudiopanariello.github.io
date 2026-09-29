@@ -3,6 +3,20 @@ layout: post
 title:  "OTIAC **(wp)**"
 date:   2026-02-13
 category: "events"
+pieces: ["/works/otiac"]
+performers: "premiere of OTIAC"
+presenter: "[H]t Duo"
+venue: "CIRMMT, Montreal (Canada)"
+event_link: "https://www.cirmmt.org/en/events/live-cirmmt/13-feb-2026"
+---
+
+
+<!--
+---
+layout: post
+title:  "OTIAC **(wp)**"
+date:   2026-02-13
+category: "events"
 ---
 premiere of OTIAC <br>
 [H]t Duo  <br>
@@ -12,3 +26,4 @@ premiere of OTIAC <br>
 
 [WORK]:https://claudiopanariello.com/works/otiac
 [EVENT]:https://www.cirmmt.org/en/events/live-cirmmt/13-feb-2026
+-->

@@ -3,7 +3,21 @@ layout: post
 title:  "Mitologia del Principe **(wp)**"
 date:   2018-03-19
 category: "events"
+pieces: ["/works/mitologia-del-principe"]
+performers: "Divertimento Ensemble, Sandro Gorli cond."
+presenter: "Rondò 2018"
+venue: "Palazzina Liberty, Milano, Italy"
+---
+
+
+<!--
+---
+layout: post
+title:  "Mitologia del Principe **(wp)**"
+date:   2018-03-19
+category: "events"
 ---
 Divertimento Ensemble, Sandro Gorli cond. <br>
 Rondò 2018<br>
 @ Palazzina Liberty, Milano, Italy<br>
+-->

@@ -3,7 +3,21 @@ layout: post
 title:  "1968 - Praga Primavera **(wp)**"
 date:   2018-09-03
 category: "events"
+pieces: ["/works/1968-praga-primavera"]
+performers: "Ensemble Suono Giallo, Maurizio Perugini voice"
+presenter: "Festival delle Nazioni 2018"
+venue: "Teatro degli Illuminati, Città di Castello (PG), Italy"
+---
+
+
+<!--
+---
+layout: post
+title:  "1968 - Praga Primavera **(wp)**"
+date:   2018-09-03
+category: "events"
 ---
 Ensemble Suono Giallo, Maurizio Perugini voice<br>
 Festival delle Nazioni 2018<br>
 @ Teatro degli Illuminati, Città di Castello (PG), Italy
+-->

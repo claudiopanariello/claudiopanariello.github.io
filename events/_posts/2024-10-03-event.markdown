@@ -3,6 +3,20 @@ layout: post
 title:  "Piccolo inventario degli insetti"
 date:   2024-10-03
 category: "events"
+pieces: ["/works/piccolo-inventario-degli-insetti"]
+performers: "United Instruments of Lucilin"
+presenter: "Sonic Lights"
+venue: "Salle de Musique de Chambre, Philarmonie Luxembourg, Luxembourg (Luxembourg)"
+event_link: "https://www.philharmonie.lu/en/programme/2024-25/sonic-lights-000000e90018f3b0"
+---
+
+
+<!--
+---
+layout: post
+title:  "Piccolo inventario degli insetti"
+date:   2024-10-03
+category: "events"
 ---
 United Instruments of Lucilin <br>
 Sonic Lights <br>
@@ -11,3 +25,4 @@ Sonic Lights <br>
 
 [EVENT]:https://www.philharmonie.lu/en/programme/2024-25/sonic-lights-000000e90018f3b0
 [WORK]:https://claudiopanariello.com/works/piccolo-inventario-degli-insetti
+-->

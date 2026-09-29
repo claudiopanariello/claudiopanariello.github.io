@@ -3,6 +3,20 @@ layout: post
 title:  "Studio per una Fontanella **(wp)**"
 date:   2023-05-22
 category: "events"
+pieces: ["/works/studio-per-una-fontanella"]
+performers: "AuditivVokal Dresden"
+presenter: "Maschinelle Pareidolia – Neue Werke zum Thema KI und Stimme"
+venue: "Kesselhaus Trossingen, Trossingen (Germany)"
+event_link: "https://www.hfm-trossingen.de/aktuelles/veranstaltungen/detail/maschinelle-pareidolia-ensemble-auditivvokal-dresden-353574"
+---
+
+
+<!--
+---
+layout: post
+title:  "Studio per una Fontanella **(wp)**"
+date:   2023-05-22
+category: "events"
 ---
 AuditivVokal Dresden <br>
 Maschinelle Pareidolia – Neue Werke zum Thema KI und Stimme <br>
@@ -11,3 +25,4 @@ Maschinelle Pareidolia – Neue Werke zum Thema KI und Stimme <br>
 
 [EVENT]:https://www.hfm-trossingen.de/aktuelles/veranstaltungen/detail/maschinelle-pareidolia-ensemble-auditivvokal-dresden-353574
 [WORK]:https://claudiopanariello.com/works/studio-per-una-fontanella
+-->

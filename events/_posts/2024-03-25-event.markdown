@@ -3,6 +3,20 @@ layout: post
 title:  "Private journal of dreams"
 date:   2024-03-25
 category: "events"
+pieces: ["/works/private-journal-of-dreams"]
+performers: "Ensemble Collettivo_21"
+presenter: ""
+venue: "SMC Lausanne"
+event_link: "https://www.smclausanne.ch/archives/programme-361.html"
+---
+
+
+<!--
+---
+layout: post
+title:  "Private journal of dreams"
+date:   2024-03-25
+category: "events"
 ---
 Ensemble Collettivo_21<br>
 @ SMC Lausanne<br>
@@ -11,3 +25,4 @@ Ensemble Collettivo_21<br>
 
 [EVENT]:https://www.smclausanne.ch/archives/programme-361.html
 [WORK]:https://claudiopanariello.com/works/private-journal-of-dreams
+-->

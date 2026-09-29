@@ -3,6 +3,20 @@ layout: post
 title:  "PhD Thesis defense"
 date:   2023-06-09
 category: "events"
+performers: "Public defence for the Degree of Doctor of Philosophy"
+presenter: ""
+venue: "Kollegiesalen, Brinellvägen 6, Stockholm (Sweden)"
+event_link: "https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1757774&dswid=9087"
+notes: "Opponent: John Bowers, Defense committee: Oliver Bown, Pierre Alexandre Tremblay, Hanna Järveläinen"
+---
+
+
+<!--
+---
+layout: post
+title:  "PhD Thesis defense"
+date:   2023-06-09
+category: "events"
 ---
 Public defence for the Degree of Doctor of Philosophy<br>
 @ Kollegiesalen, Brinellvägen 6, Stockholm (Sweden)<br>
@@ -11,3 +25,4 @@ Defense committee: Oliver Bown, Pierre Alexandre Tremblay, Hanna Järveläinen<b
 [<eventinfo></eventinfo>][EVENT]
 
 [EVENT]:https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1757774&dswid=9087
+-->

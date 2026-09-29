@@ -3,6 +3,20 @@ layout: post
 title:  "On the possibility of cultivating shadows"
 date:   2022-07-09
 category: "events"
+pieces: ["/works/on-the-possibility-of-cultivating-shadows"]
+performers: "Quartetto Maurice"
+presenter: "Time of Music Festival"
+venue: "Viitasaari Church, Viitasaari (Finland)"
+event_link: "https://musiikinaika.org/en/shadows-for-the-future-2/"
+---
+
+
+<!--
+---
+layout: post
+title:  "On the possibility of cultivating shadows"
+date:   2022-07-09
+category: "events"
 ---
 Quartetto Maurice <br>
 Time of Music Festival<br>
@@ -11,3 +25,4 @@ Time of Music Festival<br>
 
 [EVENT]:https://musiikinaika.org/en/shadows-for-the-future-2/
 [WORK]:https://claudiopanariello.com/works/on-the-possibility-of-cultivating-shadows
+-->

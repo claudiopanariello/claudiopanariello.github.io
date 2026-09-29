@@ -3,6 +3,20 @@ layout: post
 title:  "Rage over hearing loss **(wp)**"
 date:   2020-10-25
 category: "events"
+pieces: ["/works/rage-over-hearing-loss"]
+performers: "Ensemble Broken Frames Syndicate, Lüneburger Symphoniker"
+presenter: ""
+venue: "Theater Lüneburg, Lüneburg (Germany)"
+---
+
+
+<!--
+---
+layout: post
+title:  "Rage over hearing loss **(wp)**"
+date:   2020-10-25
+category: "events"
 ---
 Ensemble Broken Frames Syndicate, Lüneburger Symphoniker <br>
 @ Theater Lüneburg, Lüneburg (Germany)
+-->

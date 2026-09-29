@@ -3,6 +3,20 @@ layout: post
 title:  "OTIAC"
 date:   2026-10-15
 category: "events"
+pieces: ["/works/otiac"]
+performers: "[H]t Duo"
+presenter: "CIM - XXV Colloquio di Informatica Musicale, Concerto 4 – Feedback, strumenti aumentati e live electronics"
+venue: "Auditorium del Parco “Renzo Piano”, L'Aquila (Italy)"
+event_link: "https://musel.consaq.it/events/cim2026-concerto-4/?occurrence=2026-10-15"
+---
+
+
+<!--
+---
+layout: post
+title:  "OTIAC"
+date:   2026-10-15
+category: "events"
 ---
 [H]t Duo <br>
 CIM - XXV Colloquio di Informatica Musicale <br>
@@ -12,3 +26,4 @@ Concerto 4 – Feedback, strumenti aumentati e live electronics <br>
 
 [EVENT]:https://musel.consaq.it/events/cim2026-concerto-4/?occurrence=2026-10-15
 [WORK]:https://claudiopanariello.com/works/otiac
+-->

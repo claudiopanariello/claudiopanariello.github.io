@@ -3,9 +3,23 @@ layout: post
 title:  "Invited lecture at Università di Verona"
 date:   2026-05-12
 category: "events"
+performers: "Invited lecture on Voice and AI"
+presenter: ""
+venue: "Università di Verona, Verona (Italy)"
+event_link: "https://www.univr.it/it/iniziative/-/evento/14822?p_auth=UaT7gwMv"
+---
+
+
+<!--
+---
+layout: post
+title:  "Invited lecture at Università di Verona"
+date:   2026-05-12
+category: "events"
 ---
 Invited lecture on Voice and AI <br>
 @ Università di Verona, Verona (Italy)<br>
 [<eventinfo></eventinfo>][EVENT]
 
 [EVENT]:https://www.univr.it/it/iniziative/-/evento/14822?p_auth=UaT7gwMv
+-->
