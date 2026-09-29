@@ -6,4 +6,8 @@ category: "events"
 ---
 Ensemble Collettivo_21 <br>
 MBZ: Muzički biennale Zagreb / Music Biennale Zagreb <br>
-@ Pogon Jedinstvo, Zagreb (Croatia)
+@ Pogon Jedinstvo, Zagreb (Croatia)<br>
+[<workinfo></workinfo>][WORK], [<eventinfo></eventinfo>][EVENT]
+
+[EVENT]:https://www.mbz.hr/index.php?opt=item&act=mlist&id=6961&lang=en
+[WORK]:https://claudiopanariello.com/works/private-journal-of-dreams

@@ -6,4 +6,7 @@ category: "events"
 ---
 Ensemble Collettivo_21 <br>
 Crossroads <br>
-@ Universität Mozarteum Salzburg (Austria)
+@ Universität Mozarteum Salzburg (Austria)<br>
+[<workinfo></workinfo>][WORK]
+
+[WORK]:https://claudiopanariello.com/works/private-journal-of-dreams

@@ -5,4 +5,7 @@ date:   2023-10-22
 category: "events"
 ---
 SPECTRA Ensemble, HYOID Voices <br>
-@ Transit Festival, Leuven (Belgium)
+@ Transit Festival, Leuven (Belgium)<br>
+[<workinfo></workinfo>][WORK]
+
+[WORK]:https://claudiopanariello.com/works/non-sono-dei

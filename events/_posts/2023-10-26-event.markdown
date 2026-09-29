@@ -5,4 +5,8 @@ date:   2023-10-26
 category: "events"
 ---
 SPECTRA Ensemble, HYOID Voices <br>
-@ Muziekcentrum De Bijloke (Belgium)
+@ Muziekcentrum De Bijloke (Belgium)<br>
+[<workinfo></workinfo>][WORK], [<eventinfo></eventinfo>][EVENT]
+
+[EVENT]:https://www.bijloke.be/nl/spectra-en-hyoid-slaan-de-handen-in-elkaar-zpp2
+[WORK]:https://claudiopanariello.com/works/non-sono-dei

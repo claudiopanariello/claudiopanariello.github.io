@@ -7,3 +7,7 @@ category: "events"
 Chiara Percivati, feedback-augmented bass clarinet<br>
 @ ARTICULATE 2023 <br>
 Witte zaal, Koninklijk Conservatorium Antwerpen <br>
+[<workinfo></workinfo>][WORK], [<eventinfo></eventinfo>][EVENT]
+
+[EVENT]:https://www.ap-arts.be/evenement/articulate-2023-i-conservatoire
+[WORK]:https://claudiopanariello.com/works/were-you-a-part-of-your-mother

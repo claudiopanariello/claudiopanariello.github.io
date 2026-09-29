@@ -6,4 +6,8 @@ category: "events"
 ---
 AuditivVokal Dresden <br>
 Maschinelle Pareidolia – Neue Werke zum Thema KI und Stimme <br>
-@ Kesselhaus Trossingen, Trossingen (Germany)
+@ Kesselhaus Trossingen, Trossingen (Germany)<br>
+[<workinfo></workinfo>][WORK], [<eventinfo></eventinfo>][EVENT]
+
+[EVENT]:https://www.hfm-trossingen.de/aktuelles/veranstaltungen/detail/maschinelle-pareidolia-ensemble-auditivvokal-dresden-353574
+[WORK]:https://claudiopanariello.com/works/studio-per-una-fontanella

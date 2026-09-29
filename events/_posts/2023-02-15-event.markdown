@@ -6,3 +6,6 @@ category: "events"
 ---
 Chiara Percivati, feedback-augmented bass clarinet<br>
 @ Xplore Design Week, University of Antwerp <br>
+[<workinfo></workinfo>][WORK]
+
+[WORK]:https://claudiopanariello.com/works/were-you-a-part-of-your-mother

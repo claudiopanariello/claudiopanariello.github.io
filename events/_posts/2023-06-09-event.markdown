@@ -8,3 +8,6 @@ Public defence for the Degree of Doctor of Philosophy<br>
 @ Kollegiesalen, Brinellvägen 6, Stockholm (Sweden)<br>
 Opponent: John Bowers<br>
 Defense committee: Oliver Bown, Pierre Alexandre Tremblay, Hanna Järveläinen<br>
+[<eventinfo></eventinfo>][EVENT]
+
+[EVENT]:https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1757774&dswid=9087
