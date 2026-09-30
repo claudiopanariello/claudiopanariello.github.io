@@ -1,0 +1,75 @@
+<header>
+  <div class="mobile-bar">
+    <a href="{{ "/" | relative_url }}" class="mobile-bar-title">{{ site.title | escape }}</a>
+    <button type="button" id="navToggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">&#9776;</button>
+  </div>
+
+  <nav id="mobileNav" class="mobile-nav">
+    <button type="button" id="navClose" class="nav-close" aria-label="Close menu">&times;</button>
+    <ul>
+      {% assign sorted_pages = site.pages | sort: "order" %}
+      {% for post in sorted_pages %}
+        {% if post.layout == "post" or post.layout == "postDegrade" %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <div class="under under-large">
+    {% if site.title %}
+    <a href="{{ "/" | relative_url }}">
+      <h1>{{ site.title | escape }}</h1>
+    </a>
+    {% endif %}
+    <div class="under under-small">
+      {% assign sorted_pages = site.pages | sort: "order" %}
+      {% for post in sorted_pages %}
+        {% if post.layout == "post" or post.layout == "postDegrade" %}
+        <a class="post" href="{{ post.url | relative_url }}">
+          <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <div class="post-details">
+            {% if post.title == page.title %}
+              <h3>{{ post.title | escape }}</h3>
+            {% else %}
+              <h2><mousehover>{{ post.title | escape }}</mousehover></h2>
+            {% endif %}
+            <p class="excerpt">{{ post.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}</p>
+          </div>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <hr />
+</header>
+
+<script>
+  (function () {
+    var toggle = document.getElementById('navToggle');
+    var closeBtn = document.getElementById('navClose');
+    var nav = document.getElementById('mobileNav');
+    if (!toggle || !nav) return;
+
+    function openNav() {
+      document.body.classList.add('nav-open');
+      toggle.setAttribute('aria-expanded', 'true');
+    }
+    function closeNav() {
+      document.body.classList.remove('nav-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+
+    toggle.addEventListener('click', openNav);
+    if (closeBtn) closeBtn.addEventListener('click', closeNav);
+
+    var links = nav.querySelectorAll('a');
+    for (var i = 0; i < links.length; i++) {
+      links[i].addEventListener('click', closeNav);
+    }
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeNav();
+    });
+  })();
+</script>

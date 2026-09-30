@@ -2,33 +2,7 @@
 layout: default
 ---
 
-<header>
-    <div class="under under-large">
-      {% if site.title %}
-        <a href="../">
-        <h1>{{ site.title | escape }}</h1>
-      {% endif %}
-    <div class="under under-small">
-      <p class="date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
-        {% assign sorted_pages = site.pages | sort:"order" %}
-{% for post in sorted_pages %}
-{% if post.layout == "post" or post.layout == "postDegrade" %}
-    <a class="post" href="{{ post.url | relative_url }}">
-      <span class="accent fixed-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <div class="post-details">
-        {% if post.title == page.title %}
-            <h3>{{ post.title | escape }}</h3>
-        {% else %}
-            <h2><mousehover>{{ post.title | escape }}</mousehover></h2>
-        {% endif %}
-      </div>
-    </a>
-    {% endif %}
-  {% endfor %}
-</div>
-  </div>
-  <hr />
-</header>
+{% include header.html %}
 
 <!--
   This below to make sure to show the content of index.markdown
