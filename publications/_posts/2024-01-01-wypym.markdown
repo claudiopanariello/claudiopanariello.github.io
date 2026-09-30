@@ -6,5 +6,5 @@ type: conference-paper
 authors: "Percivati, C. and Panariello, C."
 year: 2024
 title: "WYPYM - Were you a part of your mother?"
-venue: "Proceedings of the International Conference on New Interfaces for Musical Expression"
+venue: "Proceedings of the International Conference on New Interfaces for Musical Expression (NIME)"
 ---

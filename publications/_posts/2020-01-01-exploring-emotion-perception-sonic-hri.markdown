@@ -6,5 +6,5 @@ type: conference-paper
 authors: "Latupeirissa, A. B., Panariello, C., & Bresin, R."
 year: 2020
 title: "Exploring Emotion Perception in Sonic HRI"
-venue: "In Proceedings of the Sound and Music Computing Conference"
+venue: "In Proceedings of the Sound and Music Computing Conference (SMC)"
 ---
