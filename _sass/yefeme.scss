@@ -435,7 +435,7 @@ invisible {
     z-index: 1500;
   }
 
-  .dark-mode-toggle {
+  body .dark-mode-toggle {
     top: 76px;
   }
 
@@ -517,4 +517,17 @@ invisible {
     right: 16px;
     top: 20px;
   }
+}
+
+// Responsive media: jekyll-image-size bakes native pixel width/height onto
+// <img> tags (and hand-written <img>/<iframe> embeds carry their own), which
+// otherwise overrides any plain CSS rule. !important is needed specifically
+// to beat that.
+img {
+  height: auto !important;
+  max-width: 100% !important;
+}
+
+iframe {
+  max-width: 100% !important;
 }
