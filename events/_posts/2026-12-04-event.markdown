@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "OTIAC"
+date:   2026-12-04
+category: "events"
+pieces: ["/works/otiac"]
+performers: "cp"
+presenter: "The Sonic Practices Conference 2026"
+venue: "KMH, Stockholm (Sweden)"
+event_link: "https://www.kth.se/navet/sonic-practices-conference-2026"
+---
